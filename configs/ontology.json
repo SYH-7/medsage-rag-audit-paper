@@ -1,0 +1,87 @@
+{
+  "version": "1.0",
+  "description": "Hierarchical medical demand ontology for MedSAGE-RAG",
+  "level_1": {
+    "D01_symptom_course": {
+      "name_cn": "症状与病程",
+      "definition": "症状、体征、持续时间、发作频率及严重程度",
+      "includes": ["symptom", "duration", "severity"],
+      "is_risk": false
+    },
+    "D02_cause_diagnosis": {
+      "name_cn": "病因与诊断",
+      "definition": "疾病原因、诱因、疾病判断和诊断需求",
+      "includes": ["request_cause", "request_diagnosis"],
+      "is_risk": false
+    },
+    "D03_treatment_medication": {
+      "name_cn": "治疗与用药",
+      "definition": "处理方案、治疗建议、药物选择、用法及求药需求",
+      "includes": ["request_treatment", "medication", "request_medication"],
+      "is_risk": false
+    },
+    "D04_population_history": {
+      "name_cn": "人群与病史",
+      "definition": "年龄、性别、特殊人群、既往病史、过敏史和基础疾病",
+      "includes": ["population", "medical_history", "risk_special_population"],
+      "is_risk": false
+    },
+    "D05_care_emergency": {
+      "name_cn": "就医与急症",
+      "definition": "是否需要就医、挂号科室及紧急就医需求",
+      "includes": ["request_care", "risk_emergency"],
+      "is_risk": false
+    },
+    "D06_mental_safety": {
+      "name_cn": "心理与安全",
+      "definition": "焦虑、抑郁、自伤、自杀和其他心理精神风险",
+      "includes": ["risk_mental_health"],
+      "is_risk": true
+    }
+  },
+  "risk_flags": {
+    "emergency_risk": {
+      "description": "紧急就医风险",
+      "source_states": ["risk_emergency"],
+      "level_1_demand": "D05_care_emergency"
+    },
+    "medication_risk": {
+      "description": "用药安全风险",
+      "source_states": ["risk_medication"],
+      "level_1_demand": "D03_treatment_medication"
+    },
+    "special_population_risk": {
+      "description": "特殊人群风险",
+      "source_states": ["risk_special_population"],
+      "level_1_demand": "D04_population_history"
+    },
+    "mental_health_risk": {
+      "description": "心理健康风险",
+      "source_states": ["risk_mental_health"],
+      "level_1_demand": "D06_mental_safety"
+    }
+  },
+  "level_2": {
+    "population": "D04_population_history",
+    "request_care": "D05_care_emergency",
+    "request_treatment": "D03_treatment_medication",
+    "symptom": "D01_symptom_course",
+    "duration": "D01_symptom_course",
+    "request_cause": "D02_cause_diagnosis",
+    "severity": "D01_symptom_course",
+    "medical_history": "D04_population_history",
+    "medication": "D03_treatment_medication",
+    "request_diagnosis": "D02_cause_diagnosis",
+    "request_medication": "D03_treatment_medication",
+    "risk_emergency": "D05_care_emergency",
+    "risk_special_population": "D04_population_history",
+    "risk_medication": "D03_treatment_medication",
+    "risk_mental_health": "D06_mental_safety"
+  },
+  "risk_to_state": {
+    "risk_emergency": ["D05_care_emergency"],
+    "risk_medication": ["D03_treatment_medication"],
+    "risk_special_population": ["D04_population_history"],
+    "risk_mental_health": ["D06_mental_safety"]
+  }
+}

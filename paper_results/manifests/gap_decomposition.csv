@@ -1,0 +1,4 @@
+split,oracle_gain,query_loss,evidence_loss,interaction_loss
+formal_train,0.0636,0.0179,0.0697,-0.0222
+internal_blind,0.0637,0.0282,0.0537,-0.0216
+cmedqa2_external,0.0229,0.0023,0.0094,0.0012

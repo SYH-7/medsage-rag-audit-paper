@@ -1,0 +1,6 @@
+cff-version: 1.2.0
+title: 医疗RAG证据选择的标签泄漏与部署差距
+authors:
+  - name: MedSAGE-RAG Contributors
+year: 2026
+type: software

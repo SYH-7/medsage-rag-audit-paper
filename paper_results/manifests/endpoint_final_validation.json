@@ -1,0 +1,8 @@
+{
+  "query_only_rate0_vs_d3": {"different_qid_count": 0, "metric_difference": 0.0, "status": "PASS"},
+  "query_only_rate1_vs_d2": {"different_qid_count": 0, "metric_difference": 0.0, "status": "PASS"},
+  "evidence_only_rate0_vs_d3": {"different_qid_count": 0, "metric_difference": 0.0, "status": "PASS"},
+  "evidence_only_rate1_vs_d1": {"different_qid_count": 0, "metric_difference": 0.0, "status": "PASS"},
+  "joint_rate0_vs_d3": {"different_qid_count": 0, "metric_difference": 0.0, "status": "PASS"},
+  "joint_rate1_vs_d0": {"different_qid_count": 0, "metric_difference": 0.0, "status": "PASS"}
+}

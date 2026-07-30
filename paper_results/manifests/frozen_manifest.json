@@ -1,0 +1,14 @@
+[
+  {"file_path": "outputs/phase6b_r7/formal_train_per_query.jsonl", "role": "paper_source"},
+  {"file_path": "outputs/phase6b_r7/internal_blind_per_query.jsonl", "role": "paper_source"},
+  {"file_path": "outputs/phase6b_r7/cmedqa2_external_per_query.jsonl", "role": "paper_source"},
+  {"file_path": "outputs/phase6b_r7/main_results.csv", "role": "paper_source"},
+  {"file_path": "outputs/phase6b_r7/gap_decomposition.csv", "role": "paper_source"},
+  {"file_path": "outputs/phase6b_r7/significance.csv", "role": "paper_source"},
+  {"file_path": "outputs/phase6b_r7/07_R7_complete.json", "role": "verification"},
+  {"file_path": "outputs/phase6b_r7/07_R7_physical_gold_independence.json", "role": "verification"},
+  {"file_path": "outputs/paper_r7_freeze/endpoint_final_validation.json", "role": "verification"},
+  {"file_path": "experiments/common/frozen_medsage_evaluation.py", "role": "code"},
+  {"file_path": "experiments/phase6b/run_phase6b_r7.py", "role": "code"},
+  {"file_path": "experiments/public_runtime/public_query.py", "role": "code"}
+]

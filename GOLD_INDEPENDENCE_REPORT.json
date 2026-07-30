@@ -1,0 +1,11 @@
+{
+  "gold_independent": true,
+  "findings": [],
+  "total_findings": 0,
+  "scanned_files": [
+    "src\\public_runtime\\types.py",
+    "src\\private_evaluation\\core.py"
+  ],
+  "gold_fallback_count": 0,
+  "static_gold_violation_count": 0
+}
