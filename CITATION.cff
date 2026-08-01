@@ -7,4 +7,7 @@ authors:
   - family-names: "Wang"
     given-names: "Qi"
 date-released: "2026-08-02"
-version: "v1.1-paper-supplement"
+version: "v1.1.1-paper-supplement"
+repository-code: "https://github.com/SYH-7/medsage-rag-audit-paper"
+url: "https://github.com/SYH-7/medsage-rag-audit-paper/releases/tag/v1.1.1-paper-supplement"
+license: "MIT"

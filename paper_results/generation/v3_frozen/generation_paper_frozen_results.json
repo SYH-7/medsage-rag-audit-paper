@@ -525,6 +525,6 @@
     "no_git_push": true,
     "strict_qid_pairing": true,
     "n_qids": 60,
-    "new_output_dir": "E:\\python_project\\medsage_rag_full\\outputs\\paper_generation_statistics_final_v3"
+    "new_output_dir": "<internal-path-redacted>"
   }
 }
