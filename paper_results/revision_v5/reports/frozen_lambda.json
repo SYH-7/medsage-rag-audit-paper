@@ -1,0 +1,9 @@
+{
+  "lambda": 0.6,
+  "selection_split": "formal_dev",
+  "k_frozen": 5,
+  "rule": "DemandCov@5 -> NDCG@10 -> redundancy -> larger lambda",
+  "sim": "char2-4gram TF-IDF cosine (float64)",
+  "rel": "reranker_score min-max per qid",
+  "tie_break": "MMR score desc -> reranker desc -> doc_id asc"
+}

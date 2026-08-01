@@ -1,6 +1,10 @@
 cff-version: 1.2.0
-title: 医疗RAG证据选择的标签泄漏与部署差距
+message: "If you use this software, please cite it as below."
+title: "Leakage-Controlled Evaluation, Deployment Gaps, and Generation Validation for Medical RAG Evidence Selection"
 authors:
-  - name: MedSAGE-RAG Contributors
-year: 2026
-type: software
+  - family-names: "Shi"
+    given-names: "Yuhan"
+  - family-names: "Wang"
+    given-names: "Qi"
+date-released: "2026-08-02"
+version: "v1.1-paper-supplement"

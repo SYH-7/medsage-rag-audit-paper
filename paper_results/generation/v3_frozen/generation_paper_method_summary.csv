@@ -1,0 +1,5 @@
+﻿condition,n_qids,faithfulness_mean,demand_completeness_mean,overall_utility_mean,unsupported_claim_mean,critical_risk_omission_mean
+B0,60,1.916667,1.816667,1.733333,0.033333,0.016667
+D0,60,1.933333,1.8,1.766667,0.033333,0.016667
+D3_TFIDF,60,1.966667,1.866667,1.85,0.033333,0.0
+D3_ROBERTA,60,1.9,1.85,1.766667,0.083333,0.033333

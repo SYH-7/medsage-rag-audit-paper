@@ -1,0 +1,11 @@
+﻿comparison,group,n_qid,mean_delta_faithfulness,mean_delta_completeness,mean_delta_utility,median_delta_utility,utility_improved_count,utility_declined_count,utility_tied_count
+D0_vs_B0,improvement,8,0.125,0.0,0.125,0.0,1,0,7
+D0_vs_B0,unchanged,49,0.0,-0.0204,0.0204,0.0,3,2,44
+D0_vs_B0,decline,3,0.0,0.0,0.0,0.0,0,0,3
+D3_TFIDF_vs_B0,improvement,1,0.0,0.0,0.0,0.0,0,0,1
+D3_TFIDF_vs_B0,unchanged,59,0.0508,0.0508,0.1186,0.0,8,1,50
+D3_E2_ROBERTA_vs_B0,improvement,3,0.0,0.0,0.0,0.0,0,0,3
+D3_E2_ROBERTA_vs_B0,unchanged,57,-0.0175,0.0351,0.0351,0.0,5,3,49
+D3_E2_ROBERTA_vs_D3_TFIDF,improvement,3,0.0,0.0,0.0,0.0,0,0,3
+D3_E2_ROBERTA_vs_D3_TFIDF,unchanged,56,-0.0714,-0.0179,-0.0893,0.0,0,5,51
+D3_E2_ROBERTA_vs_D3_TFIDF,decline,1,0.0,0.0,0.0,0.0,0,0,1

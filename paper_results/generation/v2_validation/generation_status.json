@@ -1,0 +1,28 @@
+{
+  "generated": true,
+  "n_answers_planned": 240,
+  "n_qids": 60,
+  "n_generated": 240,
+  "temperature": 0.0,
+  "max_output_tokens": 800,
+  "openai_configured": true,
+  "api_failures": [],
+  "blocked_reason": null,
+  "conditions": [
+    "B0",
+    "D0",
+    "D3_TFIDF",
+    "D3_ROBERTA"
+  ],
+  "blinding": "blinded file has NO condition/method field; only answer_id+question+evidence",
+  "prompt_guards": [
+    "no method names",
+    "no gold labels",
+    "no demand labels",
+    "no B0/D0/D3 markers"
+  ],
+  "model": "deepseek-chat",
+  "base_url": "https://api.deepseek.com/v1",
+  "generation_date": "2026-07-31",
+  "retry_count": 0
+}

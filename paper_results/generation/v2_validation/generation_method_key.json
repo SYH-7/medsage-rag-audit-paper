@@ -1,0 +1,3122 @@
+[
+  {
+    "answer_id": "A0000",
+    "qid": "10010888",
+    "split": "formal_train",
+    "condition": "B0",
+    "doc_ids": [
+      "WMA_ac9c95d776198a70",
+      "WMA_488b25f9c874afd8",
+      "WMA_5999899a94dbb80a",
+      "WMA_d62abdf149c552b3",
+      "56547"
+    ]
+  },
+  {
+    "answer_id": "A0001",
+    "qid": "10010888",
+    "split": "formal_train",
+    "condition": "D0",
+    "doc_ids": [
+      "WMA_488b25f9c874afd8",
+      "WMA_5999899a94dbb80a",
+      "WMA_ac9c95d776198a70",
+      "WMA_d62abdf149c552b3",
+      "56547"
+    ]
+  },
+  {
+    "answer_id": "A0002",
+    "qid": "10010888",
+    "split": "formal_train",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "WMA_d62abdf149c552b3",
+      "WMA_ac9c95d776198a70",
+      "WMA_488b25f9c874afd8",
+      "WMA_5999899a94dbb80a",
+      "WMA_ac9c85c54d90ab5f"
+    ]
+  },
+  {
+    "answer_id": "A0003",
+    "qid": "10010888",
+    "split": "formal_train",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "WMA_ac9c95d776198a70",
+      "WMA_82e5eb790902e77c",
+      "WMA_728aed79d4faf8dd",
+      "WMA_ac9c85c54d90ab5f",
+      "WMA_488b25f9c874afd8"
+    ]
+  },
+  {
+    "answer_id": "A0004",
+    "qid": "12880872",
+    "split": "formal_train",
+    "condition": "B0",
+    "doc_ids": [
+      "WMA_a1deb781fe46c0e2",
+      "14864",
+      "WMA_05e49b6d3d7d1996",
+      "WMA_ed2ef2f1cd68bfd3",
+      "23127"
+    ]
+  },
+  {
+    "answer_id": "A0005",
+    "qid": "12880872",
+    "split": "formal_train",
+    "condition": "D0",
+    "doc_ids": [
+      "40154",
+      "WMA_a1deb781fe46c0e2",
+      "14864",
+      "WMA_05e49b6d3d7d1996",
+      "WMA_ed2ef2f1cd68bfd3"
+    ]
+  },
+  {
+    "answer_id": "A0006",
+    "qid": "12880872",
+    "split": "formal_train",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "WMA_13405dd4a27467a2",
+      "WMA_a1deb781fe46c0e2",
+      "14864",
+      "WMA_ed2ef2f1cd68bfd3",
+      "40154"
+    ]
+  },
+  {
+    "answer_id": "A0007",
+    "qid": "12880872",
+    "split": "formal_train",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "14864",
+      "WMA_a1deb781fe46c0e2",
+      "WMA_05e49b6d3d7d1996",
+      "WMA_ed2ef2f1cd68bfd3",
+      "23127"
+    ]
+  },
+  {
+    "answer_id": "A0008",
+    "qid": "13001321",
+    "split": "formal_train",
+    "condition": "B0",
+    "doc_ids": [
+      "WMA_d076683383426471",
+      "WMA_4087532f2385980e",
+      "WMA_a11ad77c25b779e5",
+      "WMA_a1c7ec04c9ebe522",
+      "WMA_2123cf361a0d65b8"
+    ]
+  },
+  {
+    "answer_id": "A0009",
+    "qid": "13001321",
+    "split": "formal_train",
+    "condition": "D0",
+    "doc_ids": [
+      "WMA_2123cf361a0d65b8",
+      "WMA_d076683383426471",
+      "WMA_4087532f2385980e",
+      "WMA_a11ad77c25b779e5",
+      "WMA_a1c7ec04c9ebe522"
+    ]
+  },
+  {
+    "answer_id": "A0010",
+    "qid": "13001321",
+    "split": "formal_train",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "WMA_d076683383426471",
+      "WMA_4087532f2385980e",
+      "WMA_a11ad77c25b779e5",
+      "WMA_a1c7ec04c9ebe522",
+      "WMA_2123cf361a0d65b8"
+    ]
+  },
+  {
+    "answer_id": "A0011",
+    "qid": "13001321",
+    "split": "formal_train",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "WMA_d076683383426471",
+      "WMA_4087532f2385980e",
+      "WMA_a1c7ec04c9ebe522",
+      "WMA_a11ad77c25b779e5",
+      "WMA_2123cf361a0d65b8"
+    ]
+  },
+  {
+    "answer_id": "A0012",
+    "qid": "13618490",
+    "split": "formal_train",
+    "condition": "B0",
+    "doc_ids": [
+      "WMA_35eb5cf5e797768c",
+      "WMA_8e62067844cfc901",
+      "166149",
+      "WMA_204c3a29a771cedb",
+      "WMA_4d3b43bf2c6c91df"
+    ]
+  },
+  {
+    "answer_id": "A0013",
+    "qid": "13618490",
+    "split": "formal_train",
+    "condition": "D0",
+    "doc_ids": [
+      "WMA_35eb5cf5e797768c",
+      "WMA_8e62067844cfc901",
+      "166149",
+      "WMA_204c3a29a771cedb",
+      "WMA_4d3b43bf2c6c91df"
+    ]
+  },
+  {
+    "answer_id": "A0014",
+    "qid": "13618490",
+    "split": "formal_train",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "166149",
+      "WMA_35eb5cf5e797768c",
+      "WMA_8e62067844cfc901",
+      "WMA_204c3a29a771cedb",
+      "WMA_da24be8f0a98cd78"
+    ]
+  },
+  {
+    "answer_id": "A0015",
+    "qid": "13618490",
+    "split": "formal_train",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "WMA_c01ec4088211125e",
+      "WMA_4d3b43bf2c6c91df",
+      "WMA_35eb5cf5e797768c",
+      "WMA_8e62067844cfc901",
+      "166149"
+    ]
+  },
+  {
+    "answer_id": "A0016",
+    "qid": "15075207",
+    "split": "formal_train",
+    "condition": "B0",
+    "doc_ids": [
+      "WMA_af78fd021b31e203",
+      "WMA_5b51809c31bb1925",
+      "WMA_60819358e104b2c0",
+      "WMA_e223705b679df24d",
+      "WMA_f1a53e1689cdd303"
+    ]
+  },
+  {
+    "answer_id": "A0017",
+    "qid": "15075207",
+    "split": "formal_train",
+    "condition": "D0",
+    "doc_ids": [
+      "WMA_af78fd021b31e203",
+      "WMA_486d568e3373ef85",
+      "WMA_5b51809c31bb1925",
+      "WMA_f1a53e1689cdd303",
+      "WMA_60819358e104b2c0"
+    ]
+  },
+  {
+    "answer_id": "A0018",
+    "qid": "15075207",
+    "split": "formal_train",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "WMA_af78fd021b31e203",
+      "WMA_f1a53e1689cdd303",
+      "WMA_5b51809c31bb1925",
+      "WMA_60819358e104b2c0",
+      "WMA_e223705b679df24d"
+    ]
+  },
+  {
+    "answer_id": "A0019",
+    "qid": "15075207",
+    "split": "formal_train",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "WMA_af78fd021b31e203",
+      "WMA_60819358e104b2c0",
+      "WMA_5b51809c31bb1925",
+      "WMA_e223705b679df24d",
+      "WMA_198c0363a9e3e176"
+    ]
+  },
+  {
+    "answer_id": "A0020",
+    "qid": "15075860",
+    "split": "formal_train",
+    "condition": "B0",
+    "doc_ids": [
+      "61547",
+      "15244",
+      "108959",
+      "219600",
+      "84955"
+    ]
+  },
+  {
+    "answer_id": "A0021",
+    "qid": "15075860",
+    "split": "formal_train",
+    "condition": "D0",
+    "doc_ids": [
+      "84955",
+      "219600",
+      "77583",
+      "61547",
+      "15244"
+    ]
+  },
+  {
+    "answer_id": "A0022",
+    "qid": "15075860",
+    "split": "formal_train",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "136270",
+      "61547",
+      "15244",
+      "108959",
+      "84955"
+    ]
+  },
+  {
+    "answer_id": "A0023",
+    "qid": "15075860",
+    "split": "formal_train",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "61547",
+      "108959",
+      "84955",
+      "15244",
+      "219600"
+    ]
+  },
+  {
+    "answer_id": "A0024",
+    "qid": "15159907",
+    "split": "formal_train",
+    "condition": "B0",
+    "doc_ids": [
+      "WMA_e62101ea3ac9781e",
+      "WMA_38d5ee6e2aa6621f",
+      "163841",
+      "105835",
+      "106040"
+    ]
+  },
+  {
+    "answer_id": "A0025",
+    "qid": "15159907",
+    "split": "formal_train",
+    "condition": "D0",
+    "doc_ids": [
+      "WMA_e62101ea3ac9781e",
+      "163841",
+      "105835",
+      "106040",
+      "133522"
+    ]
+  },
+  {
+    "answer_id": "A0026",
+    "qid": "15159907",
+    "split": "formal_train",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "WMA_e62101ea3ac9781e",
+      "105835",
+      "106040",
+      "133522",
+      "146408"
+    ]
+  },
+  {
+    "answer_id": "A0027",
+    "qid": "15159907",
+    "split": "formal_train",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "WMA_e62101ea3ac9781e",
+      "WMA_38d5ee6e2aa6621f",
+      "163841",
+      "105835",
+      "106040"
+    ]
+  },
+  {
+    "answer_id": "A0028",
+    "qid": "15498904",
+    "split": "formal_train",
+    "condition": "B0",
+    "doc_ids": [
+      "WMA_ae60d978d3bb9969",
+      "WMA_a2133297ee0726ce",
+      "108175",
+      "142849",
+      "37840"
+    ]
+  },
+  {
+    "answer_id": "A0029",
+    "qid": "15498904",
+    "split": "formal_train",
+    "condition": "D0",
+    "doc_ids": [
+      "WMA_ae60d978d3bb9969",
+      "WMA_a2133297ee0726ce",
+      "142849",
+      "5154",
+      "141686"
+    ]
+  },
+  {
+    "answer_id": "A0030",
+    "qid": "15498904",
+    "split": "formal_train",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "WMA_ae60d978d3bb9969",
+      "WMA_a2133297ee0726ce",
+      "142849",
+      "37840",
+      "108175"
+    ]
+  },
+  {
+    "answer_id": "A0031",
+    "qid": "15498904",
+    "split": "formal_train",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "151663",
+      "WMA_ae60d978d3bb9969",
+      "WMA_a2133297ee0726ce",
+      "108175",
+      "142849"
+    ]
+  },
+  {
+    "answer_id": "A0032",
+    "qid": "16772805",
+    "split": "formal_train",
+    "condition": "B0",
+    "doc_ids": [
+      "WMA_bda6fca24e3017cc",
+      "WMA_31054837064e515f",
+      "185577",
+      "208355",
+      "183430"
+    ]
+  },
+  {
+    "answer_id": "A0033",
+    "qid": "16772805",
+    "split": "formal_train",
+    "condition": "D0",
+    "doc_ids": [
+      "WMA_31054837064e515f",
+      "183802",
+      "WMA_bda6fca24e3017cc",
+      "185577",
+      "208355"
+    ]
+  },
+  {
+    "answer_id": "A0034",
+    "qid": "16772805",
+    "split": "formal_train",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "WMA_bda6fca24e3017cc",
+      "WMA_31054837064e515f",
+      "183430",
+      "184555",
+      "188588"
+    ]
+  },
+  {
+    "answer_id": "A0035",
+    "qid": "16772805",
+    "split": "formal_train",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "WMA_bda6fca24e3017cc",
+      "185577",
+      "183430",
+      "184555",
+      "223030"
+    ]
+  },
+  {
+    "answer_id": "A0036",
+    "qid": "2380293",
+    "split": "formal_train",
+    "condition": "B0",
+    "doc_ids": [
+      "36",
+      "WMA_921a8ee04d7023af",
+      "6173",
+      "148222",
+      "1002"
+    ]
+  },
+  {
+    "answer_id": "A0037",
+    "qid": "2380293",
+    "split": "formal_train",
+    "condition": "D0",
+    "doc_ids": [
+      "36",
+      "6173",
+      "WMA_921a8ee04d7023af",
+      "148222",
+      "1002"
+    ]
+  },
+  {
+    "answer_id": "A0038",
+    "qid": "2380293",
+    "split": "formal_train",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "36",
+      "WMA_921a8ee04d7023af",
+      "6173",
+      "148222",
+      "1002"
+    ]
+  },
+  {
+    "answer_id": "A0039",
+    "qid": "2380293",
+    "split": "formal_train",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "WMA_921a8ee04d7023af",
+      "36",
+      "6173",
+      "148222",
+      "1002"
+    ]
+  },
+  {
+    "answer_id": "A0040",
+    "qid": "384814",
+    "split": "formal_train",
+    "condition": "B0",
+    "doc_ids": [
+      "WMA_189742ec172d3cbf",
+      "29641",
+      "95798",
+      "83627",
+      "148707"
+    ]
+  },
+  {
+    "answer_id": "A0041",
+    "qid": "384814",
+    "split": "formal_train",
+    "condition": "D0",
+    "doc_ids": [
+      "64744",
+      "117475",
+      "148707",
+      "29641",
+      "WMA_189742ec172d3cbf"
+    ]
+  },
+  {
+    "answer_id": "A0042",
+    "qid": "384814",
+    "split": "formal_train",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "WMA_189742ec172d3cbf",
+      "29641",
+      "95798",
+      "148707",
+      "83627"
+    ]
+  },
+  {
+    "answer_id": "A0043",
+    "qid": "384814",
+    "split": "formal_train",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "95798",
+      "29641",
+      "148707",
+      "117475",
+      "WMA_189742ec172d3cbf"
+    ]
+  },
+  {
+    "answer_id": "A0044",
+    "qid": "38916214",
+    "split": "formal_train",
+    "condition": "B0",
+    "doc_ids": [
+      "WMA_69cc1ded5df90bca",
+      "WMA_e9b2b559e308614b",
+      "WMA_91ab0b6779d21aee",
+      "WMA_1b990cf3c5b6473e",
+      "21946"
+    ]
+  },
+  {
+    "answer_id": "A0045",
+    "qid": "38916214",
+    "split": "formal_train",
+    "condition": "D0",
+    "doc_ids": [
+      "WMA_69cc1ded5df90bca",
+      "WMA_91ab0b6779d21aee",
+      "WMA_1b990cf3c5b6473e",
+      "WMA_e9b2b559e308614b",
+      "WMA_5a5348f28df45e3b"
+    ]
+  },
+  {
+    "answer_id": "A0046",
+    "qid": "38916214",
+    "split": "formal_train",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "WMA_69cc1ded5df90bca",
+      "WMA_e9b2b559e308614b",
+      "WMA_91ab0b6779d21aee",
+      "WMA_1b990cf3c5b6473e",
+      "21946"
+    ]
+  },
+  {
+    "answer_id": "A0047",
+    "qid": "38916214",
+    "split": "formal_train",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "21946",
+      "WMA_69cc1ded5df90bca",
+      "WMA_e9b2b559e308614b",
+      "WMA_91ab0b6779d21aee",
+      "WMA_1b990cf3c5b6473e"
+    ]
+  },
+  {
+    "answer_id": "A0048",
+    "qid": "407461",
+    "split": "formal_train",
+    "condition": "B0",
+    "doc_ids": [
+      "198878",
+      "WMA_df5672969666dc61",
+      "WMA_35143a9c2a923bd2",
+      "WMA_3a5915172d7014be",
+      "139997"
+    ]
+  },
+  {
+    "answer_id": "A0049",
+    "qid": "407461",
+    "split": "formal_train",
+    "condition": "D0",
+    "doc_ids": [
+      "WMA_df5672969666dc61",
+      "198878",
+      "WMA_ce2a18eab72a945a",
+      "WMA_35143a9c2a923bd2",
+      "139997"
+    ]
+  },
+  {
+    "answer_id": "A0050",
+    "qid": "407461",
+    "split": "formal_train",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "198878",
+      "WMA_ce2a18eab72a945a",
+      "WMA_df5672969666dc61",
+      "WMA_35143a9c2a923bd2",
+      "WMA_3a5915172d7014be"
+    ]
+  },
+  {
+    "answer_id": "A0051",
+    "qid": "407461",
+    "split": "formal_train",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "198878",
+      "15305",
+      "WMA_ce2a18eab72a945a",
+      "WMA_94ae1f9e0d4885ce",
+      "WMA_df5672969666dc61"
+    ]
+  },
+  {
+    "answer_id": "A0052",
+    "qid": "426293",
+    "split": "formal_train",
+    "condition": "B0",
+    "doc_ids": [
+      "196072",
+      "30974",
+      "192430",
+      "183212",
+      "13894"
+    ]
+  },
+  {
+    "answer_id": "A0053",
+    "qid": "426293",
+    "split": "formal_train",
+    "condition": "D0",
+    "doc_ids": [
+      "30974",
+      "196072",
+      "192430",
+      "13894",
+      "28176"
+    ]
+  },
+  {
+    "answer_id": "A0054",
+    "qid": "426293",
+    "split": "formal_train",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "196072",
+      "30974",
+      "192430",
+      "183212",
+      "13894"
+    ]
+  },
+  {
+    "answer_id": "A0055",
+    "qid": "426293",
+    "split": "formal_train",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "192430",
+      "30974",
+      "183212",
+      "198658",
+      "56157"
+    ]
+  },
+  {
+    "answer_id": "A0056",
+    "qid": "64487599",
+    "split": "formal_train",
+    "condition": "B0",
+    "doc_ids": [
+      "WMA_06aa10745444a947",
+      "163313",
+      "61369",
+      "61361",
+      "78650"
+    ]
+  },
+  {
+    "answer_id": "A0057",
+    "qid": "64487599",
+    "split": "formal_train",
+    "condition": "D0",
+    "doc_ids": [
+      "163313",
+      "41606",
+      "WMA_06aa10745444a947",
+      "61361",
+      "78650"
+    ]
+  },
+  {
+    "answer_id": "A0058",
+    "qid": "64487599",
+    "split": "formal_train",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "163313",
+      "WMA_06aa10745444a947",
+      "61369",
+      "61361",
+      "78650"
+    ]
+  },
+  {
+    "answer_id": "A0059",
+    "qid": "64487599",
+    "split": "formal_train",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "41606",
+      "WMA_06aa10745444a947",
+      "163313",
+      "61369",
+      "61361"
+    ]
+  },
+  {
+    "answer_id": "A0060",
+    "qid": "64528472",
+    "split": "formal_train",
+    "condition": "B0",
+    "doc_ids": [
+      "WMA_b69598d8cb1ba33b",
+      "WMA_9bd6f451e2bcd31d",
+      "WMA_7656454800b436a6",
+      "WMA_38917db47c6ef006",
+      "86845"
+    ]
+  },
+  {
+    "answer_id": "A0061",
+    "qid": "64528472",
+    "split": "formal_train",
+    "condition": "D0",
+    "doc_ids": [
+      "WMA_9bd6f451e2bcd31d",
+      "WMA_b69598d8cb1ba33b",
+      "WMA_7656454800b436a6",
+      "WMA_38917db47c6ef006",
+      "86845"
+    ]
+  },
+  {
+    "answer_id": "A0062",
+    "qid": "64528472",
+    "split": "formal_train",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "WMA_b69598d8cb1ba33b",
+      "WMA_68cd406b34dbefc9",
+      "WMA_9bd6f451e2bcd31d",
+      "WMA_7656454800b436a6",
+      "WMA_38917db47c6ef006"
+    ]
+  },
+  {
+    "answer_id": "A0063",
+    "qid": "64528472",
+    "split": "formal_train",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "82084",
+      "WMA_b69598d8cb1ba33b",
+      "WMA_9bd6f451e2bcd31d",
+      "WMA_7656454800b436a6",
+      "WMA_38917db47c6ef006"
+    ]
+  },
+  {
+    "answer_id": "A0064",
+    "qid": "64802654",
+    "split": "formal_train",
+    "condition": "B0",
+    "doc_ids": [
+      "52628",
+      "161534",
+      "60158",
+      "53590",
+      "99220"
+    ]
+  },
+  {
+    "answer_id": "A0065",
+    "qid": "64802654",
+    "split": "formal_train",
+    "condition": "D0",
+    "doc_ids": [
+      "52628",
+      "53590",
+      "99220",
+      "127077",
+      "153520"
+    ]
+  },
+  {
+    "answer_id": "A0066",
+    "qid": "64802654",
+    "split": "formal_train",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "52628",
+      "161534",
+      "60158",
+      "53590",
+      "99220"
+    ]
+  },
+  {
+    "answer_id": "A0067",
+    "qid": "64802654",
+    "split": "formal_train",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "52628",
+      "161534",
+      "60158",
+      "53590",
+      "99220"
+    ]
+  },
+  {
+    "answer_id": "A0068",
+    "qid": "65080497",
+    "split": "formal_train",
+    "condition": "B0",
+    "doc_ids": [
+      "WMA_bd90fb0f93a495ee",
+      "WMA_8ce897f2829b2f9b",
+      "WMA_ad038e19130681d7",
+      "WMA_5cbaefcd91b821f4",
+      "WMA_324d5201fadd3ee4"
+    ]
+  },
+  {
+    "answer_id": "A0069",
+    "qid": "65080497",
+    "split": "formal_train",
+    "condition": "D0",
+    "doc_ids": [
+      "WMA_ad038e19130681d7",
+      "WMA_8ce897f2829b2f9b",
+      "WMA_5cbaefcd91b821f4",
+      "157990",
+      "WMA_bd90fb0f93a495ee"
+    ]
+  },
+  {
+    "answer_id": "A0070",
+    "qid": "65080497",
+    "split": "formal_train",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "WMA_bd90fb0f93a495ee",
+      "157990",
+      "188951",
+      "225281",
+      "WMA_8ce897f2829b2f9b"
+    ]
+  },
+  {
+    "answer_id": "A0071",
+    "qid": "65080497",
+    "split": "formal_train",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "WMA_bd90fb0f93a495ee",
+      "225281",
+      "WMA_ad038e19130681d7",
+      "WMA_5cbaefcd91b821f4",
+      "188951"
+    ]
+  },
+  {
+    "answer_id": "A0072",
+    "qid": "65684910",
+    "split": "formal_train",
+    "condition": "B0",
+    "doc_ids": [
+      "WMA_f81a509f737aec9a",
+      "WMA_21597041a5577617",
+      "WMA_bf8d1b53b2b33ef9",
+      "WMA_80229993d5b6f476",
+      "71771"
+    ]
+  },
+  {
+    "answer_id": "A0073",
+    "qid": "65684910",
+    "split": "formal_train",
+    "condition": "D0",
+    "doc_ids": [
+      "210041",
+      "26778",
+      "WMA_f81a509f737aec9a",
+      "WMA_21597041a5577617",
+      "WMA_80229993d5b6f476"
+    ]
+  },
+  {
+    "answer_id": "A0074",
+    "qid": "65684910",
+    "split": "formal_train",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "WMA_80229993d5b6f476",
+      "71771",
+      "WMA_f81a509f737aec9a",
+      "WMA_21597041a5577617",
+      "WMA_bf8d1b53b2b33ef9"
+    ]
+  },
+  {
+    "answer_id": "A0075",
+    "qid": "65684910",
+    "split": "formal_train",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "71771",
+      "26778",
+      "WMA_f81a509f737aec9a",
+      "WMA_21597041a5577617",
+      "WMA_bf8d1b53b2b33ef9"
+    ]
+  },
+  {
+    "answer_id": "A0076",
+    "qid": "8174063",
+    "split": "formal_train",
+    "condition": "B0",
+    "doc_ids": [
+      "WMA_9780c71894513e10",
+      "69446",
+      "173574",
+      "113853",
+      "135056"
+    ]
+  },
+  {
+    "answer_id": "A0077",
+    "qid": "8174063",
+    "split": "formal_train",
+    "condition": "D0",
+    "doc_ids": [
+      "WMA_9780c71894513e10",
+      "25333",
+      "166823",
+      "69446",
+      "173574"
+    ]
+  },
+  {
+    "answer_id": "A0078",
+    "qid": "8174063",
+    "split": "formal_train",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "WMA_9780c71894513e10",
+      "173574",
+      "69446",
+      "113853",
+      "135056"
+    ]
+  },
+  {
+    "answer_id": "A0079",
+    "qid": "8174063",
+    "split": "formal_train",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "WMA_9780c71894513e10",
+      "69446",
+      "113853",
+      "135056",
+      "25333"
+    ]
+  },
+  {
+    "answer_id": "A0080",
+    "qid": "12598613",
+    "split": "internal_blind",
+    "condition": "B0",
+    "doc_ids": [
+      "WMA_3a59f3bfbe9b354c",
+      "164170",
+      "WMA_105d9d65ec7f858b",
+      "WMA_415c6b7ef718beb2",
+      "16909"
+    ]
+  },
+  {
+    "answer_id": "A0081",
+    "qid": "12598613",
+    "split": "internal_blind",
+    "condition": "D0",
+    "doc_ids": [
+      "WMA_415c6b7ef718beb2",
+      "WMA_105d9d65ec7f858b",
+      "WMA_3a59f3bfbe9b354c",
+      "16909",
+      "164170"
+    ]
+  },
+  {
+    "answer_id": "A0082",
+    "qid": "12598613",
+    "split": "internal_blind",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "WMA_17228f33b63ce621",
+      "WMA_3a59f3bfbe9b354c",
+      "164170",
+      "WMA_105d9d65ec7f858b",
+      "WMA_415c6b7ef718beb2"
+    ]
+  },
+  {
+    "answer_id": "A0083",
+    "qid": "12598613",
+    "split": "internal_blind",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "104960",
+      "WMA_3a59f3bfbe9b354c",
+      "164170",
+      "WMA_105d9d65ec7f858b",
+      "WMA_415c6b7ef718beb2"
+    ]
+  },
+  {
+    "answer_id": "A0084",
+    "qid": "12778360",
+    "split": "internal_blind",
+    "condition": "B0",
+    "doc_ids": [
+      "WMA_1c2802c95851077d",
+      "WMA_5ebdf55915de7e03",
+      "WMA_f4e5d312bf9896ea",
+      "WMA_4b83d804a9651c05",
+      "WMA_59c23ae5e9417133"
+    ]
+  },
+  {
+    "answer_id": "A0085",
+    "qid": "12778360",
+    "split": "internal_blind",
+    "condition": "D0",
+    "doc_ids": [
+      "WMA_5ebdf55915de7e03",
+      "WMA_1c2802c95851077d",
+      "WMA_59c23ae5e9417133",
+      "WMA_339d5d9e39cc4f35",
+      "WMA_360754d46ad48d65"
+    ]
+  },
+  {
+    "answer_id": "A0086",
+    "qid": "12778360",
+    "split": "internal_blind",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "WMA_1c2802c95851077d",
+      "WMA_5ebdf55915de7e03",
+      "WMA_f4e5d312bf9896ea",
+      "WMA_4b83d804a9651c05",
+      "WMA_59c23ae5e9417133"
+    ]
+  },
+  {
+    "answer_id": "A0087",
+    "qid": "12778360",
+    "split": "internal_blind",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "WMA_1c2802c95851077d",
+      "WMA_5ebdf55915de7e03",
+      "WMA_f4e5d312bf9896ea",
+      "WMA_4b83d804a9651c05",
+      "WMA_59c23ae5e9417133"
+    ]
+  },
+  {
+    "answer_id": "A0088",
+    "qid": "13611032",
+    "split": "internal_blind",
+    "condition": "B0",
+    "doc_ids": [
+      "WMA_e8a7e6fc4e16f02c",
+      "WMA_e05f4abd2cd40b38",
+      "WMA_5ce5b2f6ef3f5505",
+      "WMA_1dce5fb9ec36ad4a",
+      "WMA_923003a1a14cb1d9"
+    ]
+  },
+  {
+    "answer_id": "A0089",
+    "qid": "13611032",
+    "split": "internal_blind",
+    "condition": "D0",
+    "doc_ids": [
+      "WMA_e8a7e6fc4e16f02c",
+      "WMA_1dce5fb9ec36ad4a",
+      "WMA_923003a1a14cb1d9",
+      "WMA_bcc733f81bd2c979",
+      "WMA_6b6f2b5559f51469"
+    ]
+  },
+  {
+    "answer_id": "A0090",
+    "qid": "13611032",
+    "split": "internal_blind",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "WMA_1dce5fb9ec36ad4a",
+      "WMA_e8a7e6fc4e16f02c",
+      "WMA_e05f4abd2cd40b38",
+      "WMA_5ce5b2f6ef3f5505",
+      "WMA_923003a1a14cb1d9"
+    ]
+  },
+  {
+    "answer_id": "A0091",
+    "qid": "13611032",
+    "split": "internal_blind",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "WMA_24fc1efac2917bd3",
+      "WMA_e8a7e6fc4e16f02c",
+      "WMA_e05f4abd2cd40b38",
+      "WMA_5ce5b2f6ef3f5505",
+      "WMA_1dce5fb9ec36ad4a"
+    ]
+  },
+  {
+    "answer_id": "A0092",
+    "qid": "13713005",
+    "split": "internal_blind",
+    "condition": "B0",
+    "doc_ids": [
+      "WMA_31aac7b9211e5bee",
+      "WMA_85de9cdebccf0289",
+      "WMA_146f719c80158253",
+      "148641",
+      "WMA_b3c9e9717bf4e66b"
+    ]
+  },
+  {
+    "answer_id": "A0093",
+    "qid": "13713005",
+    "split": "internal_blind",
+    "condition": "D0",
+    "doc_ids": [
+      "101733",
+      "WMA_85de9cdebccf0289",
+      "WMA_31aac7b9211e5bee",
+      "WMA_146f719c80158253",
+      "WMA_b3c9e9717bf4e66b"
+    ]
+  },
+  {
+    "answer_id": "A0094",
+    "qid": "13713005",
+    "split": "internal_blind",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "WMA_85de9cdebccf0289",
+      "148641",
+      "WMA_31aac7b9211e5bee",
+      "WMA_146f719c80158253",
+      "WMA_b3c9e9717bf4e66b"
+    ]
+  },
+  {
+    "answer_id": "A0095",
+    "qid": "13713005",
+    "split": "internal_blind",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "WMA_31aac7b9211e5bee",
+      "148641",
+      "WMA_85de9cdebccf0289",
+      "WMA_f980b3c5d7387478",
+      "WMA_146f719c80158253"
+    ]
+  },
+  {
+    "answer_id": "A0096",
+    "qid": "14537820",
+    "split": "internal_blind",
+    "condition": "B0",
+    "doc_ids": [
+      "WMA_abbe71ddab2597e1",
+      "WMA_39c385772376bb36",
+      "WMA_163892cff245c275",
+      "218660",
+      "WMA_156f3264a0e44cc7"
+    ]
+  },
+  {
+    "answer_id": "A0097",
+    "qid": "14537820",
+    "split": "internal_blind",
+    "condition": "D0",
+    "doc_ids": [
+      "218660",
+      "WMA_156f3264a0e44cc7",
+      "WMA_163892cff245c275",
+      "WMA_39c385772376bb36",
+      "WMA_abbe71ddab2597e1"
+    ]
+  },
+  {
+    "answer_id": "A0098",
+    "qid": "14537820",
+    "split": "internal_blind",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "WMA_abbe71ddab2597e1",
+      "WMA_39c385772376bb36",
+      "218660",
+      "WMA_163892cff245c275",
+      "WMA_e994d5368f36088e"
+    ]
+  },
+  {
+    "answer_id": "A0099",
+    "qid": "14537820",
+    "split": "internal_blind",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "WMA_abbe71ddab2597e1",
+      "WMA_163892cff245c275",
+      "218660",
+      "218658",
+      "WMA_39c385772376bb36"
+    ]
+  },
+  {
+    "answer_id": "A0100",
+    "qid": "15210186",
+    "split": "internal_blind",
+    "condition": "B0",
+    "doc_ids": [
+      "WMA_cfc61c2c5961400d",
+      "163957",
+      "129976",
+      "WMA_02945f3f693099fe",
+      "94253"
+    ]
+  },
+  {
+    "answer_id": "A0101",
+    "qid": "15210186",
+    "split": "internal_blind",
+    "condition": "D0",
+    "doc_ids": [
+      "163464",
+      "129976",
+      "WMA_02945f3f693099fe",
+      "11321",
+      "94253"
+    ]
+  },
+  {
+    "answer_id": "A0102",
+    "qid": "15210186",
+    "split": "internal_blind",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "94253",
+      "WMA_cfc61c2c5961400d",
+      "163957",
+      "129976",
+      "WMA_02945f3f693099fe"
+    ]
+  },
+  {
+    "answer_id": "A0103",
+    "qid": "15210186",
+    "split": "internal_blind",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "94253",
+      "11321",
+      "WMA_cfc61c2c5961400d",
+      "163957",
+      "129976"
+    ]
+  },
+  {
+    "answer_id": "A0104",
+    "qid": "20134016",
+    "split": "internal_blind",
+    "condition": "B0",
+    "doc_ids": [
+      "86523",
+      "213036",
+      "139901",
+      "25522",
+      "135992"
+    ]
+  },
+  {
+    "answer_id": "A0105",
+    "qid": "20134016",
+    "split": "internal_blind",
+    "condition": "D0",
+    "doc_ids": [
+      "213036",
+      "86523",
+      "139901",
+      "135992",
+      "25522"
+    ]
+  },
+  {
+    "answer_id": "A0106",
+    "qid": "20134016",
+    "split": "internal_blind",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "86523",
+      "213036",
+      "25522",
+      "135992",
+      "94768"
+    ]
+  },
+  {
+    "answer_id": "A0107",
+    "qid": "20134016",
+    "split": "internal_blind",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "86523",
+      "213036",
+      "139901",
+      "94768",
+      "140223"
+    ]
+  },
+  {
+    "answer_id": "A0108",
+    "qid": "24098670",
+    "split": "internal_blind",
+    "condition": "B0",
+    "doc_ids": [
+      "WMA_26ab0a557cc9c63f",
+      "WMA_02561a028b4f9f36",
+      "109951",
+      "36206",
+      "WMA_c42a2560e4aab32b"
+    ]
+  },
+  {
+    "answer_id": "A0109",
+    "qid": "24098670",
+    "split": "internal_blind",
+    "condition": "D0",
+    "doc_ids": [
+      "WMA_02561a028b4f9f36",
+      "WMA_3e4b4e6764406e9b",
+      "WMA_3b03bde9451777fc",
+      "156404",
+      "WMA_26ab0a557cc9c63f"
+    ]
+  },
+  {
+    "answer_id": "A0110",
+    "qid": "24098670",
+    "split": "internal_blind",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "WMA_26ab0a557cc9c63f",
+      "WMA_3e4b4e6764406e9b",
+      "WMA_3b03bde9451777fc",
+      "WMA_02561a028b4f9f36",
+      "36206"
+    ]
+  },
+  {
+    "answer_id": "A0111",
+    "qid": "24098670",
+    "split": "internal_blind",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "WMA_26ab0a557cc9c63f",
+      "156404",
+      "156408",
+      "WMA_3e4b4e6764406e9b",
+      "WMA_3b03bde9451777fc"
+    ]
+  },
+  {
+    "answer_id": "A0112",
+    "qid": "30560202",
+    "split": "internal_blind",
+    "condition": "B0",
+    "doc_ids": [
+      "WMA_bd8d1ee1d48fd708",
+      "191908",
+      "26550",
+      "12845",
+      "169129"
+    ]
+  },
+  {
+    "answer_id": "A0113",
+    "qid": "30560202",
+    "split": "internal_blind",
+    "condition": "D0",
+    "doc_ids": [
+      "WMA_bd8d1ee1d48fd708",
+      "169129",
+      "191908",
+      "12845",
+      "53199"
+    ]
+  },
+  {
+    "answer_id": "A0114",
+    "qid": "30560202",
+    "split": "internal_blind",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "WMA_bd8d1ee1d48fd708",
+      "191908",
+      "26550",
+      "169129",
+      "53199"
+    ]
+  },
+  {
+    "answer_id": "A0115",
+    "qid": "30560202",
+    "split": "internal_blind",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "WMA_bd8d1ee1d48fd708",
+      "169129",
+      "26550",
+      "191908",
+      "12845"
+    ]
+  },
+  {
+    "answer_id": "A0116",
+    "qid": "30718273",
+    "split": "internal_blind",
+    "condition": "B0",
+    "doc_ids": [
+      "WMA_b703e7b298d4f77c",
+      "WMA_4aa6cea05f69ca9a",
+      "WMA_09965ca12e613ed2",
+      "48801",
+      "WMA_680330d218733e10"
+    ]
+  },
+  {
+    "answer_id": "A0117",
+    "qid": "30718273",
+    "split": "internal_blind",
+    "condition": "D0",
+    "doc_ids": [
+      "WMA_4aa6cea05f69ca9a",
+      "WMA_b703e7b298d4f77c",
+      "138044",
+      "WMA_09965ca12e613ed2",
+      "WMA_680330d218733e10"
+    ]
+  },
+  {
+    "answer_id": "A0118",
+    "qid": "30718273",
+    "split": "internal_blind",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "WMA_b703e7b298d4f77c",
+      "WMA_4aa6cea05f69ca9a",
+      "WMA_09965ca12e613ed2",
+      "48801",
+      "WMA_680330d218733e10"
+    ]
+  },
+  {
+    "answer_id": "A0119",
+    "qid": "30718273",
+    "split": "internal_blind",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "WMA_b703e7b298d4f77c",
+      "WMA_4aa6cea05f69ca9a",
+      "WMA_09965ca12e613ed2",
+      "48801",
+      "WMA_680330d218733e10"
+    ]
+  },
+  {
+    "answer_id": "A0120",
+    "qid": "30783696",
+    "split": "internal_blind",
+    "condition": "B0",
+    "doc_ids": [
+      "WMA_dfe6e7294d5abe8c",
+      "WMA_1fa73a109a4d2c0c",
+      "51672",
+      "41931",
+      "78839"
+    ]
+  },
+  {
+    "answer_id": "A0121",
+    "qid": "30783696",
+    "split": "internal_blind",
+    "condition": "D0",
+    "doc_ids": [
+      "151664",
+      "78839",
+      "WMA_dfe6e7294d5abe8c",
+      "41931",
+      "161516"
+    ]
+  },
+  {
+    "answer_id": "A0122",
+    "qid": "30783696",
+    "split": "internal_blind",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "WMA_1fa73a109a4d2c0c",
+      "WMA_dfe6e7294d5abe8c",
+      "51672",
+      "41931",
+      "78839"
+    ]
+  },
+  {
+    "answer_id": "A0123",
+    "qid": "30783696",
+    "split": "internal_blind",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "WMA_dfe6e7294d5abe8c",
+      "151664",
+      "78839",
+      "51672",
+      "78838"
+    ]
+  },
+  {
+    "answer_id": "A0124",
+    "qid": "40630460",
+    "split": "internal_blind",
+    "condition": "B0",
+    "doc_ids": [
+      "92364",
+      "215056",
+      "WMA_636da7e251afcbb1",
+      "WMA_881fdfad454104b3",
+      "WMA_22f50a95ec8badca"
+    ]
+  },
+  {
+    "answer_id": "A0125",
+    "qid": "40630460",
+    "split": "internal_blind",
+    "condition": "D0",
+    "doc_ids": [
+      "215056",
+      "92364",
+      "WMA_636da7e251afcbb1",
+      "11193",
+      "WMA_4cdc958cad2d902d"
+    ]
+  },
+  {
+    "answer_id": "A0126",
+    "qid": "40630460",
+    "split": "internal_blind",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "92364",
+      "215056",
+      "WMA_881fdfad454104b3",
+      "WMA_427d139472c0a2bd",
+      "203479"
+    ]
+  },
+  {
+    "answer_id": "A0127",
+    "qid": "40630460",
+    "split": "internal_blind",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "92364",
+      "215056",
+      "WMA_636da7e251afcbb1",
+      "WMA_881fdfad454104b3",
+      "WMA_22f50a95ec8badca"
+    ]
+  },
+  {
+    "answer_id": "A0128",
+    "qid": "50132428",
+    "split": "internal_blind",
+    "condition": "B0",
+    "doc_ids": [
+      "186744",
+      "WMA_c1b0790318541717",
+      "211713",
+      "169898",
+      "128962"
+    ]
+  },
+  {
+    "answer_id": "A0129",
+    "qid": "50132428",
+    "split": "internal_blind",
+    "condition": "D0",
+    "doc_ids": [
+      "186744",
+      "151550",
+      "WMA_c1b0790318541717",
+      "169898",
+      "211713"
+    ]
+  },
+  {
+    "answer_id": "A0130",
+    "qid": "50132428",
+    "split": "internal_blind",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "114420",
+      "186744",
+      "WMA_c1b0790318541717",
+      "211713",
+      "169898"
+    ]
+  },
+  {
+    "answer_id": "A0131",
+    "qid": "50132428",
+    "split": "internal_blind",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "186744",
+      "WMA_c1b0790318541717",
+      "211713",
+      "169898",
+      "128962"
+    ]
+  },
+  {
+    "answer_id": "A0132",
+    "qid": "64037699",
+    "split": "internal_blind",
+    "condition": "B0",
+    "doc_ids": [
+      "153238",
+      "8598",
+      "108785",
+      "128952",
+      "139170"
+    ]
+  },
+  {
+    "answer_id": "A0133",
+    "qid": "64037699",
+    "split": "internal_blind",
+    "condition": "D0",
+    "doc_ids": [
+      "153238",
+      "8598",
+      "128952",
+      "139170",
+      "81060"
+    ]
+  },
+  {
+    "answer_id": "A0134",
+    "qid": "64037699",
+    "split": "internal_blind",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "128952",
+      "81060",
+      "153238",
+      "8598",
+      "108785"
+    ]
+  },
+  {
+    "answer_id": "A0135",
+    "qid": "64037699",
+    "split": "internal_blind",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "153238",
+      "141393",
+      "139170",
+      "128952",
+      "81060"
+    ]
+  },
+  {
+    "answer_id": "A0136",
+    "qid": "64469867",
+    "split": "internal_blind",
+    "condition": "B0",
+    "doc_ids": [
+      "WMA_4c845fbb814d20b3",
+      "WMA_341a81856487f5f0",
+      "82014",
+      "WMA_a51c3fa02de5e458",
+      "54872"
+    ]
+  },
+  {
+    "answer_id": "A0137",
+    "qid": "64469867",
+    "split": "internal_blind",
+    "condition": "D0",
+    "doc_ids": [
+      "82014",
+      "3981",
+      "46652",
+      "WMA_4c845fbb814d20b3",
+      "WMA_341a81856487f5f0"
+    ]
+  },
+  {
+    "answer_id": "A0138",
+    "qid": "64469867",
+    "split": "internal_blind",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "109081",
+      "WMA_4c845fbb814d20b3",
+      "WMA_341a81856487f5f0",
+      "WMA_a51c3fa02de5e458",
+      "82014"
+    ]
+  },
+  {
+    "answer_id": "A0139",
+    "qid": "64469867",
+    "split": "internal_blind",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "WMA_4c845fbb814d20b3",
+      "WMA_341a81856487f5f0",
+      "82014",
+      "WMA_a51c3fa02de5e458",
+      "54872"
+    ]
+  },
+  {
+    "answer_id": "A0140",
+    "qid": "66289847",
+    "split": "internal_blind",
+    "condition": "B0",
+    "doc_ids": [
+      "WMA_eece546a877c5d18",
+      "WMA_0ee5f4fff208ce4a",
+      "WMA_1fd8c031d79a9e85",
+      "WMA_a56dbf172e8338e2",
+      "WMA_5e0cf615b1b60bfe"
+    ]
+  },
+  {
+    "answer_id": "A0141",
+    "qid": "66289847",
+    "split": "internal_blind",
+    "condition": "D0",
+    "doc_ids": [
+      "WMA_eece546a877c5d18",
+      "WMA_1fd8c031d79a9e85",
+      "WMA_a56dbf172e8338e2",
+      "WMA_d4c38c3c0d4c175c",
+      "WMA_a043e7e570e7ec20"
+    ]
+  },
+  {
+    "answer_id": "A0142",
+    "qid": "66289847",
+    "split": "internal_blind",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "WMA_eece546a877c5d18",
+      "WMA_0ee5f4fff208ce4a",
+      "WMA_eda39fbf23161055",
+      "WMA_0d59033e1cd5f4d3",
+      "WMA_1fd8c031d79a9e85"
+    ]
+  },
+  {
+    "answer_id": "A0143",
+    "qid": "66289847",
+    "split": "internal_blind",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "WMA_eece546a877c5d18",
+      "WMA_1fd8c031d79a9e85",
+      "WMA_eda39fbf23161055",
+      "WMA_0ee5f4fff208ce4a",
+      "WMA_a56dbf172e8338e2"
+    ]
+  },
+  {
+    "answer_id": "A0144",
+    "qid": "66299022",
+    "split": "internal_blind",
+    "condition": "B0",
+    "doc_ids": [
+      "WMA_6123daa34777ff35",
+      "WMA_6f8537f9bf590e46",
+      "78017",
+      "180809",
+      "WMA_34453b1feca1b260"
+    ]
+  },
+  {
+    "answer_id": "A0145",
+    "qid": "66299022",
+    "split": "internal_blind",
+    "condition": "D0",
+    "doc_ids": [
+      "WMA_6f8537f9bf590e46",
+      "78017",
+      "WMA_6123daa34777ff35",
+      "180809",
+      "180804"
+    ]
+  },
+  {
+    "answer_id": "A0146",
+    "qid": "66299022",
+    "split": "internal_blind",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "WMA_6123daa34777ff35",
+      "WMA_34453b1feca1b260",
+      "78017",
+      "53366",
+      "WMA_6f8537f9bf590e46"
+    ]
+  },
+  {
+    "answer_id": "A0147",
+    "qid": "66299022",
+    "split": "internal_blind",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "WMA_6123daa34777ff35",
+      "WMA_6f8537f9bf590e46",
+      "180809",
+      "WMA_34453b1feca1b260",
+      "180804"
+    ]
+  },
+  {
+    "answer_id": "A0148",
+    "qid": "66349812",
+    "split": "internal_blind",
+    "condition": "B0",
+    "doc_ids": [
+      "WMA_45d19dda17e208a0",
+      "WMA_702ceb3700f76be3",
+      "91593",
+      "172853",
+      "83102"
+    ]
+  },
+  {
+    "answer_id": "A0149",
+    "qid": "66349812",
+    "split": "internal_blind",
+    "condition": "D0",
+    "doc_ids": [
+      "83102",
+      "WMA_45d19dda17e208a0",
+      "172853",
+      "WMA_702ceb3700f76be3",
+      "91593"
+    ]
+  },
+  {
+    "answer_id": "A0150",
+    "qid": "66349812",
+    "split": "internal_blind",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "WMA_45d19dda17e208a0",
+      "WMA_702ceb3700f76be3",
+      "91593",
+      "172853",
+      "83102"
+    ]
+  },
+  {
+    "answer_id": "A0151",
+    "qid": "66349812",
+    "split": "internal_blind",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "WMA_45d19dda17e208a0",
+      "83102",
+      "91593",
+      "WMA_702ceb3700f76be3",
+      "172853"
+    ]
+  },
+  {
+    "answer_id": "A0152",
+    "qid": "66379798",
+    "split": "internal_blind",
+    "condition": "B0",
+    "doc_ids": [
+      "WMA_4132940c900ac61e",
+      "WMA_a8eb2bdab172e1f1",
+      "77431",
+      "134562",
+      "45778"
+    ]
+  },
+  {
+    "answer_id": "A0153",
+    "qid": "66379798",
+    "split": "internal_blind",
+    "condition": "D0",
+    "doc_ids": [
+      "134562",
+      "45394",
+      "WMA_a8eb2bdab172e1f1",
+      "77431",
+      "45778"
+    ]
+  },
+  {
+    "answer_id": "A0154",
+    "qid": "66379798",
+    "split": "internal_blind",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "45394",
+      "45778",
+      "WMA_015877156bf27e31",
+      "WMA_4132940c900ac61e",
+      "WMA_a8eb2bdab172e1f1"
+    ]
+  },
+  {
+    "answer_id": "A0155",
+    "qid": "66379798",
+    "split": "internal_blind",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "WMA_4132940c900ac61e",
+      "77431",
+      "WMA_015877156bf27e31",
+      "WMA_a8eb2bdab172e1f1",
+      "134562"
+    ]
+  },
+  {
+    "answer_id": "A0156",
+    "qid": "9472291",
+    "split": "internal_blind",
+    "condition": "B0",
+    "doc_ids": [
+      "222227",
+      "222090",
+      "188358",
+      "WMA_b1fe1a43c8e330d0",
+      "205403"
+    ]
+  },
+  {
+    "answer_id": "A0157",
+    "qid": "9472291",
+    "split": "internal_blind",
+    "condition": "D0",
+    "doc_ids": [
+      "222227",
+      "188358",
+      "WMA_b1fe1a43c8e330d0",
+      "222147",
+      "222090"
+    ]
+  },
+  {
+    "answer_id": "A0158",
+    "qid": "9472291",
+    "split": "internal_blind",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "222090",
+      "222227",
+      "188358",
+      "WMA_b1fe1a43c8e330d0",
+      "205403"
+    ]
+  },
+  {
+    "answer_id": "A0159",
+    "qid": "9472291",
+    "split": "internal_blind",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "222090",
+      "222227",
+      "WMA_b1fe1a43c8e330d0",
+      "205403",
+      "222147"
+    ]
+  },
+  {
+    "answer_id": "A0160",
+    "qid": "10023852",
+    "split": "cmedqa2_external",
+    "condition": "B0",
+    "doc_ids": [
+      "116421",
+      "116423",
+      "46026",
+      "76197",
+      "59410"
+    ]
+  },
+  {
+    "answer_id": "A0161",
+    "qid": "10023852",
+    "split": "cmedqa2_external",
+    "condition": "D0",
+    "doc_ids": [
+      "116421",
+      "116423",
+      "46026",
+      "76197",
+      "174620"
+    ]
+  },
+  {
+    "answer_id": "A0162",
+    "qid": "10023852",
+    "split": "cmedqa2_external",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "116421",
+      "116423",
+      "46026",
+      "76197",
+      "59410"
+    ]
+  },
+  {
+    "answer_id": "A0163",
+    "qid": "10023852",
+    "split": "cmedqa2_external",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "116421",
+      "116423",
+      "46026",
+      "76197",
+      "7529"
+    ]
+  },
+  {
+    "answer_id": "A0164",
+    "qid": "15409243",
+    "split": "cmedqa2_external",
+    "condition": "B0",
+    "doc_ids": [
+      "206111",
+      "190778",
+      "122425",
+      "188240",
+      "184423"
+    ]
+  },
+  {
+    "answer_id": "A0165",
+    "qid": "15409243",
+    "split": "cmedqa2_external",
+    "condition": "D0",
+    "doc_ids": [
+      "206111",
+      "190778",
+      "122425",
+      "189099",
+      "WMA_db463348eb028810"
+    ]
+  },
+  {
+    "answer_id": "A0166",
+    "qid": "15409243",
+    "split": "cmedqa2_external",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "206111",
+      "190778",
+      "188240",
+      "184423",
+      "122425"
+    ]
+  },
+  {
+    "answer_id": "A0167",
+    "qid": "15409243",
+    "split": "cmedqa2_external",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "189099",
+      "206111",
+      "190778",
+      "122425",
+      "188240"
+    ]
+  },
+  {
+    "answer_id": "A0168",
+    "qid": "16167880",
+    "split": "cmedqa2_external",
+    "condition": "B0",
+    "doc_ids": [
+      "34420",
+      "218055",
+      "62245",
+      "151555",
+      "216819"
+    ]
+  },
+  {
+    "answer_id": "A0169",
+    "qid": "16167880",
+    "split": "cmedqa2_external",
+    "condition": "D0",
+    "doc_ids": [
+      "218055",
+      "34420",
+      "62245",
+      "151555",
+      "216819"
+    ]
+  },
+  {
+    "answer_id": "A0170",
+    "qid": "16167880",
+    "split": "cmedqa2_external",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "218055",
+      "34420",
+      "62245",
+      "151555",
+      "216819"
+    ]
+  },
+  {
+    "answer_id": "A0171",
+    "qid": "16167880",
+    "split": "cmedqa2_external",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "218055",
+      "34420",
+      "151555",
+      "62245",
+      "216819"
+    ]
+  },
+  {
+    "answer_id": "A0172",
+    "qid": "18460909",
+    "split": "cmedqa2_external",
+    "condition": "B0",
+    "doc_ids": [
+      "161724",
+      "203806",
+      "WMA_abb1132746c1cef8",
+      "49522",
+      "92701"
+    ]
+  },
+  {
+    "answer_id": "A0173",
+    "qid": "18460909",
+    "split": "cmedqa2_external",
+    "condition": "D0",
+    "doc_ids": [
+      "161724",
+      "203806",
+      "154848",
+      "49522",
+      "WMA_abb1132746c1cef8"
+    ]
+  },
+  {
+    "answer_id": "A0174",
+    "qid": "18460909",
+    "split": "cmedqa2_external",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "161724",
+      "WMA_abb1132746c1cef8",
+      "203806",
+      "49522",
+      "154848"
+    ]
+  },
+  {
+    "answer_id": "A0175",
+    "qid": "18460909",
+    "split": "cmedqa2_external",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "161724",
+      "203806",
+      "WMA_abb1132746c1cef8",
+      "154848",
+      "92701"
+    ]
+  },
+  {
+    "answer_id": "A0176",
+    "qid": "21742660",
+    "split": "cmedqa2_external",
+    "condition": "B0",
+    "doc_ids": [
+      "71062",
+      "3923",
+      "150283",
+      "150284",
+      "74541"
+    ]
+  },
+  {
+    "answer_id": "A0177",
+    "qid": "21742660",
+    "split": "cmedqa2_external",
+    "condition": "D0",
+    "doc_ids": [
+      "3923",
+      "71062",
+      "150283",
+      "150284",
+      "74541"
+    ]
+  },
+  {
+    "answer_id": "A0178",
+    "qid": "21742660",
+    "split": "cmedqa2_external",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "69709",
+      "71062",
+      "3923",
+      "150283",
+      "150284"
+    ]
+  },
+  {
+    "answer_id": "A0179",
+    "qid": "21742660",
+    "split": "cmedqa2_external",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "71062",
+      "37161",
+      "3923",
+      "150283",
+      "150284"
+    ]
+  },
+  {
+    "answer_id": "A0180",
+    "qid": "22268993",
+    "split": "cmedqa2_external",
+    "condition": "B0",
+    "doc_ids": [
+      "103745",
+      "80613",
+      "152113",
+      "122089",
+      "150616"
+    ]
+  },
+  {
+    "answer_id": "A0181",
+    "qid": "22268993",
+    "split": "cmedqa2_external",
+    "condition": "D0",
+    "doc_ids": [
+      "80613",
+      "103745",
+      "122089",
+      "154151",
+      "127983"
+    ]
+  },
+  {
+    "answer_id": "A0182",
+    "qid": "22268993",
+    "split": "cmedqa2_external",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "103745",
+      "46552",
+      "150616",
+      "154151",
+      "127983"
+    ]
+  },
+  {
+    "answer_id": "A0183",
+    "qid": "22268993",
+    "split": "cmedqa2_external",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "80613",
+      "103745",
+      "152113",
+      "122089",
+      "150616"
+    ]
+  },
+  {
+    "answer_id": "A0184",
+    "qid": "23024787",
+    "split": "cmedqa2_external",
+    "condition": "B0",
+    "doc_ids": [
+      "75875",
+      "185044",
+      "63563",
+      "214692",
+      "7171"
+    ]
+  },
+  {
+    "answer_id": "A0185",
+    "qid": "23024787",
+    "split": "cmedqa2_external",
+    "condition": "D0",
+    "doc_ids": [
+      "7171",
+      "63563",
+      "17553",
+      "75875",
+      "75119"
+    ]
+  },
+  {
+    "answer_id": "A0186",
+    "qid": "23024787",
+    "split": "cmedqa2_external",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "185044",
+      "75875",
+      "214692",
+      "7068",
+      "75119"
+    ]
+  },
+  {
+    "answer_id": "A0187",
+    "qid": "23024787",
+    "split": "cmedqa2_external",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "7068",
+      "7171",
+      "75875",
+      "185044",
+      "63563"
+    ]
+  },
+  {
+    "answer_id": "A0188",
+    "qid": "25971374",
+    "split": "cmedqa2_external",
+    "condition": "B0",
+    "doc_ids": [
+      "105770",
+      "4771",
+      "46124",
+      "69395",
+      "WMA_bef3fce803227730"
+    ]
+  },
+  {
+    "answer_id": "A0189",
+    "qid": "25971374",
+    "split": "cmedqa2_external",
+    "condition": "D0",
+    "doc_ids": [
+      "4771",
+      "46124",
+      "105770",
+      "69395",
+      "WMA_bef3fce803227730"
+    ]
+  },
+  {
+    "answer_id": "A0190",
+    "qid": "25971374",
+    "split": "cmedqa2_external",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "WMA_bef3fce803227730",
+      "105770",
+      "4771",
+      "46124",
+      "69395"
+    ]
+  },
+  {
+    "answer_id": "A0191",
+    "qid": "25971374",
+    "split": "cmedqa2_external",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "105770",
+      "69395",
+      "4771",
+      "46124",
+      "WMA_bef3fce803227730"
+    ]
+  },
+  {
+    "answer_id": "A0192",
+    "qid": "27241031",
+    "split": "cmedqa2_external",
+    "condition": "B0",
+    "doc_ids": [
+      "29253",
+      "106336",
+      "214386",
+      "76957",
+      "58556"
+    ]
+  },
+  {
+    "answer_id": "A0193",
+    "qid": "27241031",
+    "split": "cmedqa2_external",
+    "condition": "D0",
+    "doc_ids": [
+      "74101",
+      "29253",
+      "106336",
+      "214386",
+      "58556"
+    ]
+  },
+  {
+    "answer_id": "A0194",
+    "qid": "27241031",
+    "split": "cmedqa2_external",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "74101",
+      "WMA_6b781c7f7f72ffa3",
+      "29253",
+      "106336",
+      "214386"
+    ]
+  },
+  {
+    "answer_id": "A0195",
+    "qid": "27241031",
+    "split": "cmedqa2_external",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "29253",
+      "106336",
+      "214386",
+      "76957",
+      "58556"
+    ]
+  },
+  {
+    "answer_id": "A0196",
+    "qid": "28208243",
+    "split": "cmedqa2_external",
+    "condition": "B0",
+    "doc_ids": [
+      "172832",
+      "WMA_8690483167fc8ccb",
+      "WMA_f99b2174d83620e1",
+      "WMA_f1de35c6e4fb3b71",
+      "173076"
+    ]
+  },
+  {
+    "answer_id": "A0197",
+    "qid": "28208243",
+    "split": "cmedqa2_external",
+    "condition": "D0",
+    "doc_ids": [
+      "WMA_f1de35c6e4fb3b71",
+      "WMA_8690483167fc8ccb",
+      "173076",
+      "201455",
+      "172832"
+    ]
+  },
+  {
+    "answer_id": "A0198",
+    "qid": "28208243",
+    "split": "cmedqa2_external",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "172832",
+      "WMA_8690483167fc8ccb",
+      "WMA_f1de35c6e4fb3b71",
+      "155613",
+      "WMA_f99b2174d83620e1"
+    ]
+  },
+  {
+    "answer_id": "A0199",
+    "qid": "28208243",
+    "split": "cmedqa2_external",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "172832",
+      "WMA_8690483167fc8ccb",
+      "WMA_f1de35c6e4fb3b71",
+      "173076",
+      "201455"
+    ]
+  },
+  {
+    "answer_id": "A0200",
+    "qid": "3263110",
+    "split": "cmedqa2_external",
+    "condition": "B0",
+    "doc_ids": [
+      "108213",
+      "97385",
+      "38769",
+      "87662",
+      "103703"
+    ]
+  },
+  {
+    "answer_id": "A0201",
+    "qid": "3263110",
+    "split": "cmedqa2_external",
+    "condition": "D0",
+    "doc_ids": [
+      "108213",
+      "97385",
+      "38769",
+      "87662",
+      "WMA_44fdecf2edb50919"
+    ]
+  },
+  {
+    "answer_id": "A0202",
+    "qid": "3263110",
+    "split": "cmedqa2_external",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "108213",
+      "38769",
+      "214792",
+      "97385",
+      "87662"
+    ]
+  },
+  {
+    "answer_id": "A0203",
+    "qid": "3263110",
+    "split": "cmedqa2_external",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "97385",
+      "108213",
+      "38769",
+      "103703",
+      "87662"
+    ]
+  },
+  {
+    "answer_id": "A0204",
+    "qid": "38793524",
+    "split": "cmedqa2_external",
+    "condition": "B0",
+    "doc_ids": [
+      "115825",
+      "225262",
+      "225263",
+      "86522",
+      "224566"
+    ]
+  },
+  {
+    "answer_id": "A0205",
+    "qid": "38793524",
+    "split": "cmedqa2_external",
+    "condition": "D0",
+    "doc_ids": [
+      "115825",
+      "225263",
+      "225261",
+      "86531",
+      "86522"
+    ]
+  },
+  {
+    "answer_id": "A0206",
+    "qid": "38793524",
+    "split": "cmedqa2_external",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "115825",
+      "225263",
+      "225261",
+      "225265",
+      "225262"
+    ]
+  },
+  {
+    "answer_id": "A0207",
+    "qid": "38793524",
+    "split": "cmedqa2_external",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "225262",
+      "115825",
+      "225263",
+      "86531",
+      "225261"
+    ]
+  },
+  {
+    "answer_id": "A0208",
+    "qid": "40982502",
+    "split": "cmedqa2_external",
+    "condition": "B0",
+    "doc_ids": [
+      "WMA_9ee0c5752efad84e",
+      "WMA_f3a86cce1a153999",
+      "75527",
+      "36640",
+      "123554"
+    ]
+  },
+  {
+    "answer_id": "A0209",
+    "qid": "40982502",
+    "split": "cmedqa2_external",
+    "condition": "D0",
+    "doc_ids": [
+      "WMA_9ee0c5752efad84e",
+      "WMA_f3a86cce1a153999",
+      "75527",
+      "36640",
+      "123554"
+    ]
+  },
+  {
+    "answer_id": "A0210",
+    "qid": "40982502",
+    "split": "cmedqa2_external",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "WMA_9ee0c5752efad84e",
+      "WMA_f3a86cce1a153999",
+      "31732",
+      "75527",
+      "36640"
+    ]
+  },
+  {
+    "answer_id": "A0211",
+    "qid": "40982502",
+    "split": "cmedqa2_external",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "WMA_9ee0c5752efad84e",
+      "WMA_f3a86cce1a153999",
+      "31732",
+      "75527",
+      "36640"
+    ]
+  },
+  {
+    "answer_id": "A0212",
+    "qid": "51356377",
+    "split": "cmedqa2_external",
+    "condition": "B0",
+    "doc_ids": [
+      "59883",
+      "59845",
+      "36376",
+      "172798",
+      "97404"
+    ]
+  },
+  {
+    "answer_id": "A0213",
+    "qid": "51356377",
+    "split": "cmedqa2_external",
+    "condition": "D0",
+    "doc_ids": [
+      "59883",
+      "59845",
+      "172798",
+      "27488",
+      "36376"
+    ]
+  },
+  {
+    "answer_id": "A0214",
+    "qid": "51356377",
+    "split": "cmedqa2_external",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "59883",
+      "36376",
+      "59845",
+      "172798",
+      "27488"
+    ]
+  },
+  {
+    "answer_id": "A0215",
+    "qid": "51356377",
+    "split": "cmedqa2_external",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "59883",
+      "59845",
+      "172798",
+      "97404",
+      "97406"
+    ]
+  },
+  {
+    "answer_id": "A0216",
+    "qid": "55806671",
+    "split": "cmedqa2_external",
+    "condition": "B0",
+    "doc_ids": [
+      "8185",
+      "210908",
+      "136588",
+      "69510",
+      "49143"
+    ]
+  },
+  {
+    "answer_id": "A0217",
+    "qid": "55806671",
+    "split": "cmedqa2_external",
+    "condition": "D0",
+    "doc_ids": [
+      "8185",
+      "136588",
+      "210908",
+      "69510",
+      "132211"
+    ]
+  },
+  {
+    "answer_id": "A0218",
+    "qid": "55806671",
+    "split": "cmedqa2_external",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "8185",
+      "210908",
+      "49143",
+      "136588",
+      "69510"
+    ]
+  },
+  {
+    "answer_id": "A0219",
+    "qid": "55806671",
+    "split": "cmedqa2_external",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "29260",
+      "8185",
+      "136588",
+      "69510",
+      "210908"
+    ]
+  },
+  {
+    "answer_id": "A0220",
+    "qid": "57171409",
+    "split": "cmedqa2_external",
+    "condition": "B0",
+    "doc_ids": [
+      "73248",
+      "143777",
+      "118343",
+      "52991",
+      "1543"
+    ]
+  },
+  {
+    "answer_id": "A0221",
+    "qid": "57171409",
+    "split": "cmedqa2_external",
+    "condition": "D0",
+    "doc_ids": [
+      "44703",
+      "18547",
+      "118343",
+      "73248",
+      "44977"
+    ]
+  },
+  {
+    "answer_id": "A0222",
+    "qid": "57171409",
+    "split": "cmedqa2_external",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "143777",
+      "52991",
+      "44977",
+      "29398",
+      "81341"
+    ]
+  },
+  {
+    "answer_id": "A0223",
+    "qid": "57171409",
+    "split": "cmedqa2_external",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "73248",
+      "29398",
+      "81341",
+      "18547",
+      "159270"
+    ]
+  },
+  {
+    "answer_id": "A0224",
+    "qid": "5955652",
+    "split": "cmedqa2_external",
+    "condition": "B0",
+    "doc_ids": [
+      "93861",
+      "156823",
+      "214681",
+      "3436",
+      "26271"
+    ]
+  },
+  {
+    "answer_id": "A0225",
+    "qid": "5955652",
+    "split": "cmedqa2_external",
+    "condition": "D0",
+    "doc_ids": [
+      "156823",
+      "93861",
+      "214681",
+      "3436",
+      "144700"
+    ]
+  },
+  {
+    "answer_id": "A0226",
+    "qid": "5955652",
+    "split": "cmedqa2_external",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "156823",
+      "26271",
+      "144700",
+      "119550",
+      "93861"
+    ]
+  },
+  {
+    "answer_id": "A0227",
+    "qid": "5955652",
+    "split": "cmedqa2_external",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "93861",
+      "156823",
+      "3436",
+      "26271",
+      "214471"
+    ]
+  },
+  {
+    "answer_id": "A0228",
+    "qid": "61196289",
+    "split": "cmedqa2_external",
+    "condition": "B0",
+    "doc_ids": [
+      "32563",
+      "86692",
+      "38834",
+      "101619",
+      "111510"
+    ]
+  },
+  {
+    "answer_id": "A0229",
+    "qid": "61196289",
+    "split": "cmedqa2_external",
+    "condition": "D0",
+    "doc_ids": [
+      "32563",
+      "86692",
+      "101619",
+      "38834",
+      "111510"
+    ]
+  },
+  {
+    "answer_id": "A0230",
+    "qid": "61196289",
+    "split": "cmedqa2_external",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "32563",
+      "38834",
+      "111510",
+      "86692",
+      "101619"
+    ]
+  },
+  {
+    "answer_id": "A0231",
+    "qid": "61196289",
+    "split": "cmedqa2_external",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "32563",
+      "38834",
+      "111510",
+      "86692",
+      "101619"
+    ]
+  },
+  {
+    "answer_id": "A0232",
+    "qid": "61377518",
+    "split": "cmedqa2_external",
+    "condition": "B0",
+    "doc_ids": [
+      "9988",
+      "21722",
+      "WMA_ffe393ddcb2dd5fc",
+      "73632",
+      "153508"
+    ]
+  },
+  {
+    "answer_id": "A0233",
+    "qid": "61377518",
+    "split": "cmedqa2_external",
+    "condition": "D0",
+    "doc_ids": [
+      "9988",
+      "73632",
+      "73629",
+      "90980",
+      "153508"
+    ]
+  },
+  {
+    "answer_id": "A0234",
+    "qid": "61377518",
+    "split": "cmedqa2_external",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "99666",
+      "21722",
+      "WMA_ffe393ddcb2dd5fc",
+      "153508",
+      "9988"
+    ]
+  },
+  {
+    "answer_id": "A0235",
+    "qid": "61377518",
+    "split": "cmedqa2_external",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "9988",
+      "21722",
+      "WMA_ffe393ddcb2dd5fc",
+      "73632",
+      "73628"
+    ]
+  },
+  {
+    "answer_id": "A0236",
+    "qid": "6779973",
+    "split": "cmedqa2_external",
+    "condition": "B0",
+    "doc_ids": [
+      "14131",
+      "211888",
+      "215440",
+      "135704",
+      "142730"
+    ]
+  },
+  {
+    "answer_id": "A0237",
+    "qid": "6779973",
+    "split": "cmedqa2_external",
+    "condition": "D0",
+    "doc_ids": [
+      "135704",
+      "14131",
+      "68367",
+      "79984",
+      "107175"
+    ]
+  },
+  {
+    "answer_id": "A0238",
+    "qid": "6779973",
+    "split": "cmedqa2_external",
+    "condition": "D3_TFIDF",
+    "doc_ids": [
+      "142730",
+      "14131",
+      "215440",
+      "135704",
+      "214609"
+    ]
+  },
+  {
+    "answer_id": "A0239",
+    "qid": "6779973",
+    "split": "cmedqa2_external",
+    "condition": "D3_ROBERTA",
+    "doc_ids": [
+      "225602",
+      "14131",
+      "215440",
+      "135704",
+      "79984"
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+﻿field,score,count
+adjudicated_faithfulness,1,9
+adjudicated_faithfulness,2,35
+adjudicated_relevance,2,44
+adjudicated_completeness,1,29
+adjudicated_completeness,2,15
+adjudicated_unsupported_claim,0,41
+adjudicated_unsupported_claim,1,3
+adjudicated_risk_omission,0,44
+adjudicated_overall_utility,1,36
+adjudicated_overall_utility,2,8

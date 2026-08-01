@@ -1,0 +1,172 @@
+{
+  "answers": {
+    "q1_frozen_difference_source": {
+      "n_per_qid_rows": 1626,
+      "n_dc_diff": 26,
+      "n_sel_diff": 399,
+      "formal_train_dc_diff": 0,
+      "root_cause": "R7 test-set E2 hard predictions use empty-set encoding (pred_e2 has NO empty->argmax fallback), while the new run applies the frozen empty->argmax fallback. formal_train (OOF, with fallback) matches exactly (0 diffs). B0 (reranker-only) matches on all splits. No model/feature/seed/threshold/fold/selector/gold differences were found.",
+      "report": "frozen_result_reconciliation.md"
+    },
+    "q2_main_results": {
+      "recommendation": "Use the R7 frozen results as the paper's frozen endpoints (B0/D0/D1/D2/D3) since they are the frozen baseline; report the new-run TF-IDF test-set numbers only as a consistency note in the reconciliation appendix. The differences are encoding-convention artifacts, not model changes.",
+      "frozen_r7_endpoints": {
+        "formal_train": {
+          "B0": 0.8762,
+          "D0": 0.9398,
+          "D1": 0.9219,
+          "D2": 0.8702,
+          "D3": 0.8745
+        },
+        "internal_blind": {
+          "B0": 0.9183,
+          "D0": 0.9819,
+          "D1": 0.9537,
+          "D2": 0.9282,
+          "D3": 0.9216
+        },
+        "cmedqa2_external": {
+          "B0": 0.963,
+          "D0": 0.9859,
+          "D1": 0.9836,
+          "D2": 0.9765,
+          "D3": 0.973
+        }
+      }
+    },
+    "q3_strong_e2_selection": {
+      "selection_split": "formal_dev",
+      "selection_metric": "micro_f1",
+      "selected_model": "roberta",
+      "candidate_models": [
+        "bge",
+        "roberta",
+        "tfidf"
+      ],
+      "candidate_scores": {
+        "tfidf": {
+          "split": "formal_dev",
+          "metric": "micro_f1",
+          "micro_f1": 0.5145,
+          "macro_f1": 0.3562,
+          "sample_f1": 0.3784,
+          "jaccard": 0.3192
+        },
+        "bge": {
+          "split": "formal_dev",
+          "metric": "micro_f1",
+          "micro_f1": 0.5527,
+          "macro_f1": 0.4888,
+          "sample_f1": 0.4076,
+          "jaccard": 0.3429
+        },
+        "roberta": {
+          "split": "formal_dev",
+          "metric": "micro_f1",
+          "micro_f1": 0.6477,
+          "macro_f1": 0.6287,
+          "sample_f1": 0.4603,
+          "jaccard": 0.4092
+        }
+      },
+      "rationale": "Per task rule 3/4: selection uses ONLY formal_dev micro-F1. Selected roberta because it has the highest formal_dev micro-F1.",
+      "note": "internal_blind / cmedqa2_external were NEVER used for model or threshold selection."
+    },
+    "q4_roberta_D3_vs_B0": {
+      "formal_train": {
+        "diff": 0.00675,
+        "raw_p": 0.421958,
+        "holm_p": 1.0,
+        "significant_holm_0_05": false,
+        "effect_size": 0.0553,
+        "n": 200
+      },
+      "internal_blind": {
+        "diff": 0.000167,
+        "raw_p": 0.953705,
+        "holm_p": 1.0,
+        "significant_holm_0_05": false,
+        "effect_size": 0.0019,
+        "n": 200
+      },
+      "cmedqa2_external": {
+        "diff": 0.001174,
+        "raw_p": 0.678532,
+        "holm_p": 1.0,
+        "significant_holm_0_05": false,
+        "effect_size": 0.0232,
+        "n": 142
+      }
+    },
+    "q5_roberta_D3_vs_frozen_D3": {
+      "formal_train": {
+        "diff": 0.0085,
+        "raw_p": 0.29577,
+        "holm_p": 1.0,
+        "significant_holm_0_05": false,
+        "effect_size": 0.0723,
+        "n": 200
+      },
+      "internal_blind": {
+        "diff": -0.003167,
+        "raw_p": 0.718328,
+        "holm_p": 1.0,
+        "significant_holm_0_05": false,
+        "effect_size": -0.0254,
+        "n": 200
+      },
+      "cmedqa2_external": {
+        "diff": -0.008803,
+        "raw_p": 0.374763,
+        "holm_p": 1.0,
+        "significant_holm_0_05": false,
+        "effect_size": -0.0785,
+        "n": 142
+      }
+    },
+    "q6_strong_evidence_loss": {
+      "formal_train_bge": {
+        "evidence_loss": 0.0634,
+        "query_loss": 0.0179,
+        "evidence_gt_query": true
+      },
+      "formal_train_roberta": {
+        "evidence_loss": 0.0577,
+        "query_loss": 0.0179,
+        "evidence_gt_query": true
+      },
+      "internal_blind_bge": {
+        "evidence_loss": 0.058,
+        "query_loss": 0.0283,
+        "evidence_gt_query": true
+      },
+      "internal_blind_roberta": {
+        "evidence_loss": 0.0533,
+        "query_loss": 0.0283,
+        "evidence_gt_query": true
+      },
+      "cmedqa2_external_bge": {
+        "evidence_loss": 0.017,
+        "query_loss": 0.0023,
+        "evidence_gt_query": true
+      },
+      "cmedqa2_external_roberta": {
+        "evidence_loss": 0.0217,
+        "query_loss": 0.0023,
+        "evidence_gt_query": true
+      }
+    },
+    "q7_generation_count": {
+      "n_answers_planned": 240,
+      "n_generated": 240,
+      "n_qids": 60
+    },
+    "q8_api_failures": [],
+    "q9_test_set_tuning": false,
+    "q10_frozen_modified": false,
+    "q11_git_push": false,
+    "overall_status": "COMPLETE",
+    "status_reasons": []
+  },
+  "final_status": "COMPLETE"
+}

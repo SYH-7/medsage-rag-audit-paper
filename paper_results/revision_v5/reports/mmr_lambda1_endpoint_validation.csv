@@ -1,0 +1,13 @@
+﻿split,k,total_qid,identical_qid,different_qid,pass
+formal_dev,3,100,100,0,True
+formal_dev,5,100,100,0,True
+formal_dev,7,100,100,0,True
+formal_train,3,200,200,0,True
+formal_train,5,200,200,0,True
+formal_train,7,200,200,0,True
+internal_blind,3,200,200,0,True
+internal_blind,5,200,200,0,True
+internal_blind,7,200,200,0,True
+cmedqa2_external,3,142,142,0,True
+cmedqa2_external,5,142,142,0,True
+cmedqa2_external,7,142,142,0,True
