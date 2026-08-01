@@ -171,7 +171,7 @@ if bert.exists(): results["bge_comparisons"] = len(load_csv(str(bert)))
 print("[10/10] Manifest...")
 mf = REPO / "paper_results/manifests/release_manifest_sha256.csv"
 if mf.exists():
-    with open(mf) as f: rows = list(csv.reader(f))
+    with open(mf, encoding='utf-8-sig') as f: rows = list(csv.reader(f))
     results["manifest"] = {"total_files": len(rows)-1}
     print(f"  {len(rows)-1} files")
 

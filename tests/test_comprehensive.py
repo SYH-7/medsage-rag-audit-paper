@@ -62,7 +62,7 @@ def test_manifest_full_sha256():
         rows = list(csv.reader(f))
     assert len(rows) > 1
     for row in rows[1:]:
-        assert len(row[2]) == 64
+        assert len(row[1]) == 64  # format: path,sha256,size
 
 def test_ids_are_anonymized():
     pq_dir = os.path.join(REPO, "paper_results/per_query_minimal")

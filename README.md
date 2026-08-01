@@ -89,7 +89,7 @@ MMR/Top-K 复算需完整 data/ 与预测缓存（受许可限制不随仓库分
 
 ## 数据许可
 
-本仓库发布文件使用完整 SHA256 清单验证（`paper_results/manifests/release_manifest_sha256_v11.csv`）。候选池数据来源于 webMedQA 和 cMedQA2。
+本仓库发布文件使用完整 SHA256 清单验证（`paper_results/manifests/release_manifest_sha256.csv`，由 `scripts/make_manifest.py` 从 git 索引生成、`scripts/verify_manifest.py` 只读验证）。候选池数据来源于 webMedQA（官方仓库 `hejunqing/webMedQA`，Apache-2.0）和 cMedQA2（官方仓库 `zhangsheng93/cMedQA2`，数据集仅供非商业研究）。
 
 > Users must obtain the original datasets from their official sources and comply with the original licenses. This repository does not redistribute the complete source texts.
 

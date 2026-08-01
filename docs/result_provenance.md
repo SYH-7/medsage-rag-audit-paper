@@ -13,7 +13,7 @@
 
 ## 一致性验证
 
-- `release_manifest_sha256_v11.csv` 包含全部公开文件的完整 64 位 SHA256 哈希；
+- `release_manifest_sha256.csv`（由 `scripts/make_manifest.py` 从 git 索引生成）包含全部公开文件的完整 64 位 SHA256 哈希与字节数；清单自身及任何 `*sha256*.csv` 文件不列入清单；`scripts/verify_manifest.py` 只读校验（不覆盖清单）；
 - 历史 `bundle_manifest.csv` 使用截断哈希，仅作为来源记录，不作为完整文件身份验证；
 - `endpoint_final_validation.json` 验证 6 个泄漏端点在逐 qid Top-5 层面的闭合性；
 - `tests/` 提供清单、条件与隐私检查的自动化测试。
