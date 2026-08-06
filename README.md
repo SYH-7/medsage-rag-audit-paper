@@ -8,7 +8,7 @@
 
 ## Release
 
-- 当前发布：**v2.0.3-paper-support** (Default branch: `main`)
+- 当前发布：**v2.0.4-paper-support** (Default branch: `main`)
 - Release 附件（`release_assets/`，git-ignored，仅作 Release 附件）：
 
 | # | 附件 | 内容 |
@@ -128,7 +128,7 @@ candidate documents, model weights, or any third-party dataset content.
   author  = {Shi, Yuhan and Wang, Qi},
   title   = {MedLeakAudit: Auditing Private-Label Leakage and Deployment Gaps in Medical RAG Evaluation},
   year    = {2026},
-  version = {2.0.3-paper-support},
+  version = {2.0.4-paper-support},
   url     = {https://github.com/SYH-7/medsage-rag-audit-paper}
 }
 ```
