@@ -8,7 +8,7 @@
 
 ## Release
 
-- 当前发布：**v2.0.4-paper-support** (Default branch: `main`)
+- 当前发布：**v2.0.5-paper-support** (Default branch: `main`)
 - Release 附件（`release_assets/`，git-ignored，仅作 Release 附件）：
 
 | # | 附件 | 内容 |
@@ -92,7 +92,8 @@
 python -m pytest tests/ -q
 ```
 
-- 45 passed / 6 skipped / 0 failed（v2.0.1 基线）；skipped 为 `REQUIRES_LOCAL_ORIGINAL_PROJECT`（需本地原始项目，未伪造）。
+- 51 passed / 6 skipped / 0 failed（v2.0.4）；skipped 为 `REQUIRES_LOCAL_ORIGINAL_PROJECT`（需本地原始项目，未伪造）。
+  Compared with the v2.0.1 baseline, v2.0.4 adds six Precision-undefined regression tests.
 
 ## License
 
@@ -128,7 +129,7 @@ candidate documents, model weights, or any third-party dataset content.
   author  = {Shi, Yuhan and Wang, Qi},
   title   = {MedLeakAudit: Auditing Private-Label Leakage and Deployment Gaps in Medical RAG Evaluation},
   year    = {2026},
-  version = {2.0.4-paper-support},
+  version = {2.0.5-paper-support},
   url     = {https://github.com/SYH-7/medsage-rag-audit-paper}
 }
 ```

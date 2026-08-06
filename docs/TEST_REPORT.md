@@ -1,14 +1,15 @@
 # Test Report (final)
 
-Version `2.0.4-paper-support` · Default branch `main`
+Version `2.0.5-paper-support` · Default branch `main`
 
 ## 1. pytest
 
 ```
 python -m pytest tests/ -q
 ```
-**45 passed / 6 skipped / 0 failed** (2026-08-06).
+**51 passed / 6 skipped / 0 failed** (2026-08-06).
 
+Compared with the v2.0.1 baseline, v2.0.4 adds six Precision-undefined regression tests (`tests/dakd_v5/test_precision_undefined.py`).
 Skipped (6) - all `REQUIRES_LOCAL_ORIGINAL_PROJECT` (need `medsage_rag_full` /
 `tcm_sleep_rag_full` local projects; set `TCM_SLEEP_RAG_ROOT`). Not faked.
 
