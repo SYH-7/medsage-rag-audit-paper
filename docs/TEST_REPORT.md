@@ -1,6 +1,6 @@
 # Test Report (final)
 
-Version `2.0.1-paper-support` · Default branch `main`
+Version `2.0.3-paper-support` · Default branch `main`
 
 ## 1. pytest
 
@@ -39,7 +39,7 @@ Public archives are generated from the frozen originals via path redaction and p
 reorganization. Scientific values unchanged. Per-file diff:
 `docs/PUBLIC_ARCHIVE_DIFF_REPORT.md`.
 
-## 5. Release SHA-256 (v2.0.1)
+## 5. Release SHA-256 (archives unchanged from v2.0.1)
 
 ```
 4c815376018eee11e9af2c4630964d246da0803607817f14be9e2658157d4b97  medleakaudit_01_main_audit.zip
