@@ -20,7 +20,18 @@ PACKAGE = ROOT / "paper_package_dakd_v2"
 OUT = PACKAGE / "13_verified_release"
 META = OUT / "source_metadata"
 RELEASE_ROOT = Path(__file__).resolve().parents[3]
-SOURCE_RELEASE = "v1.1.1-paper-supplement"
+
+def _check_original_bundle_present():
+    """Return True if the frozen original v2 bundle source (paper_results) is available.
+
+    In the public repository the v1.x legacy `paper_results/` directory is removed; the
+    verified results in verified_release_results/ are already frozen. Re-running this build
+    requires the local original v2 bundle (REQUIRES_ORIGINAL_V2_BUNDLE).
+    """
+    src_root = RELEASE_ROOT / "paper_results"
+    return src_root.is_dir() and (src_root / "manifests").is_dir()
+
+SOURCE_RELEASE = "historical v1.x paper-support release"
 SOURCE_COMMIT = "876a16d098e1da3f642ef70854cbc985bae5f9e3"
 
 RESULT_FIELDS = [

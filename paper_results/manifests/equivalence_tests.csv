@@ -1,4 +1,0 @@
-metric,medsage_plus_dpp_diff,p_value,ci95_low,ci95_high,equivalence_result
-formal_train_dc,0.0046,0.811,-0.034,0.042,NON_SIGNIFICANT
-internal_blind_dc,0.0075,0.657,-0.026,0.042,NON_SIGNIFICANT
-cmedqa2_external_dc,0.0030,0.866,-0.031,0.037,NON_SIGNIFICANT

@@ -1,13 +1,13 @@
 # Test Report (final)
 
-Version `2.0.0-paper-support` · branch `paper-support-v2`
+Version `2.0.1-paper-support` · Default branch `main`
 
 ## 1. pytest
 
 ```
 python -m pytest tests/ -q
 ```
-**52 passed / 6 skipped / 0 failed** (2026-08-06).
+**45 passed / 6 skipped / 0 failed** (2026-08-06).
 
 Skipped (6) - all `REQUIRES_LOCAL_ORIGINAL_PROJECT` (need `medsage_rag_full` /
 `tcm_sleep_rag_full` local projects; set `TCM_SLEEP_RAG_ROOT`). Not faked.
@@ -41,6 +41,14 @@ reorganization. Scientific values unchanged. Per-file diff:
 
 ## 5. Release assets (SHA-256)
 
-`medsage_dakd_authoring_bundle_v5_1_1_public.zip`: `9e622b8028f9f71f5019a100634528172457ae762206e9fa1f7d6a3a1c071446`
-`deployment_diagnostics_verified_results.zip`: `450a5bbfe784bebb6039421470bcbd4c61df0ffb8f6a36ec091f416579506aa0`
-`medsage_dakd_cross_pipeline_v6_public.zip`: `03f349717657dc75f1b061498dbb0206d915277327c751ecfec43dba1108ad65`
+`medleakaudit_01_main_audit.zip`: `9e622b8028f9f71f5019a100634528172457ae762206e9fa1f7d6a3a1c071446`
+`medleakaudit_02_deployment_diagnostics.zip`: `450a5bbfe784bebb6039421470bcbd4c61df0ffb8f6a36ec091f416579506aa0`
+`medleakaudit_03_cross_pipeline_bm25_topk.zip`: `03f349717657dc75f1b061498dbb0206d915277327c751ecfec43dba1108ad65`
+
+## 5. Release SHA-256
+
+```
+4c815376018eee11e9af2c4630964d246da0803607817f14be9e2658157d4b97  medleakaudit_01_main_audit.zip
+ad7e479fdf1fd6381e6243700af9a3d3937b7d13e31362d356284ea38e72c8a9  medleakaudit_02_deployment_diagnostics.zip
+24b752f10527e305162b0d6e818f93aef6bef54a68cfb61ae5221045ea699360  medleakaudit_03_cross_pipeline_bm25_topk.zip
+```

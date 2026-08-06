@@ -1,7 +1,0 @@
-﻿metric,n_qid,n_conditions,friedman_statistic,friedman_p,variance,status
-faithfulness,60,4,3.3871,0.335838,0.0323,tested
-demand_completeness,60,4,4.2857,0.230856,0.0292,tested
-overall_utility,60,4,7.4651,0.05741,0.0448,tested
-unsupported_claim,60,4,4.7647,0.188137,0.0177,tested
-critical_risk_omission,60,4,2.4,0.496494,0.0104,tested
-answer_relevance,60,4,,,0.0,CEILING_EFFECT_NO_DISCRIMINATION
