@@ -1,7 +1,0 @@
-split,model,n,D0,D1,D2_strong,EvidenceLoss_strong,QueryLoss,evidence_gt_query
-formal_train,bge,200,0.9398,0.9219,0.8764,0.0634,0.0179,True
-formal_train,roberta,200,0.9398,0.9219,0.8822,0.0577,0.0179,True
-internal_blind,bge,200,0.9819,0.9537,0.9239,0.058,0.0283,True
-internal_blind,roberta,200,0.9819,0.9537,0.9286,0.0533,0.0283,True
-cmedqa2_external,bge,142,0.9859,0.9836,0.9689,0.017,0.0023,True
-cmedqa2_external,roberta,142,0.9859,0.9836,0.9642,0.0217,0.0023,True

@@ -11,7 +11,7 @@ redactions and reorganizations listed below.
 
 ---
 
-## 1. `medsage_dakd_authoring_bundle_v5_1_1_public.zip` vs `medsage_dakd_authoring_bundle_v5_1_1.zip`
+## 1. `medleakaudit_01_main_audit.zip` vs `medsage_dakd_authoring_bundle_v5_1_1.zip`
 
 | File | Change | Reason | Impacts results? |
 |---|---|---|---|
@@ -21,7 +21,7 @@ redactions and reorganizations listed below.
 | all other files (80) | Byte-identical to the original archive | — | No |
 | line endings | CRLF (repo) vs LF (archive) | Normalized by git (`.gitattributes`) | No |
 
-## 2. `medsage_dakd_cross_pipeline_v6_public.zip` vs `medsage_dakd_cross_pipeline_v6.zip`
+## 2. `medleakaudit_03_cross_pipeline_bm25_topk.zip` vs `medsage_dakd_cross_pipeline_v6.zip`
 
 | File | Change | Reason | Impacts results? |
 |---|---|---|---|

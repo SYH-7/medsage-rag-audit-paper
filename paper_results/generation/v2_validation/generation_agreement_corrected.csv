@@ -1,7 +1,0 @@
-﻿dimension,n,exact_agreement,linear_weighted_kappa,quadratic_weighted_kappa,spearman,positive_agreement,negative_agreement
-faithfulness_0_1_2,240,0.9417,0.5046,0.5046,0.5261,,
-answer_relevance_0_1_2,240,1.0,CEILING_EFFECT_NO_DISCRIMINATION,CEILING_EFFECT_NO_DISCRIMINATION,CEILING_EFFECT_NO_DISCRIMINATION,,
-demand_completeness_0_1_2,240,0.8708,0.3939,0.3939,0.432,,
-overall_utility_0_1_2,240,0.825,0.383,0.383,0.4145,,
-unsupported_claim_0_1,240,0.9708,,,,0.6957,0.9847
-critical_risk_omission_0_1,240,1.0,,,,1.0,1.0

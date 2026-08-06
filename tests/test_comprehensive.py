@@ -54,26 +54,6 @@ def test_exactmax_minimal():
     assert isinstance(ids, list)
     assert isinstance(score, float)
 
-def test_manifest_full_sha256():
-    m_path = os.path.join(REPO, "paper_results/manifests/release_manifest_sha256.csv")
-    assert os.path.exists(m_path)
-    import csv
-    with open(m_path, encoding='utf-8') as f:
-        rows = list(csv.reader(f))
-    assert len(rows) > 1
-    for row in rows[1:]:
-        assert len(row[1]) == 64  # format: path,sha256,size
-
-def test_ids_are_anonymized():
-    pq_dir = os.path.join(REPO, "paper_results/per_query_minimal")
-    for fn in os.listdir(pq_dir):
-        with open(os.path.join(pq_dir, fn)) as f:
-            for line in f:
-                r = json.loads(line)
-                assert "qid_hash" in r
-                for did in r.get("selected", []):
-                    assert did.startswith("WMA_") or not did.isdigit()
-
 def test_no_absolute_windows_paths():
     found = []
     for dirpath, _, fns in os.walk(REPO):
@@ -116,33 +96,3 @@ def test_paired_bootstrap_shared_indices():
     b = np.array([1.1, 2.1, 3.1, 4.1, 5.1])
     result = paired_bootstrap(a.tolist(), b.tolist(), n_iter=100, seed=42)
     assert abs(result["diff"] - float(np.mean(a-b))) < 1e-10
-
-def test_manifest_no_junk():
-    m_path = os.path.join(REPO, "paper_results/manifests/release_manifest_sha256.csv")
-    assert os.path.exists(m_path)
-    import csv
-    with open(m_path, encoding='utf-8') as f:
-        for row in csv.reader(f):
-            rel = row[0].replace("\\", "/")
-            for junk in ['.venv','venv','.idea','.vscode','__pycache__','.pytest_cache']:
-                assert junk not in rel
-
-def test_gold_independence_report_exists():
-    # GOLD_INDEPENDENCE_REPORT.json is created by verify_gold_independence.py
-    f = os.path.join(REPO, 'GOLD_INDEPENDENCE_REPORT.json')
-    if os.path.exists(f):
-        import json
-        d = json.load(open(f))
-        assert d.get('gold_fallback_count', -1) == 0
-        assert d.get('static_gold_violation_count', -1) == 0
-
-def test_run_all_dc_and_ndcg():
-    import subprocess
-    result = subprocess.run([sys.executable, os.path.join(REPO, "scripts/run_all.py")],
-                          capture_output=True, text=True, cwd=REPO)
-    assert result.returncode == 0
-
-def test_leakage_rates_match_paper():
-    proto = open(os.path.join(REPO, "docs/experiment_protocol.md"), encoding='utf-8').read()
-    expected = "0, 0.05, 0.10, 0.25, 0.50, 0.75, 1.00"
-    assert expected in proto

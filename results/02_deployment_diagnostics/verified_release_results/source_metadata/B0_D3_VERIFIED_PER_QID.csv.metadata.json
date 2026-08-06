@@ -2,7 +2,7 @@
   "exported_file": "B0_D3_VERIFIED_PER_QID.csv",
   "artifact_type": "verified_release_table",
   "status": "VERIFIED_FROM_RELEASE",
-  "source_release": "v1.1.1-paper-supplement",
+  "source_release": "historical v1.x paper-support release",
   "source_commit": "876a16d098e1da3f642ef70854cbc985bae5f9e3",
   "source_file": "paper_results/per_query_minimal/cmedqa2_external_per_query.jsonl",
   "source_sha256": "3e170ff0ad1d799e5899cb62fd78c9920e42982cf3202dd2d06b72a0bb212a72",

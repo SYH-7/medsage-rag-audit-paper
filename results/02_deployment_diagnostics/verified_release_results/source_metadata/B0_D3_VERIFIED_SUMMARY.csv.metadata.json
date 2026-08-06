@@ -2,7 +2,7 @@
   "exported_file": "B0_D3_VERIFIED_SUMMARY.csv",
   "artifact_type": "verified_release_table",
   "status": "VERIFIED_FROM_RELEASE",
-  "source_release": "v1.1.1-paper-supplement",
+  "source_release": "historical v1.x paper-support release",
   "source_commit": "876a16d098e1da3f642ef70854cbc985bae5f9e3",
   "source_file": "PAPER_REPRODUCTION_REPORT.json",
   "source_sha256": "2936269b3556bb5b26eac36163e30ff71928f7380924d533b6b404fac2bfcbc5",

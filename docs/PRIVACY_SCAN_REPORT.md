@@ -2,8 +2,8 @@
 
 Generated: 2026-08-06 16:21:09
 Scope: repository tracked text files + extracted contents of the three Release ZIPs
-(`medsage_dakd_authoring_bundle_v5_1_1_public.zip`, `deployment_diagnostics_verified_results.zip`,
-`medsage_dakd_cross_pipeline_v6_public.zip`).
+(`medleakaudit_01_main_audit.zip`, `medleakaudit_02_deployment_diagnostics.zip`,
+`medleakaudit_03_cross_pipeline_bm25_topk.zip`).
 
 ## Five-zero verdict
 

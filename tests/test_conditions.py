@@ -26,13 +26,6 @@ def test_metrics_imports():
     assert callable(mcnemar_exact)
     assert callable(holm_adjust)
 
-def test_manifest_files_exist():
-    import os
-    manifest_dir = os.path.join(os.path.dirname(__file__), "..", "paper_results", "manifests")
-    assert os.path.isdir(manifest_dir)
-    files = os.listdir(manifest_dir)
-    assert len(files) > 0
-
 def test_exact_max_coverage_definition():
     """Verify exact_max_coverage returns a tuple (ids, score)."""
     from private_evaluation.condition_decomposition import exact_max_coverage

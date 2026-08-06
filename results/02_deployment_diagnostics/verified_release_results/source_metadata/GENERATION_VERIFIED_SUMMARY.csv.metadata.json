@@ -2,7 +2,7 @@
   "exported_file": "GENERATION_VERIFIED_SUMMARY.csv",
   "artifact_type": "verified_release_table",
   "status": "VERIFIED_FROM_RELEASE",
-  "source_release": "v1.1.1-paper-supplement",
+  "source_release": "historical v1.x paper-support release",
   "source_commit": "876a16d098e1da3f642ef70854cbc985bae5f9e3",
   "source_file": "paper_results/generation/v3_frozen/generation_paper_method_summary.csv",
   "source_sha256": "4b5756f3b4b898640317e6d70c6c2e36b18677f8d8eb6d3754f805453a14f93f",
