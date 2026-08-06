@@ -39,13 +39,7 @@ Public archives are generated from the frozen originals via path redaction and p
 reorganization. Scientific values unchanged. Per-file diff:
 `docs/PUBLIC_ARCHIVE_DIFF_REPORT.md`.
 
-## 5. Release assets (SHA-256)
-
-`medleakaudit_01_main_audit.zip`: `9e622b8028f9f71f5019a100634528172457ae762206e9fa1f7d6a3a1c071446`
-`medleakaudit_02_deployment_diagnostics.zip`: `450a5bbfe784bebb6039421470bcbd4c61df0ffb8f6a36ec091f416579506aa0`
-`medleakaudit_03_cross_pipeline_bm25_topk.zip`: `03f349717657dc75f1b061498dbb0206d915277327c751ecfec43dba1108ad65`
-
-## 5. Release SHA-256
+## 5. Release SHA-256 (v2.0.1)
 
 ```
 4c815376018eee11e9af2c4630964d246da0803607817f14be9e2658157d4b97  medleakaudit_01_main_audit.zip

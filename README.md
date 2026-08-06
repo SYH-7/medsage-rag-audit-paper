@@ -1,6 +1,6 @@
 # MedLeakAudit：医疗RAG评测中的私有标签泄漏审计与部署诊断（公开支撑仓库）
 
-**Leakage-Controlled Evaluation, Deployment Gaps, and Generation Validation for Medical RAG Evidence Selection**
+**MedLeakAudit: Auditing Private-Label Leakage and Deployment Gaps in Medical RAG Evaluation**
 
 > 本仓库仅提供论文对应的脱敏结果、统计复算脚本和一致性验证材料，不包含论文全文、原始医疗问答文本、完整候选文档、私有Gold标签或模型权重。
 
@@ -92,7 +92,7 @@
 python -m pytest tests/ -q
 ```
 
-- 52 passed / 6 skipped / 0 failed（v2.0.1 基线）；skipped 为 `REQUIRES_LOCAL_ORIGINAL_PROJECT`（需本地原始项目，未伪造）。
+- 45 passed / 6 skipped / 0 failed（v2.0.1 基线）；skipped 为 `REQUIRES_LOCAL_ORIGINAL_PROJECT`（需本地原始项目，未伪造）。
 
 ## License
 
