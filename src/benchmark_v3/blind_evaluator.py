@@ -44,9 +44,13 @@ def metrics(rows: list[dict[str, Any]]) -> dict[str, Any]:
     fp = sum(r["fp"] for r in rows)
     tn = sum(r["tn"] for r in rows)
     fn = sum(r["fn"] for r in rows)
-    precision = tp / (tp + fp) if tp + fp else 1.0
+    precision_defined = (tp + fp) > 0
+    precision = (tp / (tp + fp)) if precision_defined else None
     recall = tp / (tp + fn) if tp + fn else 0.0
-    f1 = 2 * precision * recall / (precision + recall) if precision + recall else 0.0
+    f1 = 0.0
+    if precision_defined and (tp + fn):
+        denom = precision + recall
+        f1 = 2 * precision * recall / denom if denom else 0.0
     specificity = tn / (tn + fp) if tn + fp else 0.0
     mcc_den = math.sqrt((tp + fp) * (tp + fn) * (tn + fp) * (tn + fn))
     return {
@@ -55,6 +59,7 @@ def metrics(rows: list[dict[str, Any]]) -> dict[str, Any]:
         "tn": tn,
         "fn": fn,
         "precision": precision,
+        "precision_defined": precision_defined,
         "recall": recall,
         "f1": f1,
         "specificity": specificity,

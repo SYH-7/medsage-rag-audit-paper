@@ -45,5 +45,5 @@ Mapping between the paper-support data items, their GitHub directories, and thei
 | `SHA256SUMS.txt` | 三个附件的 SHA-256 清单（根目录与 release_assets/ 各一份，内容一致） |
 
 原始归档（v5.1.1 / v6 / v2）**不作为 Release 附件公开**，仅保留在本地 `dist/` / `_incoming/`。
-> 三个公开附件均内含 MIT `LICENSE`（版权：Shi Yuhan）与 `THIRD_PARTY_NOTICES.md`；MIT 仅覆盖原创代码，第三方数据/模型/依赖与派生记录不随代码 MIT 再授权。
+> v2.0.4：主审计包（ZIP1）因 Precision 修正（TP+FP=0 时不再写 1.0，改用空值/NA）重新打包；ZIP2/ZIP3 字节不变。三个附件均内含 MIT `LICENSE`（版权：Shi Yuhan）与 `THIRD_PARTY_NOTICES.md`；MIT 仅覆盖原创代码，第三方数据/模型/依赖与派生记录不随代码 MIT 再授权。
 
