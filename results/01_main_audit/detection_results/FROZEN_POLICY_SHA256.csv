@@ -1,0 +1,3 @@
+﻿config_file,config_sha256
+configs/dakd_v5/full_audit_frozen.yaml,c69fff36c89963f0a8a55bd267584fe3b32aad093936e970cae5aac6d917ea90
+configs/dakd_v5/source_sink_policy.yaml,4640ce4a3328e6b8b4e4383e059d2e1d0bb0bc06625b1b637acee6b99986ee1f

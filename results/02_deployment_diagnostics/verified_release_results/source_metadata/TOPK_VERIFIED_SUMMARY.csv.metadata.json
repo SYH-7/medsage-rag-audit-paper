@@ -1,0 +1,12 @@
+{
+  "exported_file": "TOPK_VERIFIED_SUMMARY.csv",
+  "artifact_type": "verified_release_table",
+  "status": "VERIFIED_FROM_RELEASE",
+  "source_release": "v1.1.1-paper-supplement",
+  "source_commit": "876a16d098e1da3f642ef70854cbc985bae5f9e3",
+  "source_file": "paper_results/revision_v5/tables/topk_sensitivity_summary.csv",
+  "source_sha256": "d80596b5952071be71ab0edf05829ee7ae29a82e2d45bf7e5150b70249a579aa",
+  "export_sha256": "5bb588d6050a41050d62c3d4b151f6232ac13ed59b4e321ab0f6209dd4c54d31",
+  "local_rerun": "false",
+  "notes": "sanitized table-level or hash-id evidence"
+}

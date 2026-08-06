@@ -1,0 +1,46 @@
+# Test Report (final)
+
+Version `2.0.0-paper-support` · branch `paper-support-v2`
+
+## 1. pytest
+
+```
+python -m pytest tests/ -q
+```
+**52 passed / 6 skipped / 0 failed** (2026-08-06).
+
+Skipped (6) - all `REQUIRES_LOCAL_ORIGINAL_PROJECT` (need `medsage_rag_full` /
+`tcm_sleep_rag_full` local projects; set `TCM_SLEEP_RAG_ROOT`). Not faked.
+
+## 2. Release-ZIP verification (3 public ZIPs)
+
+| check | result |
+|---|---|
+| SHA256SUMS root == release_assets | PASS |
+| SHA-256 of all 3 ZIPs in SHA256SUMS.txt | PASS |
+| `testzip` integrity for all 3 | PASS |
+| no `.pyc`/`__pycache__` inside | PASS |
+| public ZIP vs repo public dirs mapping (0 missing) | PASS |
+| blacklist filenames = 0 / data content = 0 (deployment pkg) | PASS |
+| absolute-path scan (real_absolute_path) | 0 |
+| JSON/JSONL parse | 0 errors |
+| YAML parse | 0 errors |
+| CSV readable | 0 errors |
+| Python `py_compile` (src+scripts+tests) | 0 errors |
+
+## 3. Privacy
+
+Five-zero: real_secret=0, real_absolute_path=0, real_private_gold=0, raw_medical_text=0,
+unresolved_manual_review=0. See `docs/PRIVACY_SCAN_REPORT.md`.
+
+## 4. Consistency vs frozen original archives
+
+Public archives are generated from the frozen originals via path redaction and public-dir
+reorganization. Scientific values unchanged. Per-file diff:
+`docs/PUBLIC_ARCHIVE_DIFF_REPORT.md`.
+
+## 5. Release assets (SHA-256)
+
+`medsage_dakd_authoring_bundle_v5_1_1_public.zip`: `9e622b8028f9f71f5019a100634528172457ae762206e9fa1f7d6a3a1c071446`
+`deployment_diagnostics_verified_results.zip`: `450a5bbfe784bebb6039421470bcbd4c61df0ffb8f6a36ec091f416579506aa0`
+`medsage_dakd_cross_pipeline_v6_public.zip`: `03f349717657dc75f1b061498dbb0206d915277327c751ecfec43dba1108ad65`

@@ -1,0 +1,25 @@
+{
+  "zip_sha256_after": "8fff9ec41dedda3f1956c4f70be99f263062cb910e0ce75e6386d13e765b94bb",
+  "sha256_stable": true,
+  "extracted_file_count": 54,
+  "zip_file_count": 54,
+  "manifest_frozen_files": 7,
+  "privacy_issues": [],
+  "minimal_repro": {
+    "status": "OK",
+    "result_rows": 576,
+    "index_rows": 96,
+    "case_id_aligned": true,
+    "detectors": 6,
+    "precision_undefined_is_null": true
+  },
+  "fixture_repro": {
+    "status": "OK",
+    "commands": [
+      "python scripts/dakd_v6/run_tcm_sleep_cross_pipeline.py --fixture-only",
+      "python -m pytest -q tests/dakd_v6_fixture"
+    ]
+  },
+  "verify_status": "OK",
+  "verify_note": "fixture_repro.commands redacted: local python.exe absolute paths replaced by 'python' during packaging."
+}

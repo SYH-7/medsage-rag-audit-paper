@@ -1,0 +1,4 @@
+﻿split,n,source,oof_status,status
+formal_train,200,release reproduction report,formal_OOF according to manuscript/release notes,TRACEABLE_TO_RELEASE
+internal_blind,200,release reproduction report,not training split,TRACEABLE_TO_RELEASE
+cmedqa2_external,142,release reproduction report,external,TRACEABLE_TO_RELEASE

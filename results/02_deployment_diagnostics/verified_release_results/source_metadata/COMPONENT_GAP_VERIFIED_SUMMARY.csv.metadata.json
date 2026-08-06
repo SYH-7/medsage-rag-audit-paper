@@ -1,0 +1,12 @@
+{
+  "exported_file": "COMPONENT_GAP_VERIFIED_SUMMARY.csv",
+  "artifact_type": "verified_release_table",
+  "status": "VERIFIED_FROM_RELEASE",
+  "source_release": "v1.1.1-paper-supplement",
+  "source_commit": "876a16d098e1da3f642ef70854cbc985bae5f9e3",
+  "source_file": "paper_results/manifests/gap_decomposition.csv",
+  "source_sha256": "2da1114fefd1fa7c5650f4010cfb63538557cbaef334197fb4ee5924d9c562fb",
+  "export_sha256": "ee6b17cbb5cd9ca4eff3af1d0131d5fd085ce37c8e87f686860c469bd172a30f",
+  "local_rerun": "false",
+  "notes": "sanitized table-level or hash-id evidence"
+}

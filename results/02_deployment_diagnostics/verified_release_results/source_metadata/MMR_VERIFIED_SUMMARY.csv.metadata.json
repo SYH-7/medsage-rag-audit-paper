@@ -1,0 +1,12 @@
+{
+  "exported_file": "MMR_VERIFIED_SUMMARY.csv",
+  "artifact_type": "verified_release_table",
+  "status": "VERIFIED_FROM_RELEASE",
+  "source_release": "v1.1.1-paper-supplement",
+  "source_commit": "876a16d098e1da3f642ef70854cbc985bae5f9e3",
+  "source_file": "paper_results/revision_v5/tables/mmr_summary.csv",
+  "source_sha256": "0165e9f77187877990e97f75293daf07145f7267f8aa87c5e6ee489f2da783aa",
+  "export_sha256": "f448270ad3f7c72960f977f84a1d4c962467482c822c06a8e7d50bc11439bad2",
+  "local_rerun": "false",
+  "notes": "sanitized table-level or hash-id evidence"
+}

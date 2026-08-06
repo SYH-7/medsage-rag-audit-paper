@@ -1,0 +1,15 @@
+﻿metric,value
+status,REPRODUCED
+candidate_pool_qids,200
+query_annotation_total_qids,200
+query_normalized_consistent_qids,36
+query_adjudicated_usable_qids,36
+query_unresolved_qids,164
+query_gold_qids,36
+evidence_annotation_raw_pairs,910
+evidence_normalized_consistent_pairs,576
+evidence_adjudicated_usable_pairs,576
+evidence_unresolved_pairs,334
+evidence_gold_pairs,576
+aligned_pairs,576
+human_adjudication_status,NOT_FOUND

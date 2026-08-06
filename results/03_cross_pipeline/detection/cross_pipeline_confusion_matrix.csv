@@ -1,0 +1,7 @@
+﻿detector,tp,fp,tn,fn,sample_count
+keyword_static_baseline,36,60,0,0,96
+ast_static_dataflow,0,0,60,36,96
+schema_guard,12,0,60,24,96
+runtime_taint,36,0,60,0,96
+invariance,11,0,60,25,96
+composite_audit,36,0,60,0,96

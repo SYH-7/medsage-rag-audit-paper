@@ -1,0 +1,74 @@
+[
+  {
+    "qid_hash": "h_dbf7d28fde52eda0",
+    "doc_id_hash": "h_4feaa06899cdc3b3",
+    "rank": 1,
+    "public_scores": {
+      "bm25": 0.9
+    },
+    "metadata": {
+      "source": "fixture",
+      "rank_hint": 1
+    }
+  },
+  {
+    "qid_hash": "h_dbf7d28fde52eda0",
+    "doc_id_hash": "h_c2fe3e6da1dea60c",
+    "rank": 2,
+    "public_scores": {
+      "bm25": 0.8
+    },
+    "metadata": {
+      "source": "fixture",
+      "rank_hint": 2
+    }
+  },
+  {
+    "qid_hash": "h_dbf7d28fde52eda0",
+    "doc_id_hash": "h_c0fdae5d3ffb3d7d",
+    "rank": 3,
+    "public_scores": {
+      "bm25": 0.7
+    },
+    "metadata": {
+      "source": "fixture",
+      "rank_hint": 3
+    }
+  },
+  {
+    "qid_hash": "h_dbf7d28fde52eda0",
+    "doc_id_hash": "h_5ba689b1daf400dc",
+    "rank": 4,
+    "public_scores": {
+      "bm25": 0.6
+    },
+    "metadata": {
+      "source": "fixture",
+      "rank_hint": 4
+    }
+  },
+  {
+    "qid_hash": "h_dbf7d28fde52eda0",
+    "doc_id_hash": "h_c5eae151ce6f8d27",
+    "rank": 5,
+    "public_scores": {
+      "bm25": 0.5
+    },
+    "metadata": {
+      "source": "fixture",
+      "rank_hint": 5
+    }
+  },
+  {
+    "qid_hash": "h_dbf7d28fde52eda0",
+    "doc_id_hash": "h_3390c06f7d0923fe",
+    "rank": 6,
+    "public_scores": {
+      "bm25": 0.4
+    },
+    "metadata": {
+      "source": "fixture",
+      "rank_hint": 6
+    }
+  }
+]

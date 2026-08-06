@@ -1,0 +1,2 @@
+﻿pipeline,status,python_files_seen,clean_cases,metadata_variants,feature_variants,fallback_filter_variants,medical_gold_metrics,reason
+tcm_sleep_rag_full,NOT_RUN,0,0,0,0,0,NOT_RUN,no frozen public-query/candidate adapter and no human Gold contract for this pipeline

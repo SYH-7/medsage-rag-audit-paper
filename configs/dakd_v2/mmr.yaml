@@ -1,0 +1,9 @@
+inherits: configs/dakd_v2/base.yaml
+experiment:
+  name: mmr
+  output_subdir: 07_baselines
+  lambdas: [0.0, 0.2, 0.4, 0.6, 0.8, 1.0]
+  lambda_selection_split: formal_dev
+  frozen_lambda: 0.6
+  methods: [B0, D3-TFIDF, MMR-TFIDF, Random-Diversity, Relevance-only-TopK]
+

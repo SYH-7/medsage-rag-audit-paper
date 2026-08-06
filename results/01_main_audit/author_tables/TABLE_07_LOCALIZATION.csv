@@ -1,0 +1,7 @@
+﻿detector,evaluable_n,source_exact_rate,sink_exact_rate,module_exact_rate,field_exact_rate,code_location_exact_rate,code_location_within_3_rate,path_valid_rate,status
+keyword_static_baseline,36,0.0,0.0,0.0,0.0,0.0,0.0,0.0,REPRODUCED
+ast_static_dataflow,36,0.0,0.0,0.0,0.0,0.0,0.0,0.0,REPRODUCED
+schema_guard,36,0.0,0.0,0.0,0.3333333333333333,0.0,0.0,0.0,REPRODUCED
+runtime_taint,36,1.0,0.6666666666666666,0.08333333333333333,1.0,0.0,0.0,1.0,REPRODUCED
+invariance,36,0.0,0.0,0.0,0.0,0.0,0.0,0.2222222222222222,REPRODUCED
+full_audit,36,1.0,0.6666666666666666,0.08333333333333333,1.0,0.0,0.0,1.0,REPRODUCED

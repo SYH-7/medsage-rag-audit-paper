@@ -1,0 +1,22 @@
+{
+  "case_id": "fx_clean",
+  "family": "Clean",
+  "pattern_id": "Clean",
+  "module": "",
+  "field": "",
+  "source_type": "",
+  "sink": "",
+  "file": "adapter.py",
+  "line": 0,
+  "rate": 1.0,
+  "seed": 2,
+  "injected_qids": 0,
+  "injected_candidates": 0,
+  "injected_features": 0,
+  "fallback_triggers": 0,
+  "hard_clean": false,
+  "clean_type": "ordinary",
+  "source_calls_gt0": false,
+  "sink_calls_gt0": false,
+  "test_only": true
+}

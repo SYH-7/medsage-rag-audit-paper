@@ -1,0 +1,510 @@
+{
+  "marker": "TEST_ONLY_PRIVATE_SOURCE",
+  "note": "TEST-ONLY synthetic private source registry for cross-pipeline validation. Not EvidenceGold, not QueryGold, no medical retrieval metrics are derived from it.",
+  "entries": [
+    {
+      "case_id": "c_05af913055d545c4",
+      "pattern_id": "F1",
+      "qid_hash": "h_45a7b8d784cfbc27",
+      "handle": "tst_bcf8dba993353c",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_05af913055d545c4",
+      "pattern_id": "F1",
+      "qid_hash": "h_ce71ef97fa70645a",
+      "handle": "tst_f4abc521b23c51",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_63b58ebcb32d4f86",
+      "pattern_id": "F1",
+      "qid_hash": "h_4cb87a4e084255b4",
+      "handle": "tst_f5634956163455",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_63b58ebcb32d4f86",
+      "pattern_id": "F1",
+      "qid_hash": "h_4228ed45fedc4765",
+      "handle": "tst_4e306793d03fdc",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_b3e84a6aa8c1404c",
+      "pattern_id": "F1",
+      "qid_hash": "h_33d3dae94f9daaf1",
+      "handle": "tst_343d0d157ef35b",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_b3e84a6aa8c1404c",
+      "pattern_id": "F1",
+      "qid_hash": "h_3286c716b3674de6",
+      "handle": "tst_98ae289542e655",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_20410dc3c4164ab5",
+      "pattern_id": "F2",
+      "qid_hash": "h_52c1e7e6d06affd1",
+      "handle": "tst_32598ae7d610f9",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_20410dc3c4164ab5",
+      "pattern_id": "F2",
+      "qid_hash": "h_054848402d53edf2",
+      "handle": "tst_16f1ee27d64c2b",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_fae80a5b0eb244b2",
+      "pattern_id": "F2",
+      "qid_hash": "h_dffefcea6214c8ac",
+      "handle": "tst_91de0a49fb2b3e",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_fae80a5b0eb244b2",
+      "pattern_id": "F2",
+      "qid_hash": "h_b0b451eafd0893f2",
+      "handle": "tst_9617ed9c780725",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_26e82c8b21f2475b",
+      "pattern_id": "F2",
+      "qid_hash": "h_d7ae40a9c1442818",
+      "handle": "tst_c4c9ccd93c06f7",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_26e82c8b21f2475b",
+      "pattern_id": "F2",
+      "qid_hash": "h_62e9019dd9e82980",
+      "handle": "tst_37945341907af3",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_b507d73eb8c6455d",
+      "pattern_id": "F3",
+      "qid_hash": "h_952b1595de8ebe00",
+      "handle": "tst_04a309cbbbf8ac",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_b507d73eb8c6455d",
+      "pattern_id": "F3",
+      "qid_hash": "h_9d33fbfa8f969aac",
+      "handle": "tst_55bb7ad8e3bc02",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_5fc080834c9940a4",
+      "pattern_id": "F3",
+      "qid_hash": "h_6eef82aa415fcb75",
+      "handle": "tst_8d03370fa50a04",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_5fc080834c9940a4",
+      "pattern_id": "F3",
+      "qid_hash": "h_a5f7a51c1d020b67",
+      "handle": "tst_3227a1b110a7d1",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_be7f718673994539",
+      "pattern_id": "F3",
+      "qid_hash": "h_2b33fb6c07cad7f5",
+      "handle": "tst_d0656ea0f712c6",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_be7f718673994539",
+      "pattern_id": "F3",
+      "qid_hash": "h_a9de48a75281b9ed",
+      "handle": "tst_8376d77f5326a7",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_b5f8690113c549f1",
+      "pattern_id": "F4",
+      "qid_hash": "h_12f73c233ce4bbd6",
+      "handle": "tst_c3938cc8f58e5f",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_b5f8690113c549f1",
+      "pattern_id": "F4",
+      "qid_hash": "h_113dbb39c0f5da81",
+      "handle": "tst_0359137f6c89e7",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_be9ad6022c024bdf",
+      "pattern_id": "F4",
+      "qid_hash": "h_a9ed026c34b37ef4",
+      "handle": "tst_d351b741aebc40",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_be9ad6022c024bdf",
+      "pattern_id": "F4",
+      "qid_hash": "h_09a147976ffcae30",
+      "handle": "tst_814f85c77ffd52",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_0d4b266a1ba64563",
+      "pattern_id": "F4",
+      "qid_hash": "h_ed2b214125f8e894",
+      "handle": "tst_61e94483fb8e7b",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_0d4b266a1ba64563",
+      "pattern_id": "F4",
+      "qid_hash": "h_440b4dfeffa8d1c4",
+      "handle": "tst_bd9fd3c9fbaab3",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_41f4494adbd442ee",
+      "pattern_id": "M1",
+      "qid_hash": "h_ef5d58da51cd20d0",
+      "handle": "tst_20b34ccf87a364",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_41f4494adbd442ee",
+      "pattern_id": "M1",
+      "qid_hash": "h_83d785602ac4a16d",
+      "handle": "tst_81177219081459",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_f68db75358be43d1",
+      "pattern_id": "M1",
+      "qid_hash": "h_e7519a1b16ea050c",
+      "handle": "tst_0826f3f9eba701",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_f68db75358be43d1",
+      "pattern_id": "M1",
+      "qid_hash": "h_a37d59ac5112d480",
+      "handle": "tst_c3e9408ff98a8e",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_cb57238e779a4852",
+      "pattern_id": "M1",
+      "qid_hash": "h_ccd133fcf7957419",
+      "handle": "tst_35ef2c27192eab",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_cb57238e779a4852",
+      "pattern_id": "M1",
+      "qid_hash": "h_580f141baf1baf81",
+      "handle": "tst_b5b1abf51a0e97",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_aecd8f5717c74e89",
+      "pattern_id": "M2",
+      "qid_hash": "h_e4fafc039a52d41a",
+      "handle": "tst_4619897c0c29ba",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_aecd8f5717c74e89",
+      "pattern_id": "M2",
+      "qid_hash": "h_dbae141e99b6ad1b",
+      "handle": "tst_fac0929f31a50b",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_dad2a6901e184116",
+      "pattern_id": "M2",
+      "qid_hash": "h_285d408d34133760",
+      "handle": "tst_0b6a551669afc7",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_dad2a6901e184116",
+      "pattern_id": "M2",
+      "qid_hash": "h_17343d21aabc9488",
+      "handle": "tst_51d68852508104",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_b3a3b48fcf504558",
+      "pattern_id": "M2",
+      "qid_hash": "h_17a812a3c3d8a1e2",
+      "handle": "tst_fffb1fb1dcbc17",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_b3a3b48fcf504558",
+      "pattern_id": "M2",
+      "qid_hash": "h_335cd05be347839d",
+      "handle": "tst_f641f1e16b1e28",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_397f832f810b4f3d",
+      "pattern_id": "M3",
+      "qid_hash": "h_0865e08f66e38bc9",
+      "handle": "tst_b634ecf009d913",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_397f832f810b4f3d",
+      "pattern_id": "M3",
+      "qid_hash": "h_a8ecf5800fec9117",
+      "handle": "tst_6346f8ef6290b7",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_b113accfd83a424f",
+      "pattern_id": "M3",
+      "qid_hash": "h_b66c47232ac4157e",
+      "handle": "tst_173f22585d0d10",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_b113accfd83a424f",
+      "pattern_id": "M3",
+      "qid_hash": "h_08aa93c3e14a61af",
+      "handle": "tst_34bc4ab1052e55",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_4d3af90c43a847f2",
+      "pattern_id": "M3",
+      "qid_hash": "h_40fc78b930a1ea25",
+      "handle": "tst_5095150af05736",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_4d3af90c43a847f2",
+      "pattern_id": "M3",
+      "qid_hash": "h_b28176aef2aa8fb9",
+      "handle": "tst_38bae368023bb1",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_26e92205373e40e5",
+      "pattern_id": "M4",
+      "qid_hash": "h_8536065219a9a95e",
+      "handle": "tst_ab9f590bc84873",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_26e92205373e40e5",
+      "pattern_id": "M4",
+      "qid_hash": "h_f6985c6c944af820",
+      "handle": "tst_af04672d66ef8c",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_814e484eaf104eba",
+      "pattern_id": "M4",
+      "qid_hash": "h_a53cb3c0151a3991",
+      "handle": "tst_c5b055f5803f34",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_814e484eaf104eba",
+      "pattern_id": "M4",
+      "qid_hash": "h_73547f646f2c4315",
+      "handle": "tst_22b83526067325",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_363d0dac024648b8",
+      "pattern_id": "M4",
+      "qid_hash": "h_b4c6f4e561ad9fb6",
+      "handle": "tst_a06054a49d4ffa",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_363d0dac024648b8",
+      "pattern_id": "M4",
+      "qid_hash": "h_6fe216f90001c072",
+      "handle": "tst_111687342e952f",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_dc72fd4c3aee4f46",
+      "pattern_id": "R1",
+      "qid_hash": "h_64c00c9580ab0149",
+      "handle": "tst_881344722da5db",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_dc72fd4c3aee4f46",
+      "pattern_id": "R1",
+      "qid_hash": "h_3d1edaaa8090aced",
+      "handle": "tst_f47a2db95cc1ac",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_42c3f470897a4ff4",
+      "pattern_id": "R1",
+      "qid_hash": "h_b2e58d6862fe954a",
+      "handle": "tst_55d7517afba58f",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_42c3f470897a4ff4",
+      "pattern_id": "R1",
+      "qid_hash": "h_c0a21bbad9a54bc1",
+      "handle": "tst_25db93f56e1711",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_055eb84c838e4ce4",
+      "pattern_id": "R1",
+      "qid_hash": "h_031c16afd031f9de",
+      "handle": "tst_45d75931c0ef86",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_055eb84c838e4ce4",
+      "pattern_id": "R1",
+      "qid_hash": "h_52a353a747ad3e75",
+      "handle": "tst_d8af8b40d06e53",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_c2322518c4564edd",
+      "pattern_id": "R2",
+      "qid_hash": "h_bf9d5693604e278b",
+      "handle": "tst_43fbeb079978bb",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_c2322518c4564edd",
+      "pattern_id": "R2",
+      "qid_hash": "h_e87e53d73a9b6ac9",
+      "handle": "tst_af31f43297f751",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_5ee6a3f78cfe405b",
+      "pattern_id": "R2",
+      "qid_hash": "h_5b2e6fd827090e97",
+      "handle": "tst_bfc60f1743d7eb",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_5ee6a3f78cfe405b",
+      "pattern_id": "R2",
+      "qid_hash": "h_602dac55601a7607",
+      "handle": "tst_4bf502cca47200",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_490ca654b70b4642",
+      "pattern_id": "R2",
+      "qid_hash": "h_80c040bdf7f962f1",
+      "handle": "tst_741fb7f6d648f4",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_490ca654b70b4642",
+      "pattern_id": "R2",
+      "qid_hash": "h_4308862c8d2ac67c",
+      "handle": "tst_90d50f63cd15fb",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_dd199e31029545f0",
+      "pattern_id": "R3",
+      "qid_hash": "h_790824ac44b89958",
+      "handle": "tst_2389df0205993c",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_dd199e31029545f0",
+      "pattern_id": "R3",
+      "qid_hash": "h_08b520c1c1454ef9",
+      "handle": "tst_834481eddd565b",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_4e93228e0e6b4874",
+      "pattern_id": "R3",
+      "qid_hash": "h_d12a955c93339dd0",
+      "handle": "tst_f920a61d81bfce",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_4e93228e0e6b4874",
+      "pattern_id": "R3",
+      "qid_hash": "h_477030aff87498ae",
+      "handle": "tst_3b59384b7380bc",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_cb1269e59c0440ae",
+      "pattern_id": "R3",
+      "qid_hash": "h_4c511b4281245b93",
+      "handle": "tst_e17776fdd76683",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_cb1269e59c0440ae",
+      "pattern_id": "R3",
+      "qid_hash": "h_bcb3c141bc84656e",
+      "handle": "tst_b72027083864ed",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_39a5e2ebdc984486",
+      "pattern_id": "R4",
+      "qid_hash": "h_6d0b39146f997135",
+      "handle": "tst_18a4d2cf069113",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_39a5e2ebdc984486",
+      "pattern_id": "R4",
+      "qid_hash": "h_d7f56d8ec1f42f63",
+      "handle": "tst_490974c02b16b7",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_ac4c9c7f69994c7e",
+      "pattern_id": "R4",
+      "qid_hash": "h_4814f1743800fa37",
+      "handle": "tst_962a44b94ee669",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_ac4c9c7f69994c7e",
+      "pattern_id": "R4",
+      "qid_hash": "h_b8092271f9543894",
+      "handle": "tst_6ededd53015247",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_9a30535f9b1f4d40",
+      "pattern_id": "R4",
+      "qid_hash": "h_8c9c0fdb4ded372d",
+      "handle": "tst_b900461cf91d5d",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    },
+    {
+      "case_id": "c_9a30535f9b1f4d40",
+      "pattern_id": "R4",
+      "qid_hash": "h_12e14b4ea42f6c14",
+      "handle": "tst_01443cc09890ec",
+      "source_type": "TEST_ONLY_PRIVATE_SOURCE"
+    }
+  ]
+}

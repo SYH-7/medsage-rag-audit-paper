@@ -1,0 +1,12 @@
+{
+  "exported_file": "B0_D3_VERIFIED_SUMMARY.csv",
+  "artifact_type": "verified_release_table",
+  "status": "VERIFIED_FROM_RELEASE",
+  "source_release": "v1.1.1-paper-supplement",
+  "source_commit": "876a16d098e1da3f642ef70854cbc985bae5f9e3",
+  "source_file": "PAPER_REPRODUCTION_REPORT.json",
+  "source_sha256": "2936269b3556bb5b26eac36163e30ff71928f7380924d533b6b404fac2bfcbc5",
+  "export_sha256": "b6638c05bf52a1f42af1db76171c5f9e35462157059e509abaa6c7729c2b962c",
+  "local_rerun": "false",
+  "notes": "sanitized table-level or hash-id evidence"
+}

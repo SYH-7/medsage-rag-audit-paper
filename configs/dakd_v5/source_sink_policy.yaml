@@ -1,0 +1,7 @@
+﻿sources:
+  - private_store.read_evidence_label
+sinks:
+  selector.score_candidate: candidate_scoring
+  feature_builder.append_feature: feature_matrix
+  candidate_filter.apply: candidate_filter
+status: FROZEN

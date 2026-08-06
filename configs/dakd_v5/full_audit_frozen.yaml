@@ -1,0 +1,11 @@
+﻿status: FROZEN
+policy_file: configs/dakd_v5/source_sink_policy.yaml
+priority:
+  - runtime_taint
+  - ast_static_dataflow
+  - schema_guard
+  - invariance
+threshold:
+  min_components: 1
+allow_unknown_leak: true
+family_classification: disabled

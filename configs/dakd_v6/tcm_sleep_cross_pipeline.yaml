@@ -1,0 +1,44 @@
+# 跨管线受控泄漏验证配置（dakd v6 / 16_cross_pipeline）
+# 冻结检测器配置引用 configs/dakd_v5/（不得修改）
+# 本机路径已脱敏：<TCM_SLEEP_RAG_ROOT> 表示本地第二工程根目录（发布时不含原始路径）
+status: EXPERIMENTAL_CROSS_PIPELINE
+
+second_pipeline:
+  root: <TCM_SLEEP_RAG_ROOT>   # set to the local tcm_sleep_rag_full project root
+  chunks_path: <TCM_SLEEP_RAG_ROOT>/data/processed/knowledge_chunks_v3_1905_ffr.jsonl
+  dict_dir: <TCM_SLEEP_RAG_ROOT>/data/dictionary
+  eval_questions: <TCM_SLEEP_RAG_ROOT>/data/eval/eval_300.jsonl
+  top_k: 5
+  candidate_k: 30
+  read_only: true
+
+case_design:
+  leak_cases_per_pattern: 3
+  clean_ordinary: 30
+  clean_hard: 30
+  qids_per_case: 2
+  seed_base: 7000
+
+frozen_detectors:
+  - keyword_static_baseline
+  - ast_static_dataflow
+  - schema_guard
+  - runtime_taint
+  - invariance
+  - composite_audit   # 冻结的 full_audit（复合审计）
+
+composite_audit_policy: configs/dakd_v5/full_audit_frozen.yaml
+source_sink_policy: configs/dakd_v5/source_sink_policy.yaml
+
+outputs:
+  package_dir: paper_package_dakd_v6/16_cross_pipeline
+  work_dir: benchmark_work_cross
+  private_truth_dir: paper_package_dakd_v6/16_cross_pipeline/private_truth
+  dist_zip: dist/medsage_dakd_cross_pipeline_v6.zip
+
+privacy:
+  forbid_absolute_windows_path: true
+  forbid_secrets: true
+  forbid_private_label_plaintext: true
+  forbid_qa_fulltext: true
+  forbid_person_info: true
