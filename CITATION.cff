@@ -1,13 +1,11 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
-title: "Leakage-Controlled Evaluation, Deployment Gaps, and Generation Validation for Medical RAG Evidence Selection"
+title: "MedLeakAudit: Auditing Private-Label Leakage and Deployment Gaps in Medical RAG Evaluation"
 authors:
   - family-names: "Shi"
     given-names: "Yuhan"
   - family-names: "Wang"
     given-names: "Qi"
-date-released: "2026-08-02"
-version: "v1.1.1-paper-supplement"
+version: "2.0.0-paper-support"
 repository-code: "https://github.com/SYH-7/medsage-rag-audit-paper"
-url: "https://github.com/SYH-7/medsage-rag-audit-paper/releases/tag/v1.1.1-paper-supplement"
 license: "MIT"

@@ -1,0 +1,11 @@
+﻿metric,value
+query_annotation_total_qids,200
+query_raw_conflict_qids,164
+query_normalized_consistent_qids,36
+query_adjudicated_usable_qids,36
+query_unresolved_qids,164
+query_states_real_conflict_qids,164
+risk_types_real_conflict_qids,73
+query_fully_consistent_qids,36
+query_normalization_recovered_qids,0
+human_adjudication_status,NOT_FOUND

@@ -1,0 +1,5 @@
+﻿config_item,value,source,status
+K,5,release/local frozen scripts,TRACEABLE
+bootstrap_samples,10000,release/local frozen scripts,TRACEABLE
+bootstrap_seed,42,release/local frozen scripts,TRACEABLE
+holm_correction,reported in release/manuscript,release/local frozen scripts,TRACEABLE

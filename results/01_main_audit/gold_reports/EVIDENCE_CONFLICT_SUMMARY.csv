@@ -1,0 +1,11 @@
+﻿metric,value
+evidence_annotation_raw_pairs,910
+evidence_raw_conflict_pairs,334
+evidence_normalized_consistent_pairs,576
+evidence_adjudicated_usable_pairs,576
+evidence_unresolved_pairs,334
+evidence_relevance_conflict_pairs,196
+evidence_supported_states_conflict_pairs,138
+evidence_fully_consistent_pairs,576
+evidence_normalization_recovered_pairs,0
+human_adjudication_status,NOT_FOUND

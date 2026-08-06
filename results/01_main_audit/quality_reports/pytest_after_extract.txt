@@ -1,0 +1,11 @@
+Python version: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+Command: PYTHONPATH=src pytest -q
+Collected: 14
+Passed: 14
+Failed: 0
+Elapsed seconds: 0.673
+Exit code: 0
+
+--- pytest output ---
+..............                                                           [100%]
+14 passed in 0.26s

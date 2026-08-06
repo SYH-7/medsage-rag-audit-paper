@@ -1,0 +1,8 @@
+inherits: configs/dakd_v2/base.yaml
+experiment:
+  name: topk
+  output_subdir: 08_topk
+  k_values: [1, 3, 5, 7, 10]
+  required_k_values: [3, 5, 7]
+  metrics: [DemandCov@K, NDCG@K, Jaccard]
+

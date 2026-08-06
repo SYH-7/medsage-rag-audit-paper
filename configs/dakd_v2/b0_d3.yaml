@@ -1,0 +1,8 @@
+inherits: configs/dakd_v2/base.yaml
+experiment:
+  name: b0_d3
+  output_subdir: 06_b0_d3
+  conditions: [B0, D0, D1, D2, D3]
+  metrics: [DemandCov@5, NDCG@10, Hit@5]
+  status_if_missing: MISSING_DATA
+

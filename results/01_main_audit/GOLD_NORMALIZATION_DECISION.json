@@ -1,0 +1,13 @@
+{
+  "version": "v5.1.1",
+  "change_scope": "author ZIP self-containment and quality-report repair only",
+  "evidence_pair_set_equal_to_v5": true,
+  "detection_rerun": false,
+  "reason": "EvidenceGold pair set is identical to v5; only ZIP self-containment and quality reports were repaired",
+  "query_gold_participates_in_injection": false,
+  "normalization_recovered_query": 0,
+  "normalization_recovered_evidence": 0,
+  "human_adjudication_status": "NOT_FOUND",
+  "frozen_detection_results_source": "paper_package_dakd_v5",
+  "status": "REPRODUCED"
+}

@@ -1,0 +1,126 @@
+{
+  "pipeline": "tcm_sleep_rag_full",
+  "purpose": "只读接入基线：实验开始前记录，实验结束后比对验证原文件未被修改",
+  "baseline_files": [
+    {
+      "path": "rag_service/api.py",
+      "sha256": "659d09325a3d76f13e976ab6576582e47c51dc84fa7b1a586ad00bf05bb124da",
+      "exists": true
+    },
+    {
+      "path": "rag_service/build_index.py",
+      "sha256": "e1dc8ac198138fdbdf8414d0e8cb5eb7c9334ba341724b5f32f04e5b14f3bf5c",
+      "exists": true
+    },
+    {
+      "path": "rag_service/category_classifier.py",
+      "sha256": "51f7c64b22e0b494305270d25891c567cd4f251c88302083a2c72b4649e60293",
+      "exists": true
+    },
+    {
+      "path": "rag_service/chunk_builder.py",
+      "sha256": "e16a71bb1e5b48d6d5f3a193fc754a3df9e915233f7fa504c8c3e3a53bbeebc8",
+      "exists": true
+    },
+    {
+      "path": "rag_service/config.yaml",
+      "sha256": "65c482793b90064acedca8654fa618745831e8cbfe1c2179914d97a45835199b",
+      "exists": true
+    },
+    {
+      "path": "rag_service/data_clean.py",
+      "sha256": "5bb57c7e939072971862c019f5eaf86777d6dbe1305f698b6eb1aad611c1a869",
+      "exists": true
+    },
+    {
+      "path": "rag_service/dictionary_check.py",
+      "sha256": "f663d21a4d405f03db876863d078dee038d83c2d3e49bc1735d16b75deb26e2a",
+      "exists": true
+    },
+    {
+      "path": "rag_service/embedding_model.py",
+      "sha256": "530a4d19fc9425e65b1e1cea6bc98672a9995395cbb060bc4089e38d911ad383",
+      "exists": true
+    },
+    {
+      "path": "rag_service/evidence_quality_evaluator.py",
+      "sha256": "c0988be5680dabe8cc571fb269b138d5b352b0a38344654c47e6325d453c0844",
+      "exists": true
+    },
+    {
+      "path": "rag_service/intent_decomposer.py",
+      "sha256": "e061b6167c85c7c9a5cce5f07d1e3f11bbe222656f8b64cda8a875bb5fa0719d",
+      "exists": true
+    },
+    {
+      "path": "rag_service/prompt_builder.py",
+      "sha256": "1ca7350d2a3e0ddfe28db8253e788f8c259a8671e8b7a75ad6dc3f5f57788c86",
+      "exists": true
+    },
+    {
+      "path": "rag_service/reranker.py",
+      "sha256": "5c7b2916d70cbdd5a6f5fe47344a168611679dc13c6770b987ae3dea02a5d6f0",
+      "exists": true
+    },
+    {
+      "path": "rag_service/retriever_bm25.py",
+      "sha256": "9ea0267cd9383c875a4673dea563dd303d8bfca68941ac76517b433ad8e1accc",
+      "exists": true
+    },
+    {
+      "path": "rag_service/retriever_dense.py",
+      "sha256": "55bebe837250bd31a9a09b5d17252147e066562c367816673f1513faf03e9f84",
+      "exists": true
+    },
+    {
+      "path": "rag_service/retriever_domain.py",
+      "sha256": "6fb79d5e905a839cb1d9ce10bcca192ef2fd635f57477a3348ddecedf0436a75",
+      "exists": true
+    },
+    {
+      "path": "rag_service/retriever_domain_lite.py",
+      "sha256": "dda451798ff6d08196a6914b374213c8d3e4c71d9a9e3e027288b9d189f2e2bf",
+      "exists": true
+    },
+    {
+      "path": "rag_service/retriever_ffr_rag.py",
+      "sha256": "98f67f1f81ee49082c4a72cb2f611f496b776cea479c32e55bc7c191ee6384df",
+      "exists": true
+    },
+    {
+      "path": "rag_service/retriever_hybrid.py",
+      "sha256": "128ef116d7c208e9cdd535c67793022a48222dfb92ad6945daccedfcf335cd36",
+      "exists": true
+    },
+    {
+      "path": "rag_service/retriever_hybrid_tuned.py",
+      "sha256": "61db79852fc1ba5504e1777740a46eb82c7ab5296bd97f59f8f6bdefb2adf22a",
+      "exists": true
+    },
+    {
+      "path": "rag_service/syndrome_matcher.py",
+      "sha256": "d6f6d615be27308b19567f268b1fb572b35c7669e27d9d1a95fd02f01db050f8",
+      "exists": true
+    },
+    {
+      "path": "rag_service/term_normalizer.py",
+      "sha256": "71b82003ccc1348ee7f16aae0477fd8b865671e8b4ef833d5d1b95c303fa5eca",
+      "exists": true
+    },
+    {
+      "path": "README.md",
+      "sha256": "d3b788889eb655153733e6a12f3df7b32a42d51b726e8d601839b1afb74ee52d",
+      "exists": true
+    },
+    {
+      "path": "RUN_COMMANDS.md",
+      "sha256": "c9b6cc1c57f58c16e1857c42b81dcc1dcd3c56d2aebb0051aad64788026737f0",
+      "exists": true
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "81bda10820d502cce2ab9c7060d622110fb3d4cac050cf70aefb2fafb48dd482",
+      "exists": true
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "experiment": "cross_pipeline_tcm_sleep_rag_full",
+  "status": "FROZEN",
+  "note": "冻结检测器：keyword_static_baseline / ast_static_dataflow / schema_guard / runtime_taint / invariance / composite_audit(=full_audit)。若需修改核心逻辑 -> PROTOCOL_BLOCKED_DETECTOR_CHANGE_REQUIRED",
+  "frozen_files": [
+    {
+      "path": "src/benchmark_v3/isolated_runner.py",
+      "sha256": "38847310020b7af88d5561c1971feb569c4307243708a17de53d545898fbec59",
+      "exists": true
+    },
+    {
+      "path": "src/benchmark_v3/static_dataflow_detector.py",
+      "sha256": "44eaf02a946d2d9648fbfbaf85fa1887e91379ea105aef59887bcda88cff199e",
+      "exists": true
+    },
+    {
+      "path": "src/benchmark_v3/taint.py",
+      "sha256": "f9774e611d5a1ad97ac75a2b91332c23bc162aca0587676acd0773225b8856c7",
+      "exists": true
+    },
+    {
+      "path": "src/benchmark_v3/contracts.py",
+      "sha256": "63ab9a170a83c18371cfb31a065fb4d81ae978ae1d706c9796bddf56020c2cac",
+      "exists": true
+    },
+    {
+      "path": "src/benchmark_v3/source_sink_policy.py",
+      "sha256": "34b43c2e323b44f91e4090336fda61b88520cf412d3a5779eadda52cd862abf3",
+      "exists": true
+    },
+    {
+      "path": "configs/dakd_v5/full_audit_frozen.yaml",
+      "sha256": "c69fff36c89963f0a8a55bd267584fe3b32aad093936e970cae5aac6d917ea90",
+      "exists": true
+    },
+    {
+      "path": "configs/dakd_v5/source_sink_policy.yaml",
+      "sha256": "4640ce4a3328e6b8b4e4383e059d2e1d0bb0bc06625b1b637acee6b99986ee1f",
+      "exists": true
+    }
+  ],
+  "composite_audit_mapping": {
+    "composite_audit": "benchmark_v3.isolated_runner.full_audit (冻结)"
+  }
+}

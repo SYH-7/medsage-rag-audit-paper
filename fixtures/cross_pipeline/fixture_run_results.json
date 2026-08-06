@@ -1,0 +1,81 @@
+{
+  "status": "OK",
+  "case_count": 2,
+  "detector_count": 6,
+  "results": [
+    {
+      "case_id": "fx_clean",
+      "detector": "keyword_static_baseline",
+      "family": "Clean",
+      "detected": false
+    },
+    {
+      "case_id": "fx_clean",
+      "detector": "ast_static_dataflow",
+      "family": "Clean",
+      "detected": false
+    },
+    {
+      "case_id": "fx_clean",
+      "detector": "schema_guard",
+      "family": "Clean",
+      "detected": false
+    },
+    {
+      "case_id": "fx_clean",
+      "detector": "runtime_taint",
+      "family": "Clean",
+      "detected": false
+    },
+    {
+      "case_id": "fx_clean",
+      "detector": "invariance",
+      "family": "Clean",
+      "detected": false
+    },
+    {
+      "case_id": "fx_clean",
+      "detector": "composite_audit",
+      "family": "Clean",
+      "detected": false
+    },
+    {
+      "case_id": "fx_leak_m1",
+      "detector": "keyword_static_baseline",
+      "family": "Leak-M",
+      "detected": true
+    },
+    {
+      "case_id": "fx_leak_m1",
+      "detector": "ast_static_dataflow",
+      "family": "Leak-M",
+      "detected": false
+    },
+    {
+      "case_id": "fx_leak_m1",
+      "detector": "schema_guard",
+      "family": "Leak-M",
+      "detected": true
+    },
+    {
+      "case_id": "fx_leak_m1",
+      "detector": "runtime_taint",
+      "family": "Leak-M",
+      "detected": true
+    },
+    {
+      "case_id": "fx_leak_m1",
+      "detector": "invariance",
+      "family": "Leak-M",
+      "detected": true
+    },
+    {
+      "case_id": "fx_leak_m1",
+      "detector": "composite_audit",
+      "family": "Leak-M",
+      "detected": true
+    }
+  ],
+  "mismatches": [],
+  "note": "独立 fixture 复现：不含第二工程语料/流程，仅验证冻结检测器在脱敏 fixture 上的可复现性（不等同于第二工程 Dense/Hybrid/Domain 管线验证）。"
+}

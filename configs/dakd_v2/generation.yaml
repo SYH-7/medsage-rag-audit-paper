@@ -1,0 +1,10 @@
+inherits: configs/dakd_v2/base.yaml
+experiment:
+  name: generation_validation
+  output_subdir: 10_generation
+  qids: 60
+  answers: 240
+  conditions: [B0, D0, D3-TFIDF, D3-E2-RoBERTa]
+  regenerate_answers: false
+  status_if_missing: MISSING_DATA
+

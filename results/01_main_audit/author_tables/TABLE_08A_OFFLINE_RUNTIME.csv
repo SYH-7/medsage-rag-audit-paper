@@ -1,0 +1,4 @@
+﻿condition,mean_ms,p50_ms,p95_ms,min_ms,max_ms,peak_memory_kb,incremental_ms,status
+ast_scan,2.67578,2.4546,2.8264,2.3288,4.4236,99.494140625,N/A_OFFLINE,REPRODUCED
+config_load,2.99636,2.73485,3.6118,2.4861,5.0104,1035.03515625,N/A_OFFLINE,REPRODUCED
+keyword_scan,0.49618,0.4673,0.6115,0.42,0.6532,18.5302734375,N/A_OFFLINE,REPRODUCED

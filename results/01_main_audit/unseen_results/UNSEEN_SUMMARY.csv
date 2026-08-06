@@ -1,0 +1,7 @@
+﻿detector,tp,fp,tn,fn,precision,recall,f1,specificity,balanced_accuracy,mcc,status
+keyword_static_baseline,18,60,0,0,0.23076923076923078,1.0,0.375,0.0,0.5,0.0,REPRODUCED
+ast_static_dataflow,0,0,60,18,1.0,0.0,0.0,1.0,0.5,0.0,REPRODUCED
+schema_guard,0,0,60,18,1.0,0.0,0.0,1.0,0.5,0.0,REPRODUCED
+runtime_taint,18,0,60,0,1.0,1.0,1.0,1.0,1.0,1.0,REPRODUCED
+invariance,0,0,60,18,1.0,0.0,0.0,1.0,0.5,0.0,REPRODUCED
+full_audit,18,0,60,0,1.0,1.0,1.0,1.0,1.0,1.0,REPRODUCED

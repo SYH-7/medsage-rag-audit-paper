@@ -17,7 +17,19 @@ env/
 *.bin
 *.onnx
 *.log
+*.db
+*.sqlite
+*.sqlite3
+*.chroma
+*.faiss
 data/raw/
 data/processed/
 
 .pytest_cache/
+
+# input archives (never commit)
+_incoming/
+
+# release-only artifacts (used for GitHub Release attachments)
+release_assets/
+benchmark_work*/

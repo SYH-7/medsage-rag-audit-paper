@@ -1,0 +1,22 @@
+{
+  "case_id": "fx_leak_m1",
+  "family": "Leak-M",
+  "pattern_id": "M1",
+  "module": "candidate_metadata",
+  "field": "aux_11",
+  "source_type": "FIXTURE_PRIVATE_SOURCE",
+  "sink": "candidate_scoring",
+  "file": "adapter.py",
+  "line": 0,
+  "rate": 1.0,
+  "seed": 1,
+  "injected_qids": 1,
+  "injected_candidates": 1,
+  "injected_features": 0,
+  "fallback_triggers": 0,
+  "hard_clean": false,
+  "clean_type": "leak",
+  "source_calls_gt0": true,
+  "sink_calls_gt0": true,
+  "test_only": true
+}
