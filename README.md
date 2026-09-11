@@ -6,6 +6,8 @@
 
 论文正在评审中，**暂不公开全文**。本仓库为论文"数据与代码可用性说明"中的最小结果复算与一致性验证材料。
 
+> **修订轮（Round 2）证据**：论文修订与回复信新增的四层指标量化、schema-overlap 硬负例、未见机制算子（两条管线）、检索方式无关性、潜伏门控泄漏、带外通道边界探测与真实代码清扫结果，见 `results/04_revision_metrics/`（脚本 `scripts/review_metrics/`）。论文声明与本仓库产物的逐条对照见 [`docs/REVISION_EVIDENCE_MAPPING.md`](docs/REVISION_EVIDENCE_MAPPING.md)。
+
 ## Release
 
 - 当前发布：**v2.0.5-paper-support** (Default branch: `main`)
@@ -17,6 +19,9 @@
 | 2 | `medleakaudit_02_deployment_diagnostics.zip` | 部署诊断核验结果（B0–D3 / MMR / Top-K 敏感性 / 生成盲评） |
 | 3 | `medleakaudit_03_cross_pipeline_bm25_topk.zip` | 第二工程 BM25+Top-K 跨管线受控验证（内部冻结来源版本 v6） |
 | 4 | `SHA256SUMS.txt` | 上述三个附件的 SHA-256 清单（根目录与 `release_assets/` 各一份，内容一致） |
+| — | `results/04_revision_metrics/`（仓库内，非附件） | 修订轮证据 E1–E7（冻结输出；引用论文修订后新增声明） |
+
+- 修订轮证据**未改动任何 Release 附件**：`v2.0.5-paper-support` 的三个附件与其 SHA-256 保持不变，论文正文引用的下载地址仍然有效；新增证据以仓库目录形式发布。
 
 - v5.1.1 与 v6 为**内部冻结来源版本**，仅在包内 README 与 provenance 文档中标注，不再作为公开附件文件名。
 - 公开附件由冻结原始归档经路径脱敏与公开目录重组生成；核心结果、配置和统计值保持不变（差异见 `docs/PUBLIC_ARCHIVE_DIFF_REPORT.md`）。原始归档仅保留在本地 `dist/` / `_incoming/`。
@@ -33,6 +38,7 @@
 - 生成端冻结统计与盲评
 - MMR-TFIDF 代理基线、K=3/5/7 敏感性分析
 - 跨管线（BM25+Top-K）受控验证与合成 fixture
+- 修订轮：四层结局指标量化、schema-overlap 硬负例特异性、未见机制算子（主工程与第二工程）、检索方式无关性（dense-only / BM25-only 子池）、潜伏门控泄漏的复合审计增量、带外通道边界探测、真实代码 gold 读取清扫（负结果）
 - SHA-256 一致性检查
 
 ### 不公开
@@ -78,6 +84,8 @@
 - `results/01_main_audit/` — 主工程受控泄漏审计（检测/定位/运行时/行为/未见结构/质量/来源核验）
 - `results/02_deployment_diagnostics/` — B0–D3 / MMR / Top-K / 生成盲评核验结果（VERIFIED_FROM_RELEASE）
 - `results/03_cross_pipeline/` — 第二工程 BM25+Top-K 跨管线受控验证
+- `results/04_revision_metrics/` — 修订轮证据 E1–E7（四层指标 / 硬负例 / 未见算子 / 检索无关性 / 潜伏门控 / 边界探测 / 代码清扫）
+- `scripts/review_metrics/` — 上述 E1–E7 的复算脚本（缺私有输入时以 `REQUIRES_LOCAL_ORIGINAL_PROJECT` 软退出）
 - `src/benchmark_v3/`、`src/cross_pipeline/` — 论文自研审计代码与跨管线适配器
 - `configs/dakd_v2/`、`configs/dakd_v5/`、`configs/dakd_v6/` — 冻结配置
 - `scripts/dakd_v2/`、`scripts/dakd_v5/`、`scripts/dakd_v6/` — 复算与构建脚本
@@ -92,7 +100,7 @@
 python -m pytest tests/ -q
 ```
 
-- 51 passed / 6 skipped / 0 failed（v2.0.4）；skipped 为 `REQUIRES_LOCAL_ORIGINAL_PROJECT`（需本地原始项目，未伪造）。
+- 66 passed / 6 skipped / 0 failed（修订轮：新增 `tests/revision/` 的 15 项论文声明一致性测试；原 51 项见 v2.0.4 基线）；skipped 为 `REQUIRES_LOCAL_ORIGINAL_PROJECT`（需本地原始项目，未伪造）。
   Compared with the v2.0.1 baseline, v2.0.4 adds six Precision-undefined regression tests.
 
 ## License
@@ -126,7 +134,7 @@ candidate documents, model weights, or any third-party dataset content.
 
 ```bibtex
 @software{medsage_rag_audit_2026,
-  author  = {Shi, Yuhan and Wang, Qi},
+  author  = {Shi, Yuhan},
   title   = {MedLeakAudit: Auditing Private-Label Leakage and Deployment Gaps in Medical RAG Evaluation},
   year    = {2026},
   version = {2.0.5-paper-support},

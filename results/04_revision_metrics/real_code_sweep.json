@@ -1,0 +1,14 @@
+{
+  "total_hits": 41,
+  "deploy_path_hits": 0,
+  "summary": [
+    {
+      "project": "main-medsage",
+      "role": "OFFLINE",
+      "sites": 41,
+      "files": 11
+    }
+  ],
+  "method": "identifier-level sweep for gold/private-truth reads over real production code of both audited projects; module role from path (DEPLOY_PATH = retrieval/selection/scoring/state/generation/api/prompt; OFFLINE = annotation/datasets/metrics/experiments/schemas). Offline roles are legitimate (annotation assets, dataset construction, post-selection metrics).",
+  "conclusion": "0 gold/private-truth read site(s) found in deployable-path code of the two real projects; all other hits are offline annotation/dataset/metric consumption. No naturally occurring leak was found, which is expected for contract-designed code and is exactly why controlled injection is the feasible ground-truth method; real-world prevalence needs industry collaboration."
+}

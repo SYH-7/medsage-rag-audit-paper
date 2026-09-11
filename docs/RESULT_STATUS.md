@@ -37,6 +37,21 @@
 | synthetic fixtures | REPRODUCED (fixture tests) |
 | real-candidate end-to-end | REQUIRES_LOCAL_ORIGINAL_PROJECT (6 skipped) |
 
+## Revision-round evidence (round 2) - `results/04_revision_metrics/`
+
+| Group | Status |
+|---|---|
+| E1 four-layer outcome metrics (main benchmark, 36 positives) | REPRODUCED |
+| E2 schema-overlap hard negative controls (18 clean) | REPRODUCED |
+| E3 unseen-mechanism operators, main pool and second pipeline | REPRODUCED |
+| E4 retrieval-method independence (dense-only / BM25-only sub-pools) | REPRODUCED |
+| E5 dormant (configuration-gated) leakage: composite vs runtime | REPRODUCED |
+| E6 out-of-band channel probes (env var / side file) | REPRODUCED |
+| E7 real-code sweep for gold reads (negative result) | REPRODUCED |
+| re-execution of the E1-E7 scripts against raw corpora | REQUIRES_LOCAL_ORIGINAL_PROJECT |
+
+> The frozen outputs above are additionally re-checked by `tests/revision/test_revision_evidence_consistency.py`, which asserts the exact figures quoted in the manuscript and the response letter (no private data required).
+
 ## Public archives
 
 Public release attachments are generated from the frozen original archives by path redaction and

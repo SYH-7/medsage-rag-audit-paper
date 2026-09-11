@@ -1,0 +1,42 @@
+project,file,line,role,ident,snippet
+main-medsage,annotation\importer.py,66,OFFLINE,gold_doc_ids,"q.gold_doc_ids = sorted(relevant_docs.get(qid, set()) or set(q.gold_doc_ids))"
+main-medsage,annotation\importer.py,70,OFFLINE,gold_safety_doc_ids,"q.gold_safety_doc_ids = sorted(safety_docs.get(qid, set()))"
+main-medsage,annotation\importer.py,208,OFFLINE,gold_safety_doc_ids,"q.gold_safety_doc_ids = sorted(safety_docs.get(qid, set()))"
+main-medsage,annotation\importer.py,210,OFFLINE,gold_doc_ids,"q.gold_doc_ids = sorted(multi_positive.get(qid, set()))"
+main-medsage,annotation\pilot.py,270,OFFLINE,gold_id,for gold_id in query.gold_doc_ids:
+main-medsage,annotation\pilot.py,271,OFFLINE,gold_id,if gold_id in docs_by_id:
+main-medsage,annotation\pilot.py,272,OFFLINE,gold_id,"source_map[gold_id].append({""source"": ""official_gold"", ""rank"": 0, ""score"": 1.0, ""component_scores"": {}})"
+main-medsage,annotation\pilot.py,274,OFFLINE,gold_ids,gold_ids = [doc_id for doc_id in query.gold_doc_ids if doc_id in docs_by_id]
+main-medsage,annotation\pilot.py,276,OFFLINE,gold_ids,for doc_id in gold_ids:
+main-medsage,annotation\pilot.py,313,OFFLINE,is_official_gold,"""is_official_gold"": doc_id in gold_ids,"
+main-medsage,annotation\pool.py,29,OFFLINE,gold_doc_ids,for doc_id in q.gold_doc_ids:
+main-medsage,datasets\cmedqa2.py,99,OFFLINE,query_gold,"query_gold: dict[tuple[str, str], list[str]] = {}"
+main-medsage,datasets\cmedqa2.py,114,OFFLINE,query_gold,"query_gold.setdefault(key, [])"
+main-medsage,datasets\cmedqa2.py,117,OFFLINE,query_gold,query_gold[key].append(aid)
+main-medsage,datasets\cmedqa2.py,124,OFFLINE,query_gold,matching = [k for k in query_gold if k[1] == qid]
+main-medsage,datasets\cmedqa2.py,126,OFFLINE,query_gold,if not query_gold[key]:
+main-medsage,datasets\cmedqa2.py,127,OFFLINE,query_gold,query_gold[key].append(aid)
+main-medsage,datasets\cmedqa2.py,128,OFFLINE,gold_source,"query_meta[key][""gold_source""] = ""answer_question_link"""
+main-medsage,datasets\cmedqa2.py,136,OFFLINE,gold_doc_ids,"gold_doc_ids=sorted(set(gold)),"
+main-medsage,datasets\cmedqa2.py,139,OFFLINE,query_gold,"for (split, qid), gold in query_gold.items()"
+main-medsage,datasets\synthetic.py,26,OFFLINE,gold_doc_ids,"gold_doc_ids=list(row.get(""gold_doc_ids"", [])),"
+main-medsage,datasets\synthetic.py,30,OFFLINE,gold_safety_doc_ids,"gold_safety_doc_ids=list(row.get(""gold_safety_doc_ids"", [])),"
+main-medsage,datasets\webmedqa.py,77,OFFLINE,gold_doc_ids,"gold_doc_ids=sorted(set(item[""gold""])),"
+main-medsage,experiments\runner.py,57,OFFLINE,gold_doc_ids,"metrics = retrieval_metrics(retrieved, q.gold_doc_ids, k=5)"
+main-medsage,experiments\runner.py,59,OFFLINE,gold_safety_doc_ids,"retrieved, q.state_doc_map, q.risk_types, q.gold_safety_doc_ids, k=5"
+main-medsage,experiments\runner.py,73,OFFLINE,gold_doc_ids,"""gold_doc_ids"": q.gold_doc_ids,"
+main-medsage,experiments\runner.py,76,OFFLINE,gold_safety_doc_ids,"""gold_safety_doc_ids"": q.gold_safety_doc_ids,"
+main-medsage,experiments\validation.py,23,OFFLINE,gold_safety_doc_ids,"if row.get(""gold_safety_doc_ids""):"
+main-medsage,metrics\retrieval.py,8,OFFLINE,gold_set,gold_set = set(gold)
+main-medsage,metrics\retrieval.py,10,OFFLINE,gold_set,if not gold_set:
+main-medsage,metrics\retrieval.py,12,OFFLINE,gold_set,hits = [1 if d in gold_set else 0 for d in retrieved[:10]]
+main-medsage,metrics\retrieval.py,13,OFFLINE,gold_set,hit = float(any(d in gold_set for d in top))
+main-medsage,metrics\retrieval.py,14,OFFLINE,gold_set,recall = len(gold_set & set(top)) / len(gold_set)
+main-medsage,metrics\retrieval.py,15,OFFLINE,gold_set,"rr = next((1.0 / (i + 1) for i, d in enumerate(retrieved[:10]) if d in gold_set), 0.0)"
+main-medsage,metrics\retrieval.py,17,OFFLINE,gold_set,"ideal_hits = [1] * min(len(gold_set), 10)"
+main-medsage,metrics\state.py,10,OFFLINE,gold_safety_doc_ids,"gold_safety_doc_ids: Sequence[str],"
+main-medsage,metrics\state.py,18,OFFLINE,gold_safety_doc_ids,safety = float(bool(risk_types) and bool(top & set(gold_safety_doc_ids))) if risk_types else 1.0
+main-medsage,metrics\state.py,22,OFFLINE,gold_safety_recall,"f""gold_safety_recall@{k}"": safety,"
+main-medsage,metrics\state.py,24,OFFLINE,gold_safety_applicable,"""gold_safety_applicable"": float(bool(risk_types)),"
+main-medsage,schemas.py,36,OFFLINE,gold_doc_ids,gold_doc_ids: list[str] = field(default_factory=list)
+main-medsage,schemas.py,43,OFFLINE,gold_safety_doc_ids,gold_safety_doc_ids: list[str] = field(default_factory=list)

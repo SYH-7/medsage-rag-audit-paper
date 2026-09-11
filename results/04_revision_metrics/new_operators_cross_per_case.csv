@@ -1,0 +1,109 @@
+case_id,kind,pattern_id,detector,detected,evidence
+xN1_1,leak,N1,keyword_static_baseline,True,keyword:label
+xN1_1,leak,N1,ast_static_dataflow,True,tainted argument flows to feature_builder.append_feature
+xN1_1,leak,N1,schema_guard,False,
+xN1_1,leak,N1,runtime_taint,True,taint reached deployment sink
+xN1_1,leak,N1,invariance,False,
+xN1_1,leak,N1,full_audit,True,full_audit_component=runtime_taint; taint reached deployment
+xN1_1,class,N1,invariance_class,False,changed_qids=0
+xN1_2,leak,N1,keyword_static_baseline,True,keyword:label
+xN1_2,leak,N1,ast_static_dataflow,True,tainted argument flows to feature_builder.append_feature
+xN1_2,leak,N1,schema_guard,False,
+xN1_2,leak,N1,runtime_taint,True,taint reached deployment sink
+xN1_2,leak,N1,invariance,False,
+xN1_2,leak,N1,full_audit,True,full_audit_component=runtime_taint; taint reached deployment
+xN1_2,class,N1,invariance_class,False,changed_qids=0
+xN1_3,leak,N1,keyword_static_baseline,True,keyword:label
+xN1_3,leak,N1,ast_static_dataflow,True,tainted argument flows to feature_builder.append_feature
+xN1_3,leak,N1,schema_guard,False,
+xN1_3,leak,N1,runtime_taint,True,taint reached deployment sink
+xN1_3,leak,N1,invariance,False,
+xN1_3,leak,N1,full_audit,True,full_audit_component=runtime_taint; taint reached deployment
+xN1_3,class,N1,invariance_class,False,changed_qids=0
+xN2_1,leak,N2,keyword_static_baseline,True,keyword:label
+xN2_1,leak,N2,ast_static_dataflow,True,tainted argument flows to selector.score_candidate
+xN2_1,leak,N2,schema_guard,False,
+xN2_1,leak,N2,runtime_taint,True,taint reached deployment sink
+xN2_1,leak,N2,invariance,False,
+xN2_1,leak,N2,full_audit,True,full_audit_component=runtime_taint; taint reached deployment
+xN2_1,class,N2,invariance_class,False,changed_qids=0
+xN2_2,leak,N2,keyword_static_baseline,True,keyword:label
+xN2_2,leak,N2,ast_static_dataflow,True,tainted argument flows to selector.score_candidate
+xN2_2,leak,N2,schema_guard,False,
+xN2_2,leak,N2,runtime_taint,True,taint reached deployment sink
+xN2_2,leak,N2,invariance,False,
+xN2_2,leak,N2,full_audit,True,full_audit_component=runtime_taint; taint reached deployment
+xN2_2,class,N2,invariance_class,False,changed_qids=0
+xN2_3,leak,N2,keyword_static_baseline,True,keyword:label
+xN2_3,leak,N2,ast_static_dataflow,True,tainted argument flows to selector.score_candidate
+xN2_3,leak,N2,schema_guard,False,
+xN2_3,leak,N2,runtime_taint,True,taint reached deployment sink
+xN2_3,leak,N2,invariance,False,
+xN2_3,leak,N2,full_audit,True,full_audit_component=runtime_taint; taint reached deployment
+xN2_3,class,N2,invariance_class,False,changed_qids=0
+xN3_1,leak,N3,keyword_static_baseline,True,keyword:label
+xN3_1,leak,N3,ast_static_dataflow,True,tainted argument flows to selector.score_candidate
+xN3_1,leak,N3,schema_guard,False,
+xN3_1,leak,N3,runtime_taint,True,taint reached deployment sink
+xN3_1,leak,N3,invariance,False,
+xN3_1,leak,N3,full_audit,True,full_audit_component=runtime_taint; taint reached deployment
+xN3_1,class,N3,invariance_class,False,changed_qids=0
+xN3_2,leak,N3,keyword_static_baseline,True,keyword:label
+xN3_2,leak,N3,ast_static_dataflow,True,tainted argument flows to selector.score_candidate
+xN3_2,leak,N3,schema_guard,False,
+xN3_2,leak,N3,runtime_taint,True,taint reached deployment sink
+xN3_2,leak,N3,invariance,False,
+xN3_2,leak,N3,full_audit,True,full_audit_component=runtime_taint; taint reached deployment
+xN3_2,class,N3,invariance_class,False,changed_qids=0
+xN3_3,leak,N3,keyword_static_baseline,True,keyword:label
+xN3_3,leak,N3,ast_static_dataflow,True,tainted argument flows to selector.score_candidate
+xN3_3,leak,N3,schema_guard,False,
+xN3_3,leak,N3,runtime_taint,True,taint reached deployment sink
+xN3_3,leak,N3,invariance,False,
+xN3_3,leak,N3,full_audit,True,full_audit_component=runtime_taint; taint reached deployment
+xN3_3,class,N3,invariance_class,False,changed_qids=0
+xN4_1,leak,N4,keyword_static_baseline,True,keyword:label
+xN4_1,leak,N4,ast_static_dataflow,True,tainted argument flows to selector.score_candidate
+xN4_1,leak,N4,schema_guard,False,
+xN4_1,leak,N4,runtime_taint,True,taint reached deployment sink
+xN4_1,leak,N4,invariance,False,
+xN4_1,leak,N4,full_audit,True,full_audit_component=runtime_taint; taint reached deployment
+xN4_1,class,N4,invariance_class,False,changed_qids=0
+xN4_2,leak,N4,keyword_static_baseline,True,keyword:label
+xN4_2,leak,N4,ast_static_dataflow,True,tainted argument flows to selector.score_candidate
+xN4_2,leak,N4,schema_guard,False,
+xN4_2,leak,N4,runtime_taint,True,taint reached deployment sink
+xN4_2,leak,N4,invariance,False,
+xN4_2,leak,N4,full_audit,True,full_audit_component=runtime_taint; taint reached deployment
+xN4_2,class,N4,invariance_class,False,changed_qids=0
+xN4_3,leak,N4,keyword_static_baseline,True,keyword:label
+xN4_3,leak,N4,ast_static_dataflow,True,tainted argument flows to selector.score_candidate
+xN4_3,leak,N4,schema_guard,False,
+xN4_3,leak,N4,runtime_taint,True,taint reached deployment sink
+xN4_3,leak,N4,invariance,False,
+xN4_3,leak,N4,full_audit,True,full_audit_component=runtime_taint; taint reached deployment
+xN4_3,class,N4,invariance_class,False,changed_qids=0
+xclean_1,clean,Clean,keyword_static_baseline,True,keyword:gold
+xclean_1,clean,Clean,ast_static_dataflow,False,
+xclean_1,clean,Clean,schema_guard,False,
+xclean_1,clean,Clean,runtime_taint,False,
+xclean_1,clean,Clean,invariance,False,
+xclean_1,clean,Clean,full_audit,False,
+xclean_2,clean,Clean,keyword_static_baseline,True,keyword:gold
+xclean_2,clean,Clean,ast_static_dataflow,False,
+xclean_2,clean,Clean,schema_guard,False,
+xclean_2,clean,Clean,runtime_taint,False,
+xclean_2,clean,Clean,invariance,False,
+xclean_2,clean,Clean,full_audit,False,
+xclean_3,clean,Clean,keyword_static_baseline,True,keyword:gold
+xclean_3,clean,Clean,ast_static_dataflow,False,
+xclean_3,clean,Clean,schema_guard,False,
+xclean_3,clean,Clean,runtime_taint,False,
+xclean_3,clean,Clean,invariance,False,
+xclean_3,clean,Clean,full_audit,False,
+xclean_4,clean,Clean,keyword_static_baseline,True,keyword:gold
+xclean_4,clean,Clean,ast_static_dataflow,False,
+xclean_4,clean,Clean,schema_guard,False,
+xclean_4,clean,Clean,runtime_taint,False,
+xclean_4,clean,Clean,invariance,False,
+xclean_4,clean,Clean,full_audit,False,

@@ -35,6 +35,19 @@ Mapping between the paper-support data items, their GitHub directories, and thei
 - 内容：第二工程原生 BM25 + Top-K 跨管线受控验证——36 个泄漏正例、60 个 Clean 负例、ACCESS_LEAK=25 / BEHAVIORAL_LEAK=11；含合成 fixture、适配器、配置、脚本、测试与脱敏结果。
 - 公开附件由冻结原始归档经路径脱敏与公开目录重组生成（差异见 `docs/PUBLIC_ARCHIVE_DIFF_REPORT.md`）；原始归档仅本地保留。
 
+## 支撑数据[4]
+
+**名称**：论文修订轮（Round 2）证据（E1–E7）——四层结局指标、schema-overlap 硬负例、未见机制算子、
+检索方式无关性、潜伏门控泄漏、带外通道边界探测、真实代码 gold 清扫
+
+**GitHub 目录**：`results/04_revision_metrics/`
+
+**Release 附件**：无（仓库内发布；不改动既有附件）
+
+- 内容：`scripts/review_metrics/` 八个脚本的冻结输出，用于支撑论文修订与回复信中的新增声明；
+  逐条对照见 `docs/REVISION_EVIDENCE_MAPPING.md`，一致性由 `tests/revision/` 强制。
+- 该材料为新增目录，未触发任何 Release 附件重新打包；`v2.0.5-paper-support` 三个附件的 SHA-256 保持不变。
+
 ## Release 附件清单（release_assets/）
 
 | 附件 | 说明 |

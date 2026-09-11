@@ -1,0 +1,68 @@
+{
+  "summary": [
+    {
+      "detector": "keyword_static_baseline",
+      "tp": 12,
+      "fp": 6,
+      "positives": 12,
+      "negatives": 6,
+      "recall": 1.0,
+      "specificity": 0.0
+    },
+    {
+      "detector": "ast_static_dataflow",
+      "tp": 12,
+      "fp": 0,
+      "positives": 12,
+      "negatives": 6,
+      "recall": 1.0,
+      "specificity": 1.0
+    },
+    {
+      "detector": "schema_guard",
+      "tp": 0,
+      "fp": 0,
+      "positives": 12,
+      "negatives": 6,
+      "recall": 0.0,
+      "specificity": 1.0
+    },
+    {
+      "detector": "runtime_taint",
+      "tp": 12,
+      "fp": 0,
+      "positives": 12,
+      "negatives": 6,
+      "recall": 1.0,
+      "specificity": 1.0
+    },
+    {
+      "detector": "invariance",
+      "tp": 0,
+      "fp": 0,
+      "positives": 12,
+      "negatives": 6,
+      "recall": 0.0,
+      "specificity": 1.0
+    },
+    {
+      "detector": "full_audit",
+      "tp": 12,
+      "fp": 0,
+      "positives": 12,
+      "negatives": 6,
+      "recall": 1.0,
+      "specificity": 1.0
+    },
+    {
+      "detector": "leak_class(tp=behavioral,fp=access)",
+      "tp": 0,
+      "fp": 12,
+      "positives": 12,
+      "negatives": 0,
+      "recall": "",
+      "specificity": ""
+    }
+  ],
+  "note": "4 new unseen-mechanism operators (N1 embedding-derived, N2 serialization round-trip, N3 hot config-swap fallback, N4 3-hop proxy), x3 = 12 positives + 6 clean; case dirs built additively from the real formal_train pool; frozen detectors only."
+}

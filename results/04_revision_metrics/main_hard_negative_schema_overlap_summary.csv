@@ -1,0 +1,7 @@
+detector,fp,n,false_positive_rate,specificity
+keyword_static_baseline,18,18,1.0,0.0
+ast_static_dataflow,0,18,0.0,1.0
+schema_guard,0,18,0.0,1.0
+runtime_taint,0,18,0.0,1.0
+invariance,0,18,0.0,1.0
+full_audit,0,18,0.0,1.0

@@ -1,0 +1,4 @@
+class,cases,repro_ok,frac_score_changed_docs_mean,mean_abs_score_delta_mean,max_abs_score_delta_max,mean_kendall_tau_mean,cases_set_changed_K3,cases_set_changed_K5,cases_set_changed_K7,cases_order_changed_K3,cases_order_changed_K5,cases_order_changed_K7,total_replaced_docs_K3,total_replaced_docs_K5,total_replaced_docs_K7
+ACCESS_LEAK,28,28,0.058207029990325704,0.07943002257336343,5.0,1.0,0,0,0,0,0,0,0,0,0
+BEHAVIORAL_LEAK,8,8,0.011286681715575621,0.03160270880361174,5.0,0.9944444444444445,8,4,4,8,8,8,20,16,12
+ALL_LEAK_POSITIVES,36,36,0.04778028592927013,0.06880173062452972,5.0,0.9987654320987654,8,4,4,8,8,8,20,16,12

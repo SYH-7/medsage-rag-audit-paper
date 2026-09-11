@@ -1,0 +1,41 @@
+{
+  "fp_summary": {
+    "keyword_static_baseline": {
+      "fp": 18,
+      "n": 18,
+      "false_positive_rate": 1.0,
+      "specificity": 0.0
+    },
+    "ast_static_dataflow": {
+      "fp": 0,
+      "n": 18,
+      "false_positive_rate": 0.0,
+      "specificity": 1.0
+    },
+    "schema_guard": {
+      "fp": 0,
+      "n": 18,
+      "false_positive_rate": 0.0,
+      "specificity": 1.0
+    },
+    "runtime_taint": {
+      "fp": 0,
+      "n": 18,
+      "false_positive_rate": 0.0,
+      "specificity": 1.0
+    },
+    "invariance": {
+      "fp": 0,
+      "n": 18,
+      "false_positive_rate": 0.0,
+      "specificity": 1.0
+    },
+    "full_audit": {
+      "fp": 0,
+      "n": 18,
+      "false_positive_rate": 0.0,
+      "specificity": 1.0
+    }
+  },
+  "note": "20 fresh Clean cases whose public metadata/features are named like private evaluation artifacts (gold_flag, human_label, relevance_score, adjudicated_label, proxy_score, cached_evidence, ...) with values entirely public; frozen detectors, additive run."
+}

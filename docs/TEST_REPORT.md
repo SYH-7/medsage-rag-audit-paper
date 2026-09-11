@@ -7,7 +7,13 @@ Version `2.0.5-paper-support` · Default branch `main`
 ```
 python -m pytest tests/ -q
 ```
-**51 passed / 6 skipped / 0 failed** (2026-08-06).
+**66 passed / 6 skipped / 0 failed** (revision round: the original 51 tests plus 15 claim-consistency tests in `tests/revision/`).
+
+`tests/revision/test_revision_evidence_consistency.py` asserts the exact figures quoted in the
+manuscript and the response letter against `results/04_revision_metrics/` (E1 four-layer metrics,
+E2 schema-overlap specificity, E3 unseen operators on both pipelines, E4 retrieval-method
+independence, E5 dormant-gate composite increment, E6 out-of-band probes, E7 real-code sweep),
+and enforces the zero-absolute-path policy for `scripts/review_metrics/`.
 
 Compared with the v2.0.1 baseline, v2.0.4 adds six Precision-undefined regression tests (`tests/dakd_v5/test_precision_undefined.py`).
 Skipped (6) - all `REQUIRES_LOCAL_ORIGINAL_PROJECT` (need `medsage_rag_full` /

@@ -1,0 +1,13 @@
+method,detector,tp,fp,positives,negatives,recall,specificity
+dense,keyword_static_baseline,8,2,8,2,1.0,0.0
+dense,ast_static_dataflow,8,0,8,2,1.0,1.0
+dense,schema_guard,0,0,8,2,0.0,1.0
+dense,runtime_taint,8,0,8,2,1.0,1.0
+dense,invariance,0,0,8,2,0.0,1.0
+dense,full_audit,8,0,8,2,1.0,1.0
+bm25,keyword_static_baseline,8,2,8,2,1.0,0.0
+bm25,ast_static_dataflow,8,0,8,2,1.0,1.0
+bm25,schema_guard,0,0,8,2,0.0,1.0
+bm25,runtime_taint,8,0,8,2,1.0,1.0
+bm25,invariance,0,0,8,2,0.0,1.0
+bm25,full_audit,8,0,8,2,1.0,1.0

@@ -1,0 +1,60 @@
+{
+  "summary": [
+    {
+      "class": "ACCESS_LEAK",
+      "cases": 28,
+      "repro_ok": 28,
+      "frac_score_changed_docs_mean": 0.058207029990325704,
+      "mean_abs_score_delta_mean": 0.07943002257336343,
+      "max_abs_score_delta_max": 5.0,
+      "mean_kendall_tau_mean": 1.0,
+      "cases_set_changed_K3": 0,
+      "cases_set_changed_K5": 0,
+      "cases_set_changed_K7": 0,
+      "cases_order_changed_K3": 0,
+      "cases_order_changed_K5": 0,
+      "cases_order_changed_K7": 0,
+      "total_replaced_docs_K3": 0,
+      "total_replaced_docs_K5": 0,
+      "total_replaced_docs_K7": 0
+    },
+    {
+      "class": "BEHAVIORAL_LEAK",
+      "cases": 8,
+      "repro_ok": 8,
+      "frac_score_changed_docs_mean": 0.011286681715575621,
+      "mean_abs_score_delta_mean": 0.03160270880361174,
+      "max_abs_score_delta_max": 5.0,
+      "mean_kendall_tau_mean": 0.9944444444444445,
+      "cases_set_changed_K3": 8,
+      "cases_set_changed_K5": 4,
+      "cases_set_changed_K7": 4,
+      "cases_order_changed_K3": 8,
+      "cases_order_changed_K5": 8,
+      "cases_order_changed_K7": 8,
+      "total_replaced_docs_K3": 20,
+      "total_replaced_docs_K5": 16,
+      "total_replaced_docs_K7": 12
+    }
+  ],
+  "all": {
+    "class": "ALL_LEAK_POSITIVES",
+    "cases": 36,
+    "repro_ok": 36,
+    "frac_score_changed_docs_mean": 0.04778028592927013,
+    "mean_abs_score_delta_mean": 0.06880173062452972,
+    "max_abs_score_delta_max": 5.0,
+    "mean_kendall_tau_mean": 0.9987654320987654,
+    "cases_set_changed_K3": 8,
+    "cases_set_changed_K5": 4,
+    "cases_set_changed_K7": 4,
+    "cases_order_changed_K3": 8,
+    "cases_order_changed_K5": 8,
+    "cases_order_changed_K7": 8,
+    "total_replaced_docs_K3": 20,
+    "total_replaced_docs_K5": 16,
+    "total_replaced_docs_K7": 12
+  },
+  "cases": 36,
+  "note": "Computed on temp copies of benchmark_work_v5 case dirs with the frozen adapters; frozen detector logic untouched."
+}

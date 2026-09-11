@@ -17,12 +17,19 @@
 - Deployment-diagnostics verified results checks (`results/02_deployment_diagnostics/`).
 - Repository-level integrity tests (`tests/test_comprehensive.py`).
 - SHA-256 verification of all Release attachments (`SHA256SUMS.txt`).
+- Revision-round claim-consistency tests (`tests/revision/`) that assert the published numbers in
+  `results/04_revision_metrics/` against the claims made in the manuscript and the response letter.
 
 ## What requires the local original projects (`REQUIRES_LOCAL_ORIGINAL_PROJECT`)
 
 - End-to-end re-execution of `scripts/dakd_v5/run_pipeline.py` and
   `scripts/dakd_v6/run_tcm_sleep_cross_pipeline.py` against the raw corpora.
 - `tests/dakd_v6/test_tcm_sleep_cross_pipeline.py` real-candidate cases (6 skipped, not faked).
+- Re-execution of `scripts/review_metrics/*.py` (E1-E7): these need the frozen main/cross case
+  directories and the private candidate pool. Environment variables: `MEDSAGE_FORMAL_TRAIN_POOL`,
+  `MEDSAGE_V5_CASES`, `MEDSAGE_CROSS_CASES`, `MEDSAGE_RAG_ROOT`, `TCM_SLEEP_RAG_ROOT`,
+  `REVIEW_METRICS_OUT` (see `scripts/review_metrics/README.md`). Without them the scripts print
+  `REQUIRES_LOCAL_ORIGINAL_PROJECT` and exit without writing anything.
 
 These tests are skipped (not failed and not faked) when the local projects are unavailable.
 

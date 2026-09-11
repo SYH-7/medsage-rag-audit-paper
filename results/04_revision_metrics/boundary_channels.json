@@ -1,0 +1,95 @@
+{
+  "summary": [
+    {
+      "channel": "env",
+      "detector": "keyword_static_baseline",
+      "detected": "3/3"
+    },
+    {
+      "channel": "env",
+      "detector": "ast_static_dataflow",
+      "detected": "0/3"
+    },
+    {
+      "channel": "env",
+      "detector": "schema_guard",
+      "detected": "0/3"
+    },
+    {
+      "channel": "env",
+      "detector": "runtime_taint",
+      "detected": "0/3"
+    },
+    {
+      "channel": "env",
+      "detector": "invariance",
+      "detected": "0/3"
+    },
+    {
+      "channel": "env",
+      "detector": "full_audit",
+      "detected": "0/3"
+    },
+    {
+      "channel": "sidefile",
+      "detector": "keyword_static_baseline",
+      "detected": "3/3"
+    },
+    {
+      "channel": "sidefile",
+      "detector": "ast_static_dataflow",
+      "detected": "0/3"
+    },
+    {
+      "channel": "sidefile",
+      "detector": "schema_guard",
+      "detected": "0/3"
+    },
+    {
+      "channel": "sidefile",
+      "detector": "runtime_taint",
+      "detected": "0/3"
+    },
+    {
+      "channel": "sidefile",
+      "detector": "invariance",
+      "detected": "0/3"
+    },
+    {
+      "channel": "sidefile",
+      "detector": "full_audit",
+      "detected": "0/3"
+    },
+    {
+      "channel": "clean",
+      "detector": "keyword_static_baseline",
+      "detected": "2/2"
+    },
+    {
+      "channel": "clean",
+      "detector": "ast_static_dataflow",
+      "detected": "0/2"
+    },
+    {
+      "channel": "clean",
+      "detector": "schema_guard",
+      "detected": "0/2"
+    },
+    {
+      "channel": "clean",
+      "detector": "runtime_taint",
+      "detected": "0/2"
+    },
+    {
+      "channel": "clean",
+      "detector": "invariance",
+      "detected": "0/2"
+    },
+    {
+      "channel": "clean",
+      "detector": "full_audit",
+      "detected": "0/2"
+    }
+  ],
+  "note": "Out-of-band smuggling probes (env var / side cache file) that reach the scoring sink without the instrumented read API. Expected: surface-bound components (runtime/ast/schema/invariance/composite) are blind (0/3). keyword may fire only on name-level tokens in configuration paths (e.g., 'cache' inside side_cache.json), which is a name alarm, not a data-flow detection. This measures the audit boundary honestly: coverage holds for flows through the instrumented surface; raw file/env I/O smuggling is out of scope and is why deployment hygiene (whitelists, module isolation, dummy replacement) is recommended."
+}

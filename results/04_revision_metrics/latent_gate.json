@@ -1,0 +1,95 @@
+{
+  "summary": [
+    {
+      "group": "dormant",
+      "detector": "keyword_static_baseline",
+      "detected": "3/3"
+    },
+    {
+      "group": "dormant",
+      "detector": "ast_static_dataflow",
+      "detected": "3/3"
+    },
+    {
+      "group": "dormant",
+      "detector": "schema_guard",
+      "detected": "0/3"
+    },
+    {
+      "group": "dormant",
+      "detector": "runtime_taint",
+      "detected": "0/3"
+    },
+    {
+      "group": "dormant",
+      "detector": "invariance",
+      "detected": "0/3"
+    },
+    {
+      "group": "dormant",
+      "detector": "full_audit",
+      "detected": "3/3"
+    },
+    {
+      "group": "active",
+      "detector": "keyword_static_baseline",
+      "detected": "3/3"
+    },
+    {
+      "group": "active",
+      "detector": "ast_static_dataflow",
+      "detected": "3/3"
+    },
+    {
+      "group": "active",
+      "detector": "schema_guard",
+      "detected": "0/3"
+    },
+    {
+      "group": "active",
+      "detector": "runtime_taint",
+      "detected": "3/3"
+    },
+    {
+      "group": "active",
+      "detector": "invariance",
+      "detected": "0/3"
+    },
+    {
+      "group": "active",
+      "detector": "full_audit",
+      "detected": "3/3"
+    },
+    {
+      "group": "clean",
+      "detector": "keyword_static_baseline",
+      "detected": "3/3"
+    },
+    {
+      "group": "clean",
+      "detector": "ast_static_dataflow",
+      "detected": "0/3"
+    },
+    {
+      "group": "clean",
+      "detector": "schema_guard",
+      "detected": "0/3"
+    },
+    {
+      "group": "clean",
+      "detector": "runtime_taint",
+      "detected": "0/3"
+    },
+    {
+      "group": "clean",
+      "detector": "invariance",
+      "detected": "0/3"
+    },
+    {
+      "group": "clean",
+      "detector": "full_audit",
+      "detected": "0/3"
+    }
+  ],
+  "note": "Dormant = config gate OFF: runtime_taint misses (nothing executed), ast_static_dataflow sees the flow, full_audit(composite) detects -> composite > runtime. Active = same code, gate ON: runtime also detects. Clean = gated branch reads only public metadata."
+}

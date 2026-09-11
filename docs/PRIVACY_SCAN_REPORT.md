@@ -25,6 +25,25 @@ Scope: repository tracked text files + extracted contents of the three Release Z
 No items require manual review: every hit was classified as rule-text/false_positive; no secrets,
 no absolute local paths, no plaintext Gold, no raw medical text, no model/vector/DB artifacts.
 
+## Revision-round re-scan (round 2 additions)
+
+Scope added: `scripts/review_metrics/*.py`, `results/04_revision_metrics/**`,
+`docs/REVISION_EVIDENCE_MAPPING.md`, `tests/revision/**`.
+
+| category | count |
+|---|---|
+| real_secret | 0 |
+| real_absolute_path | 0 |
+| real_private_gold | 0 |
+| raw_medical_text | 0 |
+| unresolved_manual_review | 0 |
+
+Notes: one internal absolute source-case path recorded in the frozen
+`new_operators_cross.json` was redacted to `benchmark_work_cross/<frozen-cross-case>` before
+publication; the hardcoded second-project root in `sweep_real_code.py` was replaced by the
+`TCM_SLEEP_RAG_ROOT` / `MEDSAGE_RAG_ROOT` environment variables. The zero-absolute-path policy is
+enforced by `tests/revision/test_revision_evidence_consistency.py`.
+
 ## Scan rules applied
 
 - Windows drive-letter absolute paths (excluding URLs and `<placeholder>` values)

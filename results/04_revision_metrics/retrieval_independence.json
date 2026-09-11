@@ -1,0 +1,125 @@
+{
+  "summary": [
+    {
+      "method": "dense",
+      "detector": "keyword_static_baseline",
+      "tp": 8,
+      "fp": 2,
+      "positives": 8,
+      "negatives": 2,
+      "recall": 1.0,
+      "specificity": 0.0
+    },
+    {
+      "method": "dense",
+      "detector": "ast_static_dataflow",
+      "tp": 8,
+      "fp": 0,
+      "positives": 8,
+      "negatives": 2,
+      "recall": 1.0,
+      "specificity": 1.0
+    },
+    {
+      "method": "dense",
+      "detector": "schema_guard",
+      "tp": 0,
+      "fp": 0,
+      "positives": 8,
+      "negatives": 2,
+      "recall": 0.0,
+      "specificity": 1.0
+    },
+    {
+      "method": "dense",
+      "detector": "runtime_taint",
+      "tp": 8,
+      "fp": 0,
+      "positives": 8,
+      "negatives": 2,
+      "recall": 1.0,
+      "specificity": 1.0
+    },
+    {
+      "method": "dense",
+      "detector": "invariance",
+      "tp": 0,
+      "fp": 0,
+      "positives": 8,
+      "negatives": 2,
+      "recall": 0.0,
+      "specificity": 1.0
+    },
+    {
+      "method": "dense",
+      "detector": "full_audit",
+      "tp": 8,
+      "fp": 0,
+      "positives": 8,
+      "negatives": 2,
+      "recall": 1.0,
+      "specificity": 1.0
+    },
+    {
+      "method": "bm25",
+      "detector": "keyword_static_baseline",
+      "tp": 8,
+      "fp": 2,
+      "positives": 8,
+      "negatives": 2,
+      "recall": 1.0,
+      "specificity": 0.0
+    },
+    {
+      "method": "bm25",
+      "detector": "ast_static_dataflow",
+      "tp": 8,
+      "fp": 0,
+      "positives": 8,
+      "negatives": 2,
+      "recall": 1.0,
+      "specificity": 1.0
+    },
+    {
+      "method": "bm25",
+      "detector": "schema_guard",
+      "tp": 0,
+      "fp": 0,
+      "positives": 8,
+      "negatives": 2,
+      "recall": 0.0,
+      "specificity": 1.0
+    },
+    {
+      "method": "bm25",
+      "detector": "runtime_taint",
+      "tp": 8,
+      "fp": 0,
+      "positives": 8,
+      "negatives": 2,
+      "recall": 1.0,
+      "specificity": 1.0
+    },
+    {
+      "method": "bm25",
+      "detector": "invariance",
+      "tp": 0,
+      "fp": 0,
+      "positives": 8,
+      "negatives": 2,
+      "recall": 0.0,
+      "specificity": 1.0
+    },
+    {
+      "method": "bm25",
+      "detector": "full_audit",
+      "tp": 8,
+      "fp": 0,
+      "positives": 8,
+      "negatives": 2,
+      "recall": 1.0,
+      "specificity": 1.0
+    }
+  ],
+  "note": "N1-N4 unseen operators on dense-only and BM25-only candidate sub-pools (real per-method ranks from formal_train); frozen detectors only; case dirs in benchmark_work_v5_review_method."
+}

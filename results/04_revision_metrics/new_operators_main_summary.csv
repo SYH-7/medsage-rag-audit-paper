@@ -1,0 +1,8 @@
+detector,tp,fp,positives,negatives,recall,specificity
+keyword_static_baseline,12,6,12,6,1.0,0.0
+ast_static_dataflow,12,0,12,6,1.0,1.0
+schema_guard,0,0,12,6,0.0,1.0
+runtime_taint,12,0,12,6,1.0,1.0
+invariance,0,0,12,6,0.0,1.0
+full_audit,12,0,12,6,1.0,1.0
+"leak_class(tp=behavioral,fp=access)",0,12,12,0,,
