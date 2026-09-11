@@ -34,7 +34,7 @@ subject to the original provider's terms and license.
 
 - **依据 (Basis)**: `requirements.txt`.
 - 每项依赖受其自身许可证约束 (each dependency is governed by its own license).
-- 第三方依赖**不纳入**作者MIT授权 (third-party dependencies are **not** covered by the authors'
+- 第三方依赖**不纳入**作者MIT授权 (third-party dependencies are **not** covered by the author's
   MIT grant).
 
 ---

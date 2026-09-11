@@ -4,8 +4,6 @@ title: "MedLeakAudit: Auditing Private-Label Leakage and Deployment Gaps in Medi
 authors:
   - family-names: "Shi"
     given-names: "Yuhan"
-  - family-names: "Wang"
-    given-names: "Qi"
 version: "2.0.5-paper-support"
 date-released: "2026-08-06"
 repository-code: "https://github.com/SYH-7/medsage-rag-audit-paper"
